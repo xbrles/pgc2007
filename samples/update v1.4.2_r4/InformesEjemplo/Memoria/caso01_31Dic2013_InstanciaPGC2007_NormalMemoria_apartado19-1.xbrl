@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:pgc07mn-apdo19-1="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/apartado19-1/CombinacionesNegocios/2009-01-01" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:pgc07mn="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/2009-01-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:dgi-types="http://www.xbrl.org.es/es/2008/dgi/gp/types/2011-01-30" xmlns:dgi-rel="http://www.xbrl.org.es/es/2008/dgi/gp/rel/2011-01-30" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2008/dgi/gp/est-gen/2011-01-30" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2008/dgi/gp/lc-es/2011-01-30" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:dgi-eco-bas="http://www.xbrl.org.es/es/2008/dgi/gp/eco-bas/2011-01-30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-normal-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo19a">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="unidades">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mn-apdo19-1:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioInformacionEmpresaTupla>
+    <dgi-lc-es:Xcode_IDC.NIF contextRef="Y1_2013_apdo19a">NIF</dgi-lc-es:Xcode_IDC.NIF>
+    <dgi-est-gen:IdentifierValue contextRef="Y1_2013_apdo19a">A12225314</dgi-est-gen:IdentifierValue>
+    <dgi-lc-es:Xcode_NMT.DS contextRef="Y1_2013_apdo19a">DS</dgi-lc-es:Xcode_NMT.DS>
+    <dgi-est-gen:LegalNameValue contextRef="Y1_2013_apdo19a">Empresa comprada 1</dgi-est-gen:LegalNameValue>
+    <dgi-rel:TransactionDate contextRef="Y1_2013_apdo19a">2010-06-16</dgi-rel:TransactionDate>
+    <dgi-lc-es:Xcode_EOC.01 contextRef="Y1_2013_apdo19a">01</dgi-lc-es:Xcode_EOC.01>
+    <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioMotivosRealizaCombinacion contextRef="Y1_2013_apdo19a">los motivos son...</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioMotivosRealizaCombinacion>
+    <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioFactoresDanLugarReconocimientoFondoComercioCombinacion contextRef="Y1_2013_apdo19a">los factores son...</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioFactoresDanLugarReconocimientoFondoComercioCombinacion>
+    <pgc07mn-apdo19-1:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioValorRazonableTotalContraprestacionTransferidaTupla>
+      <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosEfectivoEntregadoCombinacionNegocios decimals="0" contextRef="Y1_2013_apdo19a" unitRef="euro">3000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosEfectivoEntregadoCombinacionNegocios>
+      <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosOtrosActivosMaterialesEntregadosCombinacionNegocios decimals="0" contextRef="Y1_2013_apdo19a" unitRef="euro">20000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosOtrosActivosMaterialesEntregadosCombinacionNegocios>
+      <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosOtrosActivosIntangiblesEntregadosCombinacionNegocios decimals="0" contextRef="Y1_2013_apdo19a" unitRef="euro">10</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosOtrosActivosIntangiblesEntregadosCombinacionNegocios>
+      <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosImporteContraprestacionContingente decimals="0" contextRef="Y1_2013_apdo19a" unitRef="euro">500</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosImporteContraprestacionContingente>
+      <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosInstrumentosDeudaEntregadosCombinacionNegocios decimals="0" contextRef="Y1_2013_apdo19a" unitRef="euro">1000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosInstrumentosDeudaEntregadosCombinacionNegocios>
+      <pgc07mn-apdo19-1:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosValorParticipacionPatrimonioAdquirienteTupla>
+        <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosPagoFormaParticipacionPatrimonioAdquirienteCombinacionNegociosNumeroInstrumentosPatrimonioEmitidosEmitirPagoCombinacionNegocios decimals="0" contextRef="Y1_2013_apdo19a" unitRef="unidades">2500</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosPagoFormaParticipacionPatrimonioAdquirienteCombinacionNegociosNumeroInstrumentosPatrimonioEmitidosEmitirPagoCombinacionNegocios>
+        <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosPagoFormaParticipacionPatrimonioAdquirienteCombinacionNegociosMetodoEstimarValorRazonableInstrumentosPatrimonioEmitidosEmitirPagoCombinacionNegocios contextRef="Y1_2013_apdo19a">metodo...</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosPagoFormaParticipacionPatrimonioAdquirienteCombinacionNegociosMetodoEstimarValorRazonableInstrumentosPatrimonioEmitidosEmitirPagoCombinacionNegocios>
+        <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosPagoFormaParticipacionPatrimonioAdquirienteCombinacionNegociosValorRazonableInstrumentosPatrimonioEmitidosEmitirPagoCombinacionNegocios decimals="0" contextRef="Y1_2013_apdo19a" unitRef="euro">15</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosPagoFormaParticipacionPatrimonioAdquirienteCombinacionNegociosValorRazonableInstrumentosPatrimonioEmitidosEmitirPagoCombinacionNegocios>
+        <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosPagoFormaParticipacionPatrimonioAdquirienteCombinacionNegociosValorParticipacionPatrimonioAdquirienteTotal decimals="0" contextRef="Y1_2013_apdo19a" unitRef="unidades">37500</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosPagoFormaParticipacionPatrimonioAdquirienteCombinacionNegociosValorParticipacionPatrimonioAdquirienteTotal>
+      </pgc07mn-apdo19-1:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioCosteCombinacionNegociosValorParticipacionPatrimonioAdquirienteTupla>
+      <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioParticipacionesPatrimonioEmpresaPreviasCombinacionNegociosNoHayanDadoLugarControlMismaCombinacionesEtapas decimals="0" contextRef="Y1_2013_apdo19a" unitRef="euro">700</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioParticipacionesPatrimonioEmpresaPreviasCombinacionNegociosNoHayanDadoLugarControlMismaCombinacionesEtapas>
+      <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioTotalCosteCombinacionNegocios decimals="0" contextRef="Y1_2013_apdo19a" unitRef="euro">60710</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioTotalCosteCombinacionNegocios>
+    </pgc07mn-apdo19-1:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioValorRazonableTotalContraprestacionTransferidaTupla>
+  </pgc07mn-apdo19-1:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioInformacionEmpresaTupla>
+  <pgc07mn-apdo19-1:CombinacionesNegocioRealizadasEtapasTupla>
+    <dgi-lc-es:Xcode_IDC.NIF contextRef="Y1_2013_apdo19a">NIF</dgi-lc-es:Xcode_IDC.NIF>
+    <dgi-est-gen:IdentifierValue contextRef="Y1_2013_apdo19a">A12225315</dgi-est-gen:IdentifierValue>
+    <dgi-lc-es:Xcode_NMT.DS contextRef="Y1_2013_apdo19a">DS</dgi-lc-es:Xcode_NMT.DS>
+    <dgi-est-gen:LegalNameValue contextRef="Y1_2013_apdo19a">Empresa comprada 2</dgi-est-gen:LegalNameValue>
+    <pgc07mn:CombinacionesNegocioRealizadasEtapasValorRazonableFechaAdquisicion decimals="0" contextRef="Y1_2013_apdo19a" unitRef="euro">3000</pgc07mn:CombinacionesNegocioRealizadasEtapasValorRazonableFechaAdquisicion>
+    <pgc07mn:CombinacionesNegocioRealizadasEtapasImporteGananciaPerdida decimals="0" contextRef="Y1_2013_apdo19a" unitRef="euro">600</pgc07mn:CombinacionesNegocioRealizadasEtapasImporteGananciaPerdida>
+    <pgc07mn:CombinacionesNegocioRealizadasEtapasPartidaPerdidasGanancias decimals="0" contextRef="Y1_2013_apdo19a" unitRef="euro">7632</pgc07mn:CombinacionesNegocioRealizadasEtapasPartidaPerdidasGanancias>
+  </pgc07mn-apdo19-1:CombinacionesNegocioRealizadasEtapasTupla>
+</xbrli:xbrl>

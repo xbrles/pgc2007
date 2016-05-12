@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07mn-apdo9r="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/apartado9.2.3c/InstrumentosFinancieros/InformacionEmpresasGrupoAsociadas/2009-01-01" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:pgc07mn="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/2009-01-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:dgi-types="http://www.xbrl.org.es/es/2008/dgi/gp/types/2011-01-30" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:dgi-cnae-09="http://www.xbrl.org.es/es/2008/dgi/gp/lc-cnae-2009/2011-01-30" xmlns:dgi-rel="http://www.xbrl.org.es/es/2008/dgi/gp/rel/2011-01-30" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2008/dgi/gp/est-gen/2011-01-30" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:dgi-gen-ex="http://www.xbrl.org.es/es/2008/dgi/gp/gen-ex/2011-01-30" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dgi-gen-bas="http://www.xbrl.org.es/es/2008/dgi/gp/gen-bas/2011-01-30" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2008/dgi/gp/lc-es/2011-01-30" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:dgi-eco-bas="http://www.xbrl.org.es/es/2008/dgi/gp/eco-bas/2011-01-30" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-normal-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo9r">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo9x">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2013_apdo9y">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="shares">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoTupla>
+    <pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresaTupla>
+      <dgi-lc-es:Xcode_NMT.DS contextRef="Y1_2013_apdo9r">DS</dgi-lc-es:Xcode_NMT.DS>
+      <dgi-est-gen:LegalNameValue contextRef="Y1_2013_apdo9r">ACME Investment</dgi-est-gen:LegalNameValue>
+      <dgi-lc-es:Xcode_ADL.01 contextRef="Y1_2013_apdo9r">01</dgi-lc-es:Xcode_ADL.01>
+      <dgi-est-gen:AddressLine contextRef="Y1_2013_apdo9r">Portmouth, Reino Unido</dgi-est-gen:AddressLine>
+      <dgi-lc-es:Xcode_LFC.001 contextRef="Y1_2013_apdo9r">001</dgi-lc-es:Xcode_LFC.001>
+      <dgi-eco-bas:ActivityCodeCNAE2009>
+        <dgi-cnae-09:Xcode_ACC.CNAE.692 contextRef="Y1_2013_apdo9r">692</dgi-cnae-09:Xcode_ACC.CNAE.692>
+      </dgi-eco-bas:ActivityCodeCNAE2009>
+      <dgi-rel:DirectParticipationRate decimals="0" contextRef="Y1_2013_apdo9r" unitRef="pure">80</dgi-rel:DirectParticipationRate>
+      <dgi-rel:IndirectParticipationRate decimals="0" contextRef="Y1_2013_apdo9r" unitRef="pure">20</dgi-rel:IndirectParticipationRate>
+      <dgi-rel:DirectBoardVotingPower decimals="0" contextRef="Y1_2013_apdo9r" unitRef="pure">80</dgi-rel:DirectBoardVotingPower>
+      <dgi-rel:IndirectBoardVotingPower decimals="0" contextRef="Y1_2013_apdo9r" unitRef="pure">20</dgi-rel:IndirectBoardVotingPower>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCapital decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">200</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCapital>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasReservas decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">1000</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasReservas>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasOtrasPartidasPatrimonioNeto decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">50</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasOtrasPartidasPatrimonioNeto>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadoUltimoEjercicio decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">-500</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadoUltimoEjercicio>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadoExplotacionUltimoEjercicio decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">2000</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadoExplotacionUltimoEjercicio>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadoOperacionesContinuadasUltimoEjercicio decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">1500</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadoOperacionesContinuadasUltimoEjercicio>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadoOperacionesInterrumpidasUltimoEjercicio decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">-2000</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadoOperacionesInterrumpidasUltimoEjercicio>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasValorLibrosParticipacionCapital decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">1800</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasValorLibrosParticipacionCapital>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasDividendosRecibidosEjercicio decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">800</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasDividendosRecibidosEjercicio>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCotizacionMediaUltimoTrimestreEjercicio decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">14.5</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCotizacionMediaUltimoTrimestreEjercicio>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCotizacionCierreEjercicio decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">17</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCotizacionCierreEjercicio>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasNumeroAccionesPoseidas decimals="0" contextRef="Y1_2013_apdo9r" unitRef="shares">160</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasNumeroAccionesPoseidas>
+    </pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresaTupla>
+  </pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoTupla>
+  <pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaCorreccionesValorativasParticipacionesEmpresasGrupoTupla>
+    <pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaDetalleCorreccionesValorativasDeterioroParticipacionEmpresaTupla>
+      <dgi-lc-es:Xcode_NMT.DS contextRef="Y1_2013_apdo9r">DS</dgi-lc-es:Xcode_NMT.DS>
+      <dgi-est-gen:LegalNameValue contextRef="Y1_2013_apdo9r">ACME Investment</dgi-est-gen:LegalNameValue>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">1100</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroPerdidaDeterioroInicioEjercicio>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroVariacionDeterioroPyG decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">0</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroVariacionDeterioroPyG>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroVariacionContraPatrimonioNeto decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">800</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroVariacionContraPatrimonioNeto>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroBajaActivo decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">-200</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroBajaActivo>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroOtrasVariaciones decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">-20</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroOtrasVariaciones>
+      <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">1680</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasCorreccionesValorativasDeterioroPerdidaDeterioroFinalEjercicio>
+    </pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaDetalleCorreccionesValorativasDeterioroParticipacionEmpresaTupla>
+    <pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaCorreccionesValorativasParticipacionesEmpresasGrupoTotal decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">1680</pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaCorreccionesValorativasParticipacionesEmpresasGrupoTotal>
+  </pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaCorreccionesValorativasParticipacionesEmpresasGrupoTupla>
+  <pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaCorreccionesValorativasTotal decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">1680</pgc07mn-apdo9r:InstrumentosFinancierosOtraInformacionMemoriaCorreccionesValorativasTotal>
+  <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadosEnajenacionDisposicionOtroMedioInversionesEmpresasGrupo decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">20</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadosEnajenacionDisposicionOtroMedioInversionesEmpresasGrupo>
+  <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadosEnajenacionDisposicionOtroMedioInversionesTotal decimals="0" contextRef="Y1_2013_apdo9r" unitRef="euro">20</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadosEnajenacionDisposicionOtroMedioInversionesTotal>
+  <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadosEnajenacionDisposicionOtroMedioInversionesEmpresasGrupo decimals="0" contextRef="Y1_2012_apdo9x" unitRef="euro">-100</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadosEnajenacionDisposicionOtroMedioInversionesEmpresasGrupo>
+  <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadosEnajenacionDisposicionOtroMedioInversionesTotal decimals="0" contextRef="Y1_2012_apdo9x" unitRef="euro">-100</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaInformacionEmpresasGrupoEmpresasMultigrupoEmpresasAsociadasResultadosEnajenacionDisposicionOtroMedioInversionesTotal>
+  <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaLineasDescuentoPolizasCreditoCierreEjercicioLineasDescuentoDisponible decimals="0" contextRef="Y1i_2013_apdo9y" unitRef="euro">300</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaLineasDescuentoPolizasCreditoCierreEjercicioLineasDescuentoDisponible>
+  <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaLineasDescuentoPolizasCreditoCierreEjercicioPolizasCreditoDetalleLimiteConcedido decimals="0" contextRef="Y1i_2013_apdo9y" unitRef="euro">1000</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaLineasDescuentoPolizasCreditoCierreEjercicioPolizasCreditoDetalleLimiteConcedido>
+  <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaLineasDescuentoPolizasCreditoCierreEjercicioPolizasCreditoDetalleDispuesto decimals="0" contextRef="Y1i_2013_apdo9y" unitRef="euro">500</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaLineasDescuentoPolizasCreditoCierreEjercicioPolizasCreditoDetalleDispuesto>
+  <pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaLineasDescuentoPolizasCreditoCierreEjercicioPolizasCreditoDetalleDisponible decimals="0" contextRef="Y1i_2013_apdo9y" unitRef="euro">700</pgc07mn:InstrumentosFinancierosOtraInformacionMemoriaLineasDescuentoPolizasCreditoCierreEjercicioPolizasCreditoDetalleDisponible>
+</xbrli:xbrl>

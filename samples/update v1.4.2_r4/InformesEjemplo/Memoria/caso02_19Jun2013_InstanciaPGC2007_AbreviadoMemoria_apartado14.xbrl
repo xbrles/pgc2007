@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07mn-apdo14="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado14/InformacionMedioAmbiente/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:pgc07mn="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-abreviado-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo14a">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo14ai">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1d_2012_apdo14a">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2012_apdo14ai">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mc-bs:InformacionMedioAmbienteContableBrutoActivosMaterialesNaturalezaMedioambiental decimals="0" contextRef="Y1_2013_apdo14ai" unitRef="euro">4800</pgc07mc-bs:InformacionMedioAmbienteContableBrutoActivosMaterialesNaturalezaMedioambiental>
+  <pgc07mc-bs:InformacionMedioAmbienteAmortizacionAcumuladaActivosMaterialesNaturalezaMedioambiental decimals="0" contextRef="Y1_2013_apdo14ai" unitRef="euro">2360</pgc07mc-bs:InformacionMedioAmbienteAmortizacionAcumuladaActivosMaterialesNaturalezaMedioambiental>
+  <pgc07mc-bs:InformacionMedioAmbienteDeterioroActivosMaterialesNaturalezaMedioambientalReconocidasEjercicio decimals="0" contextRef="Y1_2013_apdo14a" unitRef="euro">34</pgc07mc-bs:InformacionMedioAmbienteDeterioroActivosMaterialesNaturalezaMedioambientalReconocidasEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteDeterioroAcumuladasActivosMaterialesNaturalezaMedioambientalReconocidasEjercicio decimals="0" contextRef="Y1_2013_apdo14ai" unitRef="euro">150</pgc07mc-bs:InformacionMedioAmbienteDeterioroAcumuladasActivosMaterialesNaturalezaMedioambientalReconocidasEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteGastosNaturalezaMedioambientalImporteGastosIncurridosEjercicioProtegerMejorarMedioAmbiente decimals="0" contextRef="Y1_2013_apdo14a" unitRef="euro">720</pgc07mc-bs:InformacionMedioAmbienteGastosNaturalezaMedioambientalImporteGastosIncurridosEjercicioProtegerMejorarMedioAmbiente>
+  <pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_apdo14ai" unitRef="euro">536</pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesSaldoInicioEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesDotacionesOTraspasosRecibidosEjercicio decimals="0" contextRef="Y1_2013_apdo14a" unitRef="euro">60</pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesDotacionesOTraspasosRecibidosEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesAplicacionesEjercicio decimals="0" contextRef="Y1_2013_apdo14a" unitRef="euro">-66</pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesAplicacionesEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCuales decimals="0" contextRef="Y1_2013_apdo14a" unitRef="euro">10</pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCuales>
+  <pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesCombinacionesNegocios decimals="0" contextRef="Y1_2013_apdo14a" unitRef="euro">34</pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesCombinacionesNegocios>
+  <pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesVariacionesCambiosValoracionIncluidasModificacionesTipoDescuento decimals="0" contextRef="Y1_2013_apdo14a" unitRef="euro">-12</pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesVariacionesCambiosValoracionIncluidasModificacionesTipoDescuento>
+  <pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesExcesos decimals="0" contextRef="Y1_2013_apdo14a" unitRef="euro">-12</pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesExcesos>
+  <pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo14ai" unitRef="euro">540</pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesSaldoFinalEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteInversionesEjercicioRazonesMedioambientalesImporteInversionesRealizadasRazonesMedioambientales decimals="0" contextRef="Y1_2013_apdo14a" unitRef="euro">350</pgc07mc-bs:InformacionMedioAmbienteInversionesEjercicioRazonesMedioambientalesImporteInversionesRealizadasRazonesMedioambientales>
+  <pgc07mc-bs:InformacionMedioAmbienteImporteCompensacionesRecibirDeTercerosRazonesMedioambientales decimals="0" contextRef="Y1_2013_apdo14ai" unitRef="euro">50</pgc07mc-bs:InformacionMedioAmbienteImporteCompensacionesRecibirDeTercerosRazonesMedioambientales>
+  <pgc07mc-bs:InformacionMedioAmbienteContableBrutoActivosMaterialesNaturalezaMedioambiental decimals="0" contextRef="Y1i_2012_apdo14ai" unitRef="euro">4500</pgc07mc-bs:InformacionMedioAmbienteContableBrutoActivosMaterialesNaturalezaMedioambiental>
+  <pgc07mc-bs:InformacionMedioAmbienteAmortizacionAcumuladaActivosMaterialesNaturalezaMedioambiental decimals="0" contextRef="Y1i_2012_apdo14ai" unitRef="euro">2300</pgc07mc-bs:InformacionMedioAmbienteAmortizacionAcumuladaActivosMaterialesNaturalezaMedioambiental>
+  <pgc07mc-bs:InformacionMedioAmbienteDeterioroActivosMaterialesNaturalezaMedioambientalReconocidasEjercicio decimals="0" contextRef="Y1d_2012_apdo14a" unitRef="euro">34</pgc07mc-bs:InformacionMedioAmbienteDeterioroActivosMaterialesNaturalezaMedioambientalReconocidasEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteDeterioroAcumuladasActivosMaterialesNaturalezaMedioambientalReconocidasEjercicio decimals="0" contextRef="Y1i_2012_apdo14ai" unitRef="euro">150</pgc07mc-bs:InformacionMedioAmbienteDeterioroAcumuladasActivosMaterialesNaturalezaMedioambientalReconocidasEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteGastosNaturalezaMedioambientalImporteGastosIncurridosEjercicioProtegerMejorarMedioAmbiente decimals="0" contextRef="Y1d_2012_apdo14a" unitRef="euro">670</pgc07mc-bs:InformacionMedioAmbienteGastosNaturalezaMedioambientalImporteGastosIncurridosEjercicioProtegerMejorarMedioAmbiente>
+  <pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesSaldoInicioEjercicio decimals="0" contextRef="Y1i_2012_apdo14ai" unitRef="euro">560</pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesSaldoInicioEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesDotacionesOTraspasosRecibidosEjercicio decimals="0" contextRef="Y1d_2012_apdo14a" unitRef="euro">60</pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesDotacionesOTraspasosRecibidosEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesAplicacionesEjercicio decimals="0" contextRef="Y1d_2012_apdo14a" unitRef="euro">-51</pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesAplicacionesEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCuales decimals="0" contextRef="Y1d_2012_apdo14a" unitRef="euro">-33</pgc07mc-bs:InformacionMedioAmbienteInformacionRiesgosCubrenProvisionesMedioambientalesEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCuales>
+  <pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesCombinacionesNegocios decimals="0" contextRef="Y1d_2012_apdo14a" unitRef="euro">-54</pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesCombinacionesNegocios>
+  <pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesVariacionesCambiosValoracionIncluidasModificacionesTipoDescuento decimals="0" contextRef="Y1d_2012_apdo14a" unitRef="euro">43</pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesVariacionesCambiosValoracionIncluidasModificacionesTipoDescuento>
+  <pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesExcesos decimals="0" contextRef="Y1d_2012_apdo14a" unitRef="euro">-22</pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesExcesos>
+  <pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesSaldoFinalEjercicio decimals="0" contextRef="Y1i_2012_apdo14ai" unitRef="euro">536</pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesOtrosAjustesRealizadosCualesSaldoFinalEjercicio>
+  <pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesDerechosReembolsoRelacionadosProvisionReconocidosActivoPresentacion decimals="0" contextRef="Y1_2013_apdo14a" unitRef="euro">50</pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesDerechosReembolsoRelacionadosProvisionReconocidosActivoPresentacion>
+  <pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesDerechosReembolsoRelacionadosProvisionReconocidosActivoPresentacion decimals="0" contextRef="Y1d_2012_apdo14a" unitRef="euro">24</pgc07mc-bs:InformacionMedioAmbienteEstadoMovimientosProvisionActuacionesMedioambientalesIncluidasProvisionesDerechosReembolsoRelacionadosProvisionReconocidosActivoPresentacion>
+  <pgc07mc-bs:InformacionMedioAmbienteInversionesEjercicioRazonesMedioambientalesImporteInversionesRealizadasRazonesMedioambientales decimals="0" contextRef="Y1d_2012_apdo14a" unitRef="euro">300</pgc07mc-bs:InformacionMedioAmbienteInversionesEjercicioRazonesMedioambientalesImporteInversionesRealizadasRazonesMedioambientales>
+  <pgc07mc-bs:InformacionMedioAmbienteImporteCompensacionesRecibirDeTercerosRazonesMedioambientales decimals="0" contextRef="Y1i_2012_apdo14ai" unitRef="euro">24</pgc07mc-bs:InformacionMedioAmbienteImporteCompensacionesRecibirDeTercerosRazonesMedioambientales>
+</xbrli:xbrl>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07ma-apdo13="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado13/OtraInformacion/2009-01-01" xmlns:pgc07mc-ap="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/abreviadoPymes/2009-01-01" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:dgi-types="http://www.xbrl.org.es/es/2008/dgi/gp/types/2011-01-30" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2008/dgi/gp/est-gen/2011-01-30" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc07m-d-cp="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/CategoriasProfesionales/Dimension/2009-01-01" xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2008/dgi/gp/lc-es/2011-01-30" xmlns:pgc07ma="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:dgi-eco-bas="http://www.xbrl.org.es/es/2008/dgi/gp/eco-bas/2011-01-30" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-abreviado-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo13_Duration_Xcode_CAP.2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.2</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Duration_Xcode_CAP.3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.3</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Duration_Xcode_CAP.4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.4</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Duration_Xcode_CAP.5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.5</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Duration_Xcode_CAP.6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.6</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Duration_Xcode_CAP.7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.7</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Duration_Xcode_CAP.8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.8</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Duration_EmployeesPeriodAverageNumberTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-eco-bas:EmployeesPeriodAverageNumberTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Instant_Xcode_CAP.2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.2</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Instant_Xcode_CAP.3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.3</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Instant_Xcode_CAP.4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.4</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Instant_Xcode_CAP.5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.5</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Instant_Xcode_CAP.6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.6</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Instant_Xcode_CAP.7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.7</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Instant_Xcode_CAP.8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.8</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo13_Instant_EmployeesPeriodAverageNumberTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-eco-bas:EmployeesPeriodAverageNumberTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Duration_Xcode_CAP.2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.2</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Duration_Xcode_CAP.3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.3</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Duration_Xcode_CAP.4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.4</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Duration_Xcode_CAP.5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.5</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Duration_Xcode_CAP.6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.6</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Duration_Xcode_CAP.7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.7</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Duration_Xcode_CAP.8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.8</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Duration_EmployeesPeriodAverageNumberTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-eco-bas:EmployeesPeriodAverageNumberTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Instant_Xcode_CAP.2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.2</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Instant_Xcode_CAP.3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.3</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Instant_Xcode_CAP.4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.4</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Instant_Xcode_CAP.5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.5</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Instant_Xcode_CAP.6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.6</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Instant_Xcode_CAP.7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.7</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Instant_Xcode_CAP.8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.8</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo13_Instant_EmployeesPeriodAverageNumberTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-eco-bas:EmployeesPeriodAverageNumberTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo13_Duration_Xcode_CAP.2" unitRef="euro">1</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo13_Duration_Xcode_CAP.3" unitRef="euro">3</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo13_Duration_Xcode_CAP.4" unitRef="euro">2</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo13_Duration_Xcode_CAP.5" unitRef="euro">5</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo13_Duration_Xcode_CAP.6" unitRef="euro">8</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo13_Duration_Xcode_CAP.7" unitRef="euro">9</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo13_Duration_Xcode_CAP.8" unitRef="euro">16</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo13_Duration_EmployeesPeriodAverageNumberTotal" unitRef="euro">44</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo13_Duration_Xcode_CAP.2" unitRef="euro">1</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo13_Duration_Xcode_CAP.3" unitRef="euro">2</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo13_Duration_Xcode_CAP.4" unitRef="euro">3</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo13_Duration_Xcode_CAP.5" unitRef="euro">6</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo13_Duration_Xcode_CAP.6" unitRef="euro">7</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo13_Duration_Xcode_CAP.7" unitRef="euro">8</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo13_Duration_Xcode_CAP.8" unitRef="euro">15</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo13_Duration_EmployeesPeriodAverageNumberTotal" unitRef="euro">42</dgi-eco-bas:EmployeeCategoryTotal>
+</xbrli:xbrl>

@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07mn-apdo7="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/apartado7/InmovilizadoIntangible/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:pgc07mn-d-it="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/EstadoMovimientos/InmovilizadoIntangible/Dimension/2009-01-01" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:pgc07mn="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-normal-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InmovilizadoIntangibleDesarrollo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleDesarrollo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InmovilizadoIntangibleConcesiones">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleConcesiones</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleAplicacionesInformaticas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InmovilizadoIntangibleInvestigacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleInvestigacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InmovilizadoIntangibleOtro">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleOtro</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleDesarrollo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleConcesiones</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleAplicacionesInformaticas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleInvestigacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleOtro</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InmovilizadoIntangibleDesarrollo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleDesarrollo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InmovilizadoIntangibleConcesiones">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleConcesiones</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleAplicacionesInformaticas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InmovilizadoIntangibleInvestigacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleInvestigacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InmovilizadoIntangibleOtro">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleOtro</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleDesarrollo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleConcesiones</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleAplicacionesInformaticas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleInvestigacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangibleOtro</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2013fin_apdo7b">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1d_2013_apdo7b">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangiblePatentesLicenciasMarcasSimilares</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangiblePatentesLicenciasMarcasSimilares</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangiblePatentesLicenciasMarcasSimilares</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-it:InmovilizadoIntangibleDesgloseDimension">pgc07mn-d-it:InmovilizadoIntangiblePatentesLicenciasMarcasSimilares</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2012fin_apdo7b">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1d_2012_apdo7b">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2013inicio_apdo7b">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2012inicio_apdo7b">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">15940</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">3600</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">200</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">-4900</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">14840</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">8130</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">240</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">120</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">-40</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">8450</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">9840</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">3300</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">240</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-180</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">13200</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">9000</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">1200</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">400</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">-700</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">9900</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">1700</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">800</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">100</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">-240</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">2360</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">8000</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">1400</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">800</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-360</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">9840</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">6500</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">2000</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">350</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">-500</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">8130</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">12000</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">3900</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">300</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">-260</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">15940</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">2360</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">600</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">100</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">-120</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">2940</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">9900</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">1100</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">110</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">-80</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">11030</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">50000</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">6000</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">500</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">1000</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">12000</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">-8000</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">0</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">-4000</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">57500</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">2000</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">3000</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">0</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">4000</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">1200</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">-1600</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">-600</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">0</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">8000</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">6000</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">2000</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">1300</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">600</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">4000</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-1200</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-840</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-680</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">11180</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">13000</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">4000</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">270</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">1330</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">800</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">-900</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">-300</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">-700</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">17500</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">27000</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">5000</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">1400</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">0</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">2660</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">-770</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">-450</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">-250</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">34590</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">34590</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">2100</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">800</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">330</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">1600</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">-500</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">-250</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleOtro" unitRef="euro">-1600</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">37070</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">17500</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">2700</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">790</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">640</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">5500</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">-130</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">-235</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleInvestigacion" unitRef="euro">-1250</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">25515</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">11180</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">2400</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">400</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">330</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">3800</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-770</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-550</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-150</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">16640</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">8000</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">450</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">700</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">0</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">900</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">-400</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">-600</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleConcesiones" unitRef="euro">-500</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">8550</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">57500</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">4000</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">2000</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">3700</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">1400</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">-8000</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">-6700</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangibleDesarrollo" unitRef="euro">-4300</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">49600</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">3000</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">1700</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">-500</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">-120</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">4080</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">600</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">100</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">-130</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">-140</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">430</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">3300</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">1200</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-250</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-80</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">4170</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">210</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">200</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">-300</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">-60</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">50</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">145</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">230</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">-140</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">-160</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">75</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">50</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">170</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">-45</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">-5</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleInvestigacion" unitRef="euro">170</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">50</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">170</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-45</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">-5</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleAplicacionesInformaticas" unitRef="euro">170</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">75</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">190</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">-230</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">-250</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleOtro" unitRef="euro">-215</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">430</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">20</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">-70</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">-30</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleConcesiones" unitRef="euro">350</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">4080</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">140</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">-80</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">-30</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">4110</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesAdquiridosEmpresasGrupo decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">7000</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesAdquiridosEmpresasGrupo>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesEmpresasAsociadas decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">800</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesEmpresasAsociadas>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionValorContableInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">550</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionValorContableInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionValorContableInmovilizadoIntangibleNoAfectoDirectamenteExplotacion decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">200</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionValorContableInmovilizadoIntangibleNoAfectoDirectamenteExplotacion>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">2000</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">1300</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionAmortizacionAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">50</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionAmortizacionAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionAmortizacionAcumulada decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">30</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionAmortizacionAcumulada>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">100</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">250</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesInmobiliariosSituadasFueraTerritorioNacional decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">10</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesInmobiliariosSituadasFueraTerritorioNacional>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionCorreccionesValorativasDeterioroAcumuladas decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">0</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionCorreccionesValorativasDeterioroAcumuladas>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioSaldoInicialFondoComercioImporteBruto decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">18290</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioSaldoInicialFondoComercioImporteBruto>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorDeterioroFondoComercioSaldoInicial decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">8600</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorDeterioroFondoComercioSaldoInicial>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesAfectosGarantias decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">3000</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesAfectosGarantias>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosReversion decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">2100</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosReversion>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosRestriccionesTitularidad decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">130</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosRestriccionesTitularidad>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionGastosFinancierosCapitalizadosEjercicioInmovilizadosIntangiblesImporteGastosFnancierosCapitalizadosEjercicioInmoviliadosIntangibles decimals="0" contextRef="Y1d_2013_apdo7b" unitRef="euro">660</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionGastosFinancierosCapitalizadosEjercicioInmovilizadosIntangiblesImporteGastosFnancierosCapitalizadosEjercicioInmoviliadosIntangibles>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesTotalmenteAmortizadosUsoImporteNetoInmovilizadoIntangibleTotalmenteAmortizadoUso decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">80</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesTotalmenteAmortizadosUsoImporteNetoInmovilizadoIntangibleTotalmenteAmortizadoUso>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionSubvencionesDonacionesLegadosInmovilizadoIntangiblesImporteInmovilizadosIntangiblesObjetoSubvencionDonacionLegado decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangibleDesarrollo" unitRef="euro">700</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionSubvencionesDonacionesLegadosInmovilizadoIntangiblesImporteInmovilizadosIntangiblesObjetoSubvencionDonacionLegado>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionResultadoEjercicioDerivadoEnajenacionDisposicionOtrosMediosInmovilizadosIntangibles decimals="0" contextRef="Y1d_2013_apdo7b" unitRef="euro">2700</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionResultadoEjercicioDerivadoEnajenacionDisposicionOtrosMediosInmovilizadosIntangibles>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionGastosInvestigacionDesarrolloEjercicioImporteAgregadoDesembolsosInvestigacionDesarrolloHayanReconocidoGastosDuranteEjercicio decimals="0" contextRef="Y1d_2013_apdo7b" unitRef="euro">1260</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionGastosInvestigacionDesarrolloEjercicioImporteAgregadoDesembolsosInvestigacionDesarrolloHayanReconocidoGastosDuranteEjercicio>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioFondoComercioAdicionalReconocidoPeriodo decimals="0" contextRef="Y1d_2013_apdo7b" unitRef="euro">2000</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioFondoComercioAdicionalReconocidoPeriodo>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioFondoComercioIncluidoGrupoElementosMantenidosVenta decimals="0" contextRef="Y1d_2013_apdo7b" unitRef="euro">230</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioFondoComercioIncluidoGrupoElementosMantenidosVenta>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioBajaFondoComercioNoIncluidoGrupoEnajenableElementosMantenidosVenta decimals="0" contextRef="Y1d_2013_apdo7b" unitRef="euro">-140</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioBajaFondoComercioNoIncluidoGrupoEnajenableElementosMantenidosVenta>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioOtrosMovimientosSaldoFondoComercioDuranteEjercicio decimals="0" contextRef="Y1d_2013_apdo7b" unitRef="euro">150</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioOtrosMovimientosSaldoFondoComercioDuranteEjercicio>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioSaldoFinalFondoComercioImporteBruto decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">17530</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioSaldoFinalFondoComercioImporteBruto>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorativasDeterioroFondoComercioSaldoFinal decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">9450</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorativasDeterioroFondoComercioSaldoFinal>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorativasDeterioroFondoComercioReconocidasPeriodo decimals="0" contextRef="Y1d_2013_apdo7b" unitRef="euro">1300</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorativasDeterioroFondoComercioReconocidasPeriodo>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioBajasTraspasosCorreccionesValorativasFondoComercioPeriodo decimals="0" contextRef="Y1d_2013_apdo7b" unitRef="euro">-450</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioBajasTraspasosCorreccionesValorativasFondoComercioPeriodo>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">45000</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">5000</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">12000</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">6000</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">5000</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-1700</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-800</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2012_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-300</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">70200</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:SaldoBrutoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">70200</pgc07mn:SaldoBrutoInicialEjercicio>
+  <pgc07mn:AdquisicionesMedianteCombinacionesNegocios decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">3000</pgc07mn:AdquisicionesMedianteCombinacionesNegocios>
+  <pgc07mn:AportacionesNoDinerarias decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">7000</pgc07mn:AportacionesNoDinerarias>
+  <pgc07mn:ActivosGeneradosInternamente decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">8900</pgc07mn:ActivosGeneradosInternamente>
+  <pgc07mn:RestoEntradas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">6700</pgc07mn:RestoEntradas>
+  <pgc07mn:SalidasBajasReducciones decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-900</pgc07mn:SalidasBajasReducciones>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-800</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas>
+  <pgc07mn:TraspadosOtrasPartidas decimals="0" contextRef="Y1_2013_apdo7_Duration_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-1200</pgc07mn:TraspadosOtrasPartidas>
+  <pgc07mn:SaldoBrutoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">92900</pgc07mn:SaldoBrutoFinalEjercicio>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">10000</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">1400</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">200</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-680</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">11270</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">11270</pgc07mn:AmortizacionAcumuladaSaldoInicialEjercicio>
+  <pgc07mn:DotacionAmortizacionEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">3000</pgc07mn:DotacionAmortizacionEjercicio>
+  <pgc07mn:AumentosAdquisicionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">210</pgc07mn:AumentosAdquisicionesTraspasos>
+  <pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-300</pgc07mn:AmortizacionesAcumuladasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">14180</pgc07mn:AmortizacionAcumuladaSaldoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">2000</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">500</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-300</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-140</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">2060</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">2060</pgc07mn:CorreccionesValorDeterioroSaldoInicialEjercicio>
+  <pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">300</pgc07mn:CorreccionesValorativasDeterioroReconocidasEjercicio>
+  <pgc07mn:ReversionCorreccionesValorativasDeterioro decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-430</pgc07mn:ReversionCorreccionesValorativasDeterioro>
+  <pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">-120</pgc07mn:CorreccionesValorativasDisminucionesSalidasBajasReduccionesTraspasos>
+  <pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_apdo7_Instant_InmovilizadoIntangiblePatentesLicenciasMarcasSimilares" unitRef="euro">1810</pgc07mn:CorreccionesValorDeterioroSaldoFinalEjercicio>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesAfectosGarantias decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">3000</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesAfectosGarantias>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesAfectosGarantias decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">3400</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesAfectosGarantias>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosReversion decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">2100</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosReversion>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosReversion decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">2300</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosReversion>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosRestriccionesTitularidad decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">130</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosRestriccionesTitularidad>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosRestriccionesTitularidad decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">140</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAfectosGarantiasReversionRestriccionesTitularidadImporteInmovilizadosIntangiblesSujetosRestriccionesTitularidad>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionGastosFinancierosCapitalizadosEjercicioInmovilizadosIntangiblesImporteGastosFnancierosCapitalizadosEjercicioInmoviliadosIntangibles decimals="0" contextRef="Y1d_2012_apdo7b" unitRef="euro">440</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionGastosFinancierosCapitalizadosEjercicioInmovilizadosIntangiblesImporteGastosFnancierosCapitalizadosEjercicioInmoviliadosIntangibles>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesTotalmenteAmortizadosUsoImporteNetoInmovilizadoIntangibleTotalmenteAmortizadoUso decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">80</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesTotalmenteAmortizadosUsoImporteNetoInmovilizadoIntangibleTotalmenteAmortizadoUso>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesTotalmenteAmortizadosUsoImporteNetoInmovilizadoIntangibleTotalmenteAmortizadoUso decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">90</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesTotalmenteAmortizadosUsoImporteNetoInmovilizadoIntangibleTotalmenteAmortizadoUso>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionSubvencionesDonacionesLegadosInmovilizadoIntangiblesImporteInmovilizadosIntangiblesObjetoSubvencionDonacionLegado decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">700</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionSubvencionesDonacionesLegadosInmovilizadoIntangiblesImporteInmovilizadosIntangiblesObjetoSubvencionDonacionLegado>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionSubvencionesDonacionesLegadosInmovilizadoIntangiblesImporteInmovilizadosIntangiblesObjetoSubvencionDonacionLegado decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">2000</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionSubvencionesDonacionesLegadosInmovilizadoIntangiblesImporteInmovilizadosIntangiblesObjetoSubvencionDonacionLegado>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionResultadoEjercicioDerivadoEnajenacionDisposicionOtrosMediosInmovilizadosIntangibles decimals="0" contextRef="Y1d_2012_apdo7b" unitRef="euro">1380</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionResultadoEjercicioDerivadoEnajenacionDisposicionOtrosMediosInmovilizadosIntangibles>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionGastosInvestigacionDesarrolloEjercicioImporteAgregadoDesembolsosInvestigacionDesarrolloHayanReconocidoGastosDuranteEjercicio decimals="0" contextRef="Y1d_2012_apdo7b" unitRef="euro">4000</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionGastosInvestigacionDesarrolloEjercicioImporteAgregadoDesembolsosInvestigacionDesarrolloHayanReconocidoGastosDuranteEjercicio>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesVidaUtilIndefinidaDistintosFondoComercioImporteInmovilizadosIntangiblesDistintosFondoComercioVidaUtilIndefinidaTotal decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">6000</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesVidaUtilIndefinidaDistintosFondoComercioImporteInmovilizadosIntangiblesDistintosFondoComercioVidaUtilIndefinidaTotal>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesVidaUtilIndefinidaDistintosFondoComercioImporteInmovilizadosIntangiblesDistintosFondoComercioVidaUtilIndefinidaTotal decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">7900</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesVidaUtilIndefinidaDistintosFondoComercioImporteInmovilizadosIntangiblesDistintosFondoComercioVidaUtilIndefinidaTotal>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesAdquiridosEmpresasGrupo decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">7000</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesAdquiridosEmpresasGrupo>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">2000</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">100</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesEmpresasAsociadas decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">800</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesEmpresasAsociadas>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">1300</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">250</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesAdquiridosEmpresasGrupo decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">1000</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesAdquiridosEmpresasGrupo>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">400</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">110</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasGrupo>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesEmpresasAsociadas decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">5500</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasValorContableInmovilizadosIntangiblesEmpresasAsociadas>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">550</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasAmortizacionAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">160</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadosIntangiblesAdquiridosEmpresasGrupoAsociadasCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesAdquiridosEmpresasAsociadas>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionValorContableInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">550</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionValorContableInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionAmortizacionAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">50</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionAmortizacionAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesInmobiliariosSituadasFueraTerritorioNacional decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">10</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesInmobiliariosSituadasFueraTerritorioNacional>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionValorContableInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">2000</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionValorContableInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionAmortizacionAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">290</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionAmortizacionAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesSituadasFueraTerritorioNacional>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesInmobiliariosSituadasFueraTerritorioNacional decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">130</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionCorreccionValorDeterioroAcumuladaInmovilizadosIntangiblesCuyosDerechosPuedenEjercitarseEstanRelacionadosInversionesInmobiliariosSituadasFueraTerritorioNacional>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionValorContableInmovilizadoIntangibleNoAfectoDirectamenteExplotacion decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">200</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionValorContableInmovilizadoIntangibleNoAfectoDirectamenteExplotacion>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionAmortizacionAcumulada decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">30</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionAmortizacionAcumulada>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionCorreccionesValorativasDeterioroAcumuladas decimals="0" contextRef="Y1i_2013fin_apdo7b" unitRef="euro">0</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionCorreccionesValorativasDeterioroAcumuladas>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionValorContableInmovilizadoIntangibleNoAfectoDirectamenteExplotacion decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">130</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionValorContableInmovilizadoIntangibleNoAfectoDirectamenteExplotacion>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionAmortizacionAcumulada decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">40</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionAmortizacionAcumulada>
+  <pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionCorreccionesValorativasDeterioroAcumuladas decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">10</pgc07mn:InmovilizadoIntangibleInformacionGeneralOtraInformacionInmovilizadoFinancieroNoAfectoDirectamenteExplotacionCorreccionesValorativasDeterioroAcumuladas>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioFondoComercioAdicionalReconocidoPeriodo decimals="0" contextRef="Y1d_2012_apdo7b" unitRef="euro">1000</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioFondoComercioAdicionalReconocidoPeriodo>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioFondoComercioIncluidoGrupoElementosMantenidosVenta decimals="0" contextRef="Y1d_2012_apdo7b" unitRef="euro">440</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioFondoComercioIncluidoGrupoElementosMantenidosVenta>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioBajaFondoComercioNoIncluidoGrupoEnajenableElementosMantenidosVenta decimals="0" contextRef="Y1d_2012_apdo7b" unitRef="euro">-150</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioBajaFondoComercioNoIncluidoGrupoEnajenableElementosMantenidosVenta>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioOtrosMovimientosSaldoFondoComercioDuranteEjercicio decimals="0" contextRef="Y1d_2012_apdo7b" unitRef="euro">-600</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioOtrosMovimientosSaldoFondoComercioDuranteEjercicio>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioSaldoInicialFondoComercioImporteBruto decimals="0" contextRef="Y1i_2013inicio_apdo7b" unitRef="euro">18290</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioSaldoInicialFondoComercioImporteBruto>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioSaldoInicialFondoComercioImporteBruto decimals="0" contextRef="Y1i_2012inicio_apdo7b" unitRef="euro">18000</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioSaldoInicialFondoComercioImporteBruto>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioSaldoFinalFondoComercioImporteBruto decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">18290</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioSaldoFinalFondoComercioImporteBruto>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorDeterioroFondoComercioSaldoInicial decimals="0" contextRef="Y1i_2013inicio_apdo7b" unitRef="euro">8600</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorDeterioroFondoComercioSaldoInicial>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorDeterioroFondoComercioSaldoInicial decimals="0" contextRef="Y1i_2012inicio_apdo7b" unitRef="euro">8000</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorDeterioroFondoComercioSaldoInicial>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorativasDeterioroFondoComercioReconocidasPeriodo decimals="0" contextRef="Y1d_2012_apdo7b" unitRef="euro">1200</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorativasDeterioroFondoComercioReconocidasPeriodo>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioBajasTraspasosCorreccionesValorativasFondoComercioPeriodo decimals="0" contextRef="Y1d_2012_apdo7b" unitRef="euro">-600</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioBajasTraspasosCorreccionesValorativasFondoComercioPeriodo>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorativasDeterioroFondoComercioSaldoFinal decimals="0" contextRef="Y1i_2012fin_apdo7b" unitRef="euro">8600</pgc07mn:InmovilizadoIntangibleFondoComercioCuadroMovimientosFondoComercioCorreccionesValorativasDeterioroFondoComercioSaldoFinal>
+  <pgc07mn:InmovilizadoIntangibleFondoComercioFondoComercioCorrespondienteCombinacionesNegociosEjercicio>
+    <pgc07mn:InmovilizadoIntangibleFondoComercioFondoComercioCorrespondienteCombinacionesNegociosEjercicioDescripcionCombinacionNegocios contextRef="Y1d_2013_apdo7b">Fusión XYZ, S.A.</pgc07mn:InmovilizadoIntangibleFondoComercioFondoComercioCorrespondienteCombinacionesNegociosEjercicioDescripcionCombinacionNegocios>
+    <pgc07mn:InmovilizadoIntangibleFondoComercioFondoComercioCorrespondienteCombinacionesNegociosEjercicioFondoComercioCorrespondienteCombinacionNegocios decimals="0" contextRef="Y1d_2013_apdo7b" unitRef="euro">500</pgc07mn:InmovilizadoIntangibleFondoComercioFondoComercioCorrespondienteCombinacionesNegociosEjercicioFondoComercioCorrespondienteCombinacionNegocios>
+  </pgc07mn:InmovilizadoIntangibleFondoComercioFondoComercioCorrespondienteCombinacionesNegociosEjercicio>
+</xbrli:xbrl>

@@ -1,0 +1,31 @@
+ABREVIADA
+Gral. extendido
+Rel con terceros
+Informe XBRL
+Activ. Ec. Básica
+ 
+ABREVIADA INFO_MERCANTIL
+Gral. extendido
+Rel con terceros
+Informe XBRL
+ 
+CONSOLIDADA
+Gral. extendido
+Rel. con terceros
+Informe XBRL
+Activ. Ec. Básica
+ 
+NORMAL
+Gral. extendido
+Informe XBRL
+Rel. con terceros
+ 
+NORMAL_INFORMACIÓN MERCANTIL
+General extendido
+Informe XBRL
+Rel. con terceros
+ 
+NOTA CONSOLIDADA
+Rel. con terceros
+Informe XBRL
+Gral. Básico

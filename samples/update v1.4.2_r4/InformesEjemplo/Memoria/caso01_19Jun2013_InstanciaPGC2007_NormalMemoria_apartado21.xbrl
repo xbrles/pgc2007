@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07mn-apdo21="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/apartado21/ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidas/2009-01-01" xmlns:pgc07mn-d-doi="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/DenominacionOperacionInterrumpida/TypedDimension/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:pgc07mn="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-normal-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo21">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo21">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoIngresos decimals="0" contextRef="Y1_2013_apdo21" unitRef="euro">40000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoIngresos>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoGastos decimals="0" contextRef="Y1_2013_apdo21" unitRef="euro">35000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoGastos>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoResultadoAntesImpuestos decimals="0" contextRef="Y1_2013_apdo21" unitRef="euro">5000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoResultadoAntesImpuestos>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoImpuestoSobreBeneficios decimals="0" contextRef="Y1_2013_apdo21" unitRef="euro">1750</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoImpuestoSobreBeneficios>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacion decimals="0" contextRef="Y1_2013_apdo21" unitRef="euro">13000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacion>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesInversion decimals="0" contextRef="Y1_2013_apdo21" unitRef="euro">-31000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesInversion>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesFinanciacion decimals="0" contextRef="Y1_2013_apdo21" unitRef="euro">20000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesFinanciacion>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoAjustes decimals="0" contextRef="Y1_2013_apdo21" unitRef="euro">2000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoAjustes>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacionResultadosActividadInterrumpidaNoEnajenada decimals="0" contextRef="Y1_2013_apdo21" unitRef="euro">5250</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacionResultadosActividadInterrumpidaNoEnajenada>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacionTotal decimals="0" contextRef="Y1_2013_apdo21" unitRef="euro">20000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacionTotal>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacionTotal decimals="0" contextRef="Y1_2012_apdo21" unitRef="euro">0</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacionTotal>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoIngresos decimals="0" contextRef="Y1_2012_apdo21" unitRef="euro">30000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoIngresos>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoGastos decimals="0" contextRef="Y1_2012_apdo21" unitRef="euro">17000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoGastos>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoResultadoAntesImpuestos decimals="0" contextRef="Y1_2012_apdo21" unitRef="euro">13000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoResultadoAntesImpuestos>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoImpuestoSobreBeneficios decimals="0" contextRef="Y1_2012_apdo21" unitRef="euro">4550</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoImpuestoSobreBeneficios>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacion decimals="0" contextRef="Y1_2012_apdo21" unitRef="euro">20000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacion>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesInversion decimals="0" contextRef="Y1_2012_apdo21" unitRef="euro">-50000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesInversion>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesFinanciacion decimals="0" contextRef="Y1_2012_apdo21" unitRef="euro">30000</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesFinanciacion>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoAjustes decimals="0" contextRef="Y1_2012_apdo21" unitRef="euro">3400</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoAjustes>
+  <pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacionResultadosActividadInterrumpidaNoEnajenada decimals="0" contextRef="Y1_2012_apdo21" unitRef="euro">11850</pgc07mn:ActivosNoCorrientesMantenidosVentaOperacionesInterrumpidasIngresosGastosFlujosEfectivoFlujosNetosEfectivoActividadesExplotacionResultadosActividadInterrumpidaNoEnajenada>
+</xbrli:xbrl>

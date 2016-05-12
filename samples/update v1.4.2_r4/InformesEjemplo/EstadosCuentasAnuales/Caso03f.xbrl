@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc-07-rol="http://www.icac.meh.es/es/fr/gaap/pgc07/2010-01-01/roles" xmlns:pgc-07-c-ap="http://www.icac.meh.es/es/fr/gaap/pgc07/comun-abreviadopymes/2009-01-01" xmlns:pgc-07-p="http://www.icac.meh.es/es/fr/gaap/pgc07/pymes/2009-01-01" xmlns:pgc-07-c-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/comun-base/2009-01-01" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc-07-a-pyg="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/pymes/PerdidasGanancias/2009-01-01" xmlns:pgc-07-p-bal="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/pymes/balance/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-pymes-completo.xsd"/>
+  <xbrli:context id="Y1_2013_Balance">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">EMPRE, S.L.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_Balance">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">EMPRE, S.L.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_PYG">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">EMPRE, S.L.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_PYG">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">EMPRE, S.L.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc-07-c-bs:BalanceSituacionVariable decimals="0" contextRef="Y1_2013_Balance" unitRef="euro">0</pgc-07-c-bs:BalanceSituacionVariable>
+  <pgc-07-c-bs:BalanceSituacionVariable decimals="0" contextRef="Y1_2012_Balance" unitRef="euro">0</pgc-07-c-bs:BalanceSituacionVariable>
+  <pgc-07-c-bs:ActivoNoCorrienteDeudasComercialesNoCorriente decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">1513286.256</pgc-07-c-bs:ActivoNoCorrienteDeudasComercialesNoCorriente>
+  <pgc-07-c-bs:ActivoCorriente decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">3093037.576</pgc-07-c-bs:ActivoCorriente>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServicios decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">1857405.36</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServicios>
+  <pgc-07-c-bs:ActivoCorrienteInversionesFinancierasCortoPlazo decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">666.32</pgc-07-c-bs:ActivoCorrienteInversionesFinancierasCortoPlazo>
+  <pgc-07-c-bs:ActivoCorrientePeriodificacionesCortoPlazo decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">36906.344</pgc-07-c-bs:ActivoCorrientePeriodificacionesCortoPlazo>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropios decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">3944165.12</pgc-07-c-bs:PatrimonioNetoFondosPropios>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosCapital decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">336566.784</pgc-07-c-bs:PatrimonioNetoFondosPropiosCapital>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosCapitalEscriturado decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">336566.784</pgc-07-c-bs:PatrimonioNetoFondosPropiosCapitalEscriturado>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosReservas decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">3923458.784</pgc-07-c-bs:PatrimonioNetoFondosPropiosReservas>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadosEjerciciosAnteriores decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">-337428.504</pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadosEjerciciosAnteriores>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadoEjercicio decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">21568.056</pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadoEjercicio>
+  <pgc-07-c-bs:PatrimonioNetoAjustesCambioValor decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">-7600.624</pgc-07-c-bs:PatrimonioNetoAjustesCambioValor>
+  <pgc-07-c-bs:PasivoNoCorriente decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">1353342.712</pgc-07-c-bs:PasivoNoCorriente>
+  <pgc-07-c-bs:PasivoNoCorrienteDeudasLargoPlazo decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">1353342.712</pgc-07-c-bs:PasivoNoCorrienteDeudasLargoPlazo>
+  <pgc-07-c-bs:PasivoNoCorrienteDeudasLargoPlazoDeudasEntidadesCredito decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">1159225.888</pgc-07-c-bs:PasivoNoCorrienteDeudasLargoPlazoDeudasEntidadesCredito>
+  <pgc-07-c-ap:PasivoNoCorrienteDeudasLargoPlazoOtrasDeudas decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">194116.824</pgc-07-c-ap:PasivoNoCorrienteDeudasLargoPlazoOtrasDeudas>
+  <pgc-07-c-bs:PasivoCorriente decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">5727501.024</pgc-07-c-bs:PasivoCorriente>
+  <pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazo decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">680621.528</pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazo>
+  <pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazoDeudasEntidadesCredito decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">114286.056</pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazoDeudasEntidadesCredito>
+  <pgc-07-c-ap:PasivoCorrienteDeudasCortoPlazoOtrasDeudas decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">566335.472</pgc-07-c-ap:PasivoCorrienteDeudasCortoPlazoOtrasDeudas>
+  <pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagar decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">5046879.496</pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagar>
+  <pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedores decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">4532676.16</pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedores>
+  <pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">4532676.16</pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc-07-c-ap:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores decimals="INF" contextRef="Y1_2012_Balance" unitRef="euro">514203.336</pgc-07-c-ap:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores>
+  <pgc-07-c-bs:PatrimonioNetoPasivoTotal decimals="2" contextRef="Y1_2012_Balance" unitRef="euro">11017408.23</pgc-07-c-bs:PatrimonioNetoPasivoTotal>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImporteNetoCifraNegocios decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">5755157.58</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImporteNetoCifraNegocios>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAprovisionamientos decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">-4627244.2</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAprovisionamientos>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosExplotacion decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">80883.04</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGestionPersonal decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">-613351.43</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGestionPersonal>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosGastosExplotacion decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">-436584.09</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosGastosExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAmortizacionInmovilizado decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">-74239.69</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAmortizacionInmovilizado>
+  <pgc-07-c-bs:PerdidasGananciasResultadoExplotacion decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">84621.21</pgc-07-c-bs:PerdidasGananciasResultadoExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasIngresosFinancieros decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">3723.07</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasIngresosFinancieros>
+  <pgc-07-c-ap:PerdidasGananciasOperacionesContinuadasIngresosFinancierosOtrosIngresosFinancieros decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">3723.07</pgc-07-c-ap:PerdidasGananciasOperacionesContinuadasIngresosFinancierosOtrosIngresosFinancieros>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGastosFinancieros decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">-49284.46</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGastosFinancieros>
+  <pgc-07-c-bs:PerdidasGananciasResultadoFinanciero decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">-64875.890</pgc-07-c-bs:PerdidasGananciasResultadoFinanciero>
+  <pgc-07-c-bs:PerdidasGananciasResultadoAntesImpuestos decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">19745.3200</pgc-07-c-bs:PerdidasGananciasResultadoAntesImpuestos>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImpuestosSobreBeneficios decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">-12099.75</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImpuestosSobreBeneficios>
+  <pgc-07-c-bs:PerdidasGananciasResultadoEjercicio decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">7645.57000</pgc-07-c-bs:PerdidasGananciasResultadoEjercicio>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImporteNetoCifraNegocios decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">4604126.064</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImporteNetoCifraNegocios>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAprovisionamientos decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">-3701795.36</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAprovisionamientos>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosExplotacion decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">64706.432</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGestionPersonal decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">-490681.144</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGestionPersonal>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosGastosExplotacion decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">-349267.272</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosGastosExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAmortizacionInmovilizado decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">-59391.752</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasAmortizacionInmovilizado>
+  <pgc-07-c-bs:PerdidasGananciasResultadoExplotacion decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">67696.968</pgc-07-c-bs:PerdidasGananciasResultadoExplotacion>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasIngresosFinancieros decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">2978.456</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasIngresosFinancieros>
+  <pgc-07-c-ap:PerdidasGananciasOperacionesContinuadasIngresosFinancierosOtrosIngresosFinancieros decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">2978.456</pgc-07-c-ap:PerdidasGananciasOperacionesContinuadasIngresosFinancierosOtrosIngresosFinancieros>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGastosFinancieros decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">-39427.568</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasGastosFinancieros>
+  <pgc-07-c-bs:PerdidasGananciasResultadoFinanciero decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">-36449.112</pgc-07-c-bs:PerdidasGananciasResultadoFinanciero>
+  <pgc-07-c-bs:PerdidasGananciasResultadoAntesImpuestos decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">31247.856</pgc-07-c-bs:PerdidasGananciasResultadoAntesImpuestos>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImpuestosSobreBeneficios decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">-9679.8</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasImpuestosSobreBeneficios>
+  <pgc-07-c-bs:PerdidasGananciasResultadoEjercicio decimals="INF" contextRef="Y1_2012_PYG" unitRef="euro">21568.056</pgc-07-c-bs:PerdidasGananciasResultadoEjercicio>
+  <pgc-07-c-bs:ActivoNoCorriente decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">9905463.32</pgc-07-c-bs:ActivoNoCorriente>
+  <pgc-07-c-bs:ActivoNoCorrienteInmovilizadoIntangible decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">237994.51</pgc-07-c-bs:ActivoNoCorrienteInmovilizadoIntangible>
+  <pgc-07-c-bs:ActivoNoCorrienteInmovilizadoMaterial decimals="1" contextRef="Y1_2013_Balance" unitRef="euro">5350372.4</pgc-07-c-bs:ActivoNoCorrienteInmovilizadoMaterial>
+  <pgc-07-c-bs:ActivoNoCorrienteInversionesInmobiliarias decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">2424641.61</pgc-07-c-bs:ActivoNoCorrienteInversionesInmobiliarias>
+  <pgc-07-c-bs:ActivoNoCorrienteInversionesFinancierasLargoPlazo decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">846.98</pgc-07-c-bs:ActivoNoCorrienteInversionesFinancierasLargoPlazo>
+  <pgc-07-c-bs:ActivoNoCorrienteDeudasComercialesNoCorriente decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">1891607.82</pgc-07-c-bs:ActivoNoCorrienteDeudasComercialesNoCorriente>
+  <pgc-07-c-bs:ActivoCorriente decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">3866296.97</pgc-07-c-bs:ActivoCorriente>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrar decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">2827588.47</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrar>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServicios decimals="1" contextRef="Y1_2013_Balance" unitRef="euro">2321756.7</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServicios>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServiciosLargoPlazo decimals="1" contextRef="Y1_2013_Balance" unitRef="euro">2321756.7</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServiciosLargoPlazo>
+  <pgc-07-c-ap:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarOtrosDeudores decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">505831.77</pgc-07-c-ap:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarOtrosDeudores>
+  <pgc-07-c-bs:ActivoCorrienteInversionesFinancierasCortoPlazo decimals="1" contextRef="Y1_2013_Balance" unitRef="euro">832.9</pgc-07-c-bs:ActivoCorrienteInversionesFinancierasCortoPlazo>
+  <pgc-07-c-bs:ActivoCorrientePeriodificacionesCortoPlazo decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">46132.93</pgc-07-c-bs:ActivoCorrientePeriodificacionesCortoPlazo>
+  <pgc-07-c-bs:ActivoCorrienteEfectivoOtrosActivosLiquidosEquivalentes decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">991742.67</pgc-07-c-bs:ActivoCorrienteEfectivoOtrosActivosLiquidosEquivalentes>
+  <pgc-07-c-bs:TotalActivo decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">13771760.29</pgc-07-c-bs:TotalActivo>
+  <pgc-07-c-bs:ActivoNoCorriente decimals="3" contextRef="Y1_2012_Balance" unitRef="euro">7924370.656</pgc-07-c-bs:ActivoNoCorriente>
+  <pgc-07-c-bs:ActivoNoCorrienteInmovilizadoIntangible decimals="3" contextRef="Y1_2012_Balance" unitRef="euro">190395.608</pgc-07-c-bs:ActivoNoCorrienteInmovilizadoIntangible>
+  <pgc-07-c-bs:ActivoNoCorrienteInmovilizadoMaterial decimals="2" contextRef="Y1_2012_Balance" unitRef="euro">4280297.92</pgc-07-c-bs:ActivoNoCorrienteInmovilizadoMaterial>
+  <pgc-07-c-bs:ActivoNoCorrienteInversionesInmobiliarias decimals="3" contextRef="Y1_2012_Balance" unitRef="euro">1939713.288</pgc-07-c-bs:ActivoNoCorrienteInversionesInmobiliarias>
+  <pgc-07-c-bs:ActivoNoCorrienteInversionesFinancierasLargoPlazo decimals="3" contextRef="Y1_2012_Balance" unitRef="euro">677.584</pgc-07-c-bs:ActivoNoCorrienteInversionesFinancierasLargoPlazo>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrar decimals="3" contextRef="Y1_2012_Balance" unitRef="euro">2262070.776</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrar>
+  <pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServiciosLargoPlazo decimals="2" contextRef="Y1_2012_Balance" unitRef="euro">1857405.36</pgc-07-c-bs:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarClientesVentasPrestacionesServiciosLargoPlazo>
+  <pgc-07-c-ap:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarOtrosDeudores decimals="3" contextRef="Y1_2012_Balance" unitRef="euro">404665.416</pgc-07-c-ap:ActivoCorrienteDeudoresComercialesOtrasCuentasCobrarOtrosDeudores>
+  <pgc-07-c-bs:ActivoCorrienteEfectivoOtrosActivosLiquidosEquivalentes decimals="3" contextRef="Y1_2012_Balance" unitRef="euro">793394.136</pgc-07-c-bs:ActivoCorrienteEfectivoOtrosActivosLiquidosEquivalentes>
+  <pgc-07-c-bs:TotalActivo decimals="2" contextRef="Y1_2012_Balance" unitRef="euro">11017408.23</pgc-07-c-bs:TotalActivo>
+  <pgc-07-c-bs:PatrimonioNeto decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">4920705.62</pgc-07-c-bs:PatrimonioNeto>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropios decimals="1" contextRef="Y1_2013_Balance" unitRef="euro">4930206.4</pgc-07-c-bs:PatrimonioNetoFondosPropios>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosCapital decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">420708.48</pgc-07-c-bs:PatrimonioNetoFondosPropiosCapital>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosCapitalEscriturado decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">420708.48</pgc-07-c-bs:PatrimonioNetoFondosPropiosCapitalEscriturado>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosReservas decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">4904323.48</pgc-07-c-bs:PatrimonioNetoFondosPropiosReservas>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadosEjerciciosAnteriores decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">-421785.63</pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadosEjerciciosAnteriores>
+  <pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadoEjercicio decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">26960.07</pgc-07-c-bs:PatrimonioNetoFondosPropiosResultadoEjercicio>
+  <pgc-07-c-bs:PasivoNoCorriente decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">1691678.39</pgc-07-c-bs:PasivoNoCorriente>
+  <pgc-07-c-bs:PasivoNoCorrienteDeudasLargoPlazo decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">1691678.39</pgc-07-c-bs:PasivoNoCorrienteDeudasLargoPlazo>
+  <pgc-07-c-bs:PasivoNoCorrienteDeudasLargoPlazoDeudasEntidadesCredito decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">1449032.36</pgc-07-c-bs:PasivoNoCorrienteDeudasLargoPlazoDeudasEntidadesCredito>
+  <pgc-07-c-ap:PasivoNoCorrienteDeudasLargoPlazoOtrasDeudas decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">242646.03</pgc-07-c-ap:PasivoNoCorrienteDeudasLargoPlazoOtrasDeudas>
+  <pgc-07-c-bs:PasivoCorriente decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">7159376.28</pgc-07-c-bs:PasivoCorriente>
+  <pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazo decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">850776.91</pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazo>
+  <pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazoDeudasEntidadesCredito decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">142857.57</pgc-07-c-bs:PasivoCorrienteDeudasCortoPlazoDeudasEntidadesCredito>
+  <pgc-07-c-ap:PasivoCorrienteDeudasCortoPlazoOtrasDeudas decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">707919.34</pgc-07-c-ap:PasivoCorrienteDeudasCortoPlazoOtrasDeudas>
+  <pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagar decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">6308599.37</pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagar>
+  <pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedores decimals="1" contextRef="Y1_2013_Balance" unitRef="euro">5665845.2</pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedores>
+  <pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="1" contextRef="Y1_2013_Balance" unitRef="euro">5665845.2</pgc-07-c-bs:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc-07-c-ap:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">642754.17</pgc-07-c-ap:PasivoCorrienteAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores>
+  <pgc-07-c-bs:PatrimonioNetoPasivoTotal decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">13771760.29</pgc-07-c-bs:PatrimonioNetoPasivoTotal>
+  <pgc-07-c-bs:PatrimonioNetoAjustesCambioValor decimals="2" contextRef="Y1_2013_Balance" unitRef="euro">-9500.78</pgc-07-c-bs:PatrimonioNetoAjustesCambioValor>
+  <pgc-07-c-bs:PatrimonioNeto decimals="3" contextRef="Y1_2012_Balance" unitRef="euro">3936564.496</pgc-07-c-bs:PatrimonioNeto>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosGastosCaracterFinanciero decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">-19314.50</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosGastosCaracterFinanciero>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosGastosCaracterFinancieroIncorporacionActivoGastosFinancieros decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">13454.4</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosGastosCaracterFinancieroIncorporacionActivoGastosFinancieros>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosGastosCaracterFinancieroIngresosFinancierosDerivadosConveniosAcreedores decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">12454.3</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosGastosCaracterFinancieroIngresosFinancierosDerivadosConveniosAcreedores>
+  <pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosGastosCaracterFinancieroRestoIngresosGastos decimals="INF" contextRef="Y1_2013_PYG" unitRef="euro">-45223.2</pgc-07-c-bs:PerdidasGananciasOperacionesContinuadasOtrosIngresosGastosCaracterFinancieroRestoIngresosGastos>
+</xbrli:xbrl>

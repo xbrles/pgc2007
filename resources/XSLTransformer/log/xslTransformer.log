@@ -1,0 +1,52 @@
+[2013-09-09 13:20:51,675] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[prueba.xml], style sheet[xml2html.xsl], param[null]
+[2013-09-09 13:20:52,470]ERROR main es.inteco.xbrl.pgc.utils.XSLTransformer - net.sf.saxon.trans.XPathException: java.io.FileNotFoundException: /prueba.xml (No such file or directory)
+[2013-09-09 13:21:20,414] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[null]
+[2013-09-09 13:21:21,263]ERROR main es.inteco.xbrl.pgc.utils.XSLTransformer - net.sf.saxon.trans.XPathException: java.io.FileNotFoundException: /./prueba.xml (No such file or directory)
+[2013-09-09 13:42:38,594] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./], style sheet[./prueba.xml], param[./prueba.html]
+[2013-09-09 13:42:39,039]ERROR main es.inteco.xbrl.pgc.utils.XSLTransformer - javax.xml.transform.TransformerConfigurationException: Failed to compile stylesheet. 1 error detected.
+[2013-09-09 13:47:17,939] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=/home/wasabi/workspace/inteco_xslTransformer/]
+[2013-09-09 13:47:47,250] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [module] value: [bal]
+[2013-09-09 13:47:52,827] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [configPath] value: [/home/wasabi/workspace/inteco_xslTransformer/]
+[2013-09-09 13:48:22,577]ERROR main es.inteco.xbrl.pgc.utils.XSLTransformer - net.sf.saxon.trans.XPathException: java.io.FileNotFoundException: /./prueba.xml (No such file or directory)
+[2013-09-09 13:48:53,435] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=/home/wasabi/workspace/inteco_xslTransformer/]
+[2013-09-09 13:48:54,509] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [module] value: [bal]
+[2013-09-09 13:48:54,510] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [configPath] value: [/home/wasabi/workspace/inteco_xslTransformer/]
+[2013-09-09 13:49:32,017] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=/home/wasabi/workspace/inteco_xslTransformer/] finish successfully
+[2013-09-09 13:57:17,883] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=/home/wasabi/workspace/inteco_xslTransformer/]
+[2013-09-09 13:57:18,967] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [module] value: [bal]
+[2013-09-09 13:57:18,968] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [configPath] value: [/home/wasabi/workspace/inteco_xslTransformer/]
+[2013-09-09 13:57:21,292] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=/home/wasabi/workspace/inteco_xslTransformer/] finish successfully
+[2013-09-09 14:38:39,879] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[null]
+[2013-09-09 14:38:40,928] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[null] finish successfully
+[2013-09-09 14:40:16,909] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bas;configPath=./]
+[2013-09-09 14:40:17,798] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [module] value: [bas]
+[2013-09-09 14:40:17,799] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [configPath] value: [./]
+[2013-09-09 14:40:17,892] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bas;configPath=./] finish successfully
+[2013-09-09 14:41:28,569] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./]
+[2013-09-09 14:41:29,465] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [module] value: [bal]
+[2013-09-09 14:41:29,467] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [configPath] value: [./]
+[2013-09-09 14:41:30,235] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./] finish successfully
+[2013-09-09 14:45:28,309] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./]
+[2013-09-09 14:45:29,263] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [module] value: [bal]
+[2013-09-09 14:45:29,264] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [configPath] value: [./]
+[2013-09-09 14:45:29,966] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./] finish successfully
+[2013-09-09 14:46:26,057] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./]
+[2013-09-09 14:46:26,949] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [module] value: [bal]
+[2013-09-09 14:46:26,949] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [configPath] value: [./]
+[2013-09-09 14:46:27,717] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./] finish successfully
+[2013-09-09 14:48:46,608] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./resources/]
+[2013-09-09 14:48:47,512] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [module] value: [bal]
+[2013-09-09 14:48:47,513] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [configPath] value: [./resources/]
+[2013-09-09 14:48:47,840] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./resources/] finish successfully
+[2013-09-09 15:46:37,880] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./resources/]
+[2013-09-09 15:46:38,722] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [module] value: [bal]
+[2013-09-09 15:46:38,723] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [configPath] value: [./resources/]
+[2013-09-09 15:46:39,040] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./resources/] finish successfully
+[2013-09-09 15:58:33,471] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./resources/]
+[2013-09-09 15:58:34,413] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [module] value: [bal]
+[2013-09-09 15:58:34,414] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [configPath] value: [./resources/]
+[2013-09-09 15:58:35,130] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Transformation process input[./prueba.xml], style sheet[./xml2html.xsl], param[module=bal;configPath=./resources/] finish successfully
+[2013-09-09 16:01:30,260] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Start transformation process input[/home/wasabi/workspace/DanielBalsa-workspace_30sep2011/inteco_apixbrlpc07_src_v14/resources/XSLTransformer/prueba.xml], style sheet[/home/wasabi/workspace/DanielBalsa-workspace_30sep2011/inteco_apixbrlpc07_src_v14/resources/XSLTransformer/xml2html.xsl], param[module=bal;configPath=/home/wasabi/workspace/DanielBalsa-workspace_30sep2011/inteco_apixbrlpc07_src_v14/resources/XSLTransformer/resources/]
+[2013-09-09 16:01:31,203] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [module] value: [bal]
+[2013-09-09 16:01:31,204] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - set parameter for xsl name: [configPath] value: [/home/wasabi/workspace/DanielBalsa-workspace_30sep2011/inteco_apixbrlpc07_src_v14/resources/XSLTransformer/resources/]
+[2013-09-09 16:01:31,983] INFO main es.inteco.xbrl.pgc.utils.XSLTransformer - Transformation process input[/home/wasabi/workspace/DanielBalsa-workspace_30sep2011/inteco_apixbrlpc07_src_v14/resources/XSLTransformer/prueba.xml], style sheet[/home/wasabi/workspace/DanielBalsa-workspace_30sep2011/inteco_apixbrlpc07_src_v14/resources/XSLTransformer/xml2html.xsl], param[module=bal;configPath=/home/wasabi/workspace/DanielBalsa-workspace_30sep2011/inteco_apixbrlpc07_src_v14/resources/XSLTransformer/resources/] finish successfully

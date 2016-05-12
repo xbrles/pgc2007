@@ -1,0 +1,20 @@
+
+EMPRESA DE PRUEBA 1
+
+- Módulo general extendido
+
+- Módulo de actividad económica básico
+
+- Módulo del informe XBRL presentado
+
+- Módulo de relaciones con terceros y órganos corporativos.
+
+EMPRESA DE PRUEBA 2
+
+- Módulo general extendido
+
+- Módulo de actividad económica básico
+
+- Módulo del informe XBRL presentado
+
+- Módulo de relaciones con terceros y órganos corporativos.

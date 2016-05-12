@@ -1,0 +1,17 @@
+es.inteco.xbrl.pgc.apifacade
+es.inteco.xbrl.pgc.apifacade.impl
+es.inteco.xbrl.pgc.apifacade.xbreeze
+es.inteco.xbrl.pgc.commandline
+es.inteco.xbrl.pgc.errors
+es.inteco.xbrl.pgc.transform
+es.inteco.xbrl.pgc.transform.config
+es.inteco.xbrl.pgc.transform.config.descriptors
+es.inteco.xbrl.pgc.transform.format
+es.inteco.xbrl.pgc.transform.format.descriptors
+es.inteco.xbrl.pgc.transform.format.types
+es.inteco.xbrl.pgc.transform.format.types.descriptors
+es.inteco.xbrl.pgc.transform.maps
+es.inteco.xbrl.pgc.transform.maps.descriptors
+es.inteco.xbrl.pgc.utils
+es.inteco.xbrl.pgc.validator
+es.inteco.xbrl.pgc.viewer

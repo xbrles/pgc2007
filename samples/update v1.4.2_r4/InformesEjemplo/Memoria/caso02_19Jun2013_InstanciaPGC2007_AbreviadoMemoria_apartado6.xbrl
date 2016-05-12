@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07ma-apdo6="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado6/ActivosFinancieros/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc07mc-ap="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/abreviadoPymes/2009-01-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc07d-clase="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/ClasesInstrumentosFinancieros/Dimension/2009-01-01" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:pgc07ma="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/2009-01-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:pgc07d-reclsf="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/ReclasificacionInstrumentosFinancieros/Dimension/2009-01-01" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-abreviado-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Duration_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Duration_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Duration_InstrumentosFinancierosCortoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6c_Duration_InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6c_Duration_InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6c_Duration_InstrumentosFinancierosReclasificacionActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6c_Instant_InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6c_Instant_InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6c_Instant_InstrumentosFinancierosReclasificacionActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6c_Duration_InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6c_Duration_InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6c_Duration_InstrumentosFinancierosReclasificacionActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6c_Instant_InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6c_Instant_InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6c_Instant_InstrumentosFinancierosReclasificacionActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-reclsf:InstrumentosFinancierosReclasificacionDimension">pgc07d-reclsf:InstrumentosFinancierosReclasificacionActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6e_Duration_InstrumentosFinancierosCategoriasActivosActivosTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCategoriasDimension">pgc07mc-bs:InstrumentosFinancierosCategoriasActivosActivosTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07ma-apdo6:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresaDimension">pgc07mc-ap:InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">6500</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">8900</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">15400</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">2100</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">3200</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">500</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">5800</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">500</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">800</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">60</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">1360</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">9100</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">3200</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">800</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">9400</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">60</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">22560</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">650</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">890</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">1540</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">50</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">8000</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">6</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">8050</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">910</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">320</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">8000</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">940</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">6</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">10170</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-na:InstrumentosFinancierosReclasificacionActivosFinancierosActivosMantenidosNegociar decimals="0" contextRef="Y1_2013_apdo6c_Instant_InstrumentosFinancierosReclasificacionInversionesPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas" unitRef="euro">22</pgc07mc-na:InstrumentosFinancierosReclasificacionActivosFinancierosActivosMantenidosNegociar>
+  <pgc07mc-na:InstrumentosFinancierosReclasificacionActivosFinancierosInversionPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas decimals="0" contextRef="Y1_2013_apdo6c_Instant_InstrumentosFinancierosReclasificacionActivosDisponiblesVenta" unitRef="euro">560</pgc07mc-na:InstrumentosFinancierosReclasificacionActivosFinancierosInversionPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas>
+  <pgc07mc-na:InstrumentosFinancierosReclasificacionActivosFinancierosActivosFinancierosDisponiblesVenta decimals="0" contextRef="Y1_2012_apdo6c_Instant_InstrumentosFinancierosReclasificacionInversionesMantenidasVencimiento" unitRef="euro">2300</pgc07mc-na:InstrumentosFinancierosReclasificacionActivosFinancierosActivosFinancierosDisponiblesVenta>
+  <pgc07mc-na:InstrumentosFinancierosReclasificacionActivosFinancierosInversionPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas decimals="0" contextRef="Y1_2012_apdo6c_Instant_InstrumentosFinancierosReclasificacionActivosDisponiblesVenta" unitRef="euro">340</pgc07mc-na:InstrumentosFinancierosReclasificacionActivosFinancierosInversionPatrimonioEmpresasGrupoEmpresasMultigrupoEmpresasAsociadas>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">50</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">-15</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">3</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">40</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">32</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">-20</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">-6</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">20</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">35</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">-3</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">-9</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">28</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">325</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">-34</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">12</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">429</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">85</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">-18</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">-6</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">68</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">357</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">-54</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Duration_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">6</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">449</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">40</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2013_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">-21</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2013_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">-4</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">13</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">20</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Context_Duration_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">-6</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Context_Duration_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">2</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">23</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">28</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2013_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">-8</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2013_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">-3</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">28</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">429</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2013_apdo6_Duration_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">-45</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2013_apdo6_Duration_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">11</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">520</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">68</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2013_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">-29</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2013_apdo6_Duration_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">-7</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">41</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">449</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2013_apdo6_Duration_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">13</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">543</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2013_apdo6_Duration_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">-51</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG" unitRef="euro">62</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG" unitRef="euro">47</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar" unitRef="euro">720</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG" unitRef="euro">-15</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar" unitRef="euro">23</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar" unitRef="euro">743</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta" unitRef="euro">6300</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal" unitRef="euro">7082</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPatrimonioNeto decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta" unitRef="euro">-56</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPatrimonioNeto>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPatrimonioNeto decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal" unitRef="euro">-56</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPatrimonioNeto>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta" unitRef="euro">6244</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal" unitRef="euro">7034</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG" unitRef="euro">47</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG" unitRef="euro">11</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosValorRazonableCambiosPyG" unitRef="euro">58</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar" unitRef="euro">743</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar" unitRef="euro">-45</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosMantenidosNegociar" unitRef="euro">698</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPatrimonioNeto decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta" unitRef="euro">45</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPatrimonioNeto>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta" unitRef="euro">6289</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosDisponiblesVenta" unitRef="euro">6244</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal" unitRef="euro">7034</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal" unitRef="euro">-34</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPatrimonioNeto decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal" unitRef="euro">45</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPatrimonioNeto>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio decimals="0" contextRef="Y1_2013_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal" unitRef="euro">7045</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableValorRazonableFinEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">10</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">18</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">12</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">180</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">22</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">198</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">-8</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">-4</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">-7</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">-54</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">-15</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">-58</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">7</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">12</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">13</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">190</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">20</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">202</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaCorreccionValorativaDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">-9</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">-5</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">-2</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">-65</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">-11</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro decimals="0" contextRef="Y1_2013_apdo6_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">-70</pgc07mc-bs:InstrumentosFinancierosOtraInformacionMemoriaReversionDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo" unitRef="euro">400</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoVariacionDeterioroLlevadaPyG decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo" unitRef="euro">-50</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoVariacionDeterioroLlevadaPyG>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoReversionDeterioroContraPatrimonioNeto decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo" unitRef="euro">7</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoReversionDeterioroContraPatrimonioNeto>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo" unitRef="euro">-23</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo" unitRef="euro">-4</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasGrupo" unitRef="euro">330</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo" unitRef="euro">30</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoVariacionDeterioroLlevadaPyG decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo" unitRef="euro">3</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoVariacionDeterioroLlevadaPyG>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoReversionDeterioroContraPatrimonioNeto decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo" unitRef="euro">8</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoReversionDeterioroContraPatrimonioNeto>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo" unitRef="euro">-12</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo" unitRef="euro">5</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasMultigrupo" unitRef="euro">34</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas" unitRef="euro">110</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoVariacionDeterioroLlevadaPyG decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas" unitRef="euro">-5</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoVariacionDeterioroLlevadaPyG>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoReversionDeterioroContraPatrimonioNeto decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas" unitRef="euro">22</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoReversionDeterioroContraPatrimonioNeto>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas" unitRef="euro">-15</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas" unitRef="euro">-9</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasAsociadas" unitRef="euro">103</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio decimals="0" contextRef="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal" unitRef="euro">540</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroInicioEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoVariacionDeterioroLlevadaPyG decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal" unitRef="euro">-52</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoVariacionDeterioroLlevadaPyG>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoReversionDeterioroContraPatrimonioNeto decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal" unitRef="euro">37</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoReversionDeterioroContraPatrimonioNeto>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal" unitRef="euro">-50</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoBajaActivo>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro decimals="0" contextRef="Y1_2013_apdo6f_Duration_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal" unitRef="euro">-8</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoOtrasVariacionesDeterioro>
+  <pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio decimals="0" contextRef="Y1_2013_apdo6f_Instant_InstrumentosFinancierosCorreccionesValorativasParticipacionesEmpresasTotal" unitRef="euro">467</pgc07mc-bs:InstrumentosFinancierosCorreccionesDeterioroValorOriginadasRiesgoCreditoPerdidaDeterioroFinalEjercicio>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">520</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">712</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">1232</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">168</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">256</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">40</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">464</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">37</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">6500</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">4</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">6537</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">725</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">256</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">6500</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">752</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">4</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosCortoPlazoClasesActivoTotal" unitRef="euro">8237</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Context_Instant_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">5200</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Context_Instant_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">7120</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Context_Instant_InstrumentosFinancierosLargoPlazoClasesActivoInstrumentosPatrimonio" unitRef="euro">12320</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">1680</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">2560</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">400</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">4640</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">375</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">600</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">45</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoCreditosDerivadosOtros" unitRef="euro">1020</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">7255</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">2560</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">600</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosPrestamosPartidasCobrar>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">727</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">45</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDerviadosCobertura>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo6d_Instant_InstrumentosFinancierosLargoPlazoClasesActivoTotal" unitRef="euro">11187</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion decimals="0" contextRef="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">210</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosActivosValorRazonableCambiosPyGPresentacion>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento decimals="0" contextRef="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">320</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosInversionesMantenidasVencimiento>
+  <pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion decimals="0" contextRef="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">50</pgc07mc-na:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosDisponiblesVentaPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal decimals="0" contextRef="Context_Instant_InstrumentosFinancierosCortoPlazoClasesActivoValoresRepresentativosDeuda" unitRef="euro">580</pgc07mc-bs:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasActivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG decimals="0" contextRef="Y1_2012_apdo6e_Instant_InstrumentosFinancierosCategoriasActivosActivosTotal" unitRef="euro">8</pgc07mc-bs:InstrumentosFinancierosValoracionInversionesValorRazonableVariacionesValorRazonableRegistradasPyG>
+</xbrli:xbrl>

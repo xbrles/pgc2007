@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07mn-apdo10="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/apartado10/Existencias/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pgc07mn="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/2009-01-01">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-normal-completo.xsd"/>
+  <xbrli:context id="Y1d_2013_apdo10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2008fin_apdo10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1d_2012_apdo10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2007fin_apdo10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2008inicio_apdo10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2007inicio_apdo10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mn:ExistenciasDuranteEjercicioImporteGastosFinancierosCapitalizadosDuranteEjercicioExistenciasCicloProduccionSuperiorAnyo decimals="0" contextRef="Y1d_2013_apdo10" unitRef="euro">1200</pgc07mn:ExistenciasDuranteEjercicioImporteGastosFinancierosCapitalizadosDuranteEjercicioExistenciasCicloProduccionSuperiorAnyo>
+  <pgc07mn:ExistenciasDuranteEjercicioImporteGastosFinancierosCapitalizadosDuranteEjercicioExistenciasCicloProduccionSuperiorAnyo decimals="0" contextRef="Y1d_2012_apdo10" unitRef="euro">250</pgc07mn:ExistenciasDuranteEjercicioImporteGastosFinancierosCapitalizadosDuranteEjercicioExistenciasCicloProduccionSuperiorAnyo>
+  <pgc07mn:ExistenciasCompromisosCompraVentaCompromisosFirmesVentaExistenciasFinalEjercicio contextRef="Y1d_2013_apdo10">270</pgc07mn:ExistenciasCompromisosCompraVentaCompromisosFirmesVentaExistenciasFinalEjercicio>
+  <pgc07mn:ExistenciasCompromisosCompraVentaCompromisosFirmesVentaExistenciasFinalEjercicio contextRef="Y1d_2012_apdo10">220</pgc07mn:ExistenciasCompromisosCompraVentaCompromisosFirmesVentaExistenciasFinalEjercicio>
+  <pgc07mn:ExistenciasCompromisosCompraVentaImporteContratosFuturosExistenciasFinalEjercicio decimals="0" contextRef="Y1i_2008fin_apdo10" unitRef="euro">510</pgc07mn:ExistenciasCompromisosCompraVentaImporteContratosFuturosExistenciasFinalEjercicio>
+  <pgc07mn:ExistenciasCompromisosCompraVentaImporteCompromisosFirmesCompraExistenciasFinalEjercicio decimals="0" contextRef="Y1i_2008fin_apdo10" unitRef="euro">340</pgc07mn:ExistenciasCompromisosCompraVentaImporteCompromisosFirmesCompraExistenciasFinalEjercicio>
+  <pgc07mn:ExistenciasCompromisosCompraVentaImporteCompromisosFirmesVentaExistenciasFinalEjercicio decimals="0" contextRef="Y1i_2008fin_apdo10" unitRef="euro">270</pgc07mn:ExistenciasCompromisosCompraVentaImporteCompromisosFirmesVentaExistenciasFinalEjercicio>
+  <pgc07mn:ExistenciasCompromisosCompraVentaImporteContratosFuturosContratosOpcionesExistenciasFinalEjercicio decimals="0" contextRef="Y1i_2008fin_apdo10" unitRef="euro">510</pgc07mn:ExistenciasCompromisosCompraVentaImporteContratosFuturosContratosOpcionesExistenciasFinalEjercicio>
+  <pgc07mn:ExistenciasCompromisosCompraVentaImporteCompromisosFirmesCompraExistenciasFinalEjercicio decimals="0" contextRef="Y1i_2007fin_apdo10" unitRef="euro">120</pgc07mn:ExistenciasCompromisosCompraVentaImporteCompromisosFirmesCompraExistenciasFinalEjercicio>
+  <pgc07mn:ExistenciasCompromisosCompraVentaImporteCompromisosFirmesVentaExistenciasFinalEjercicio decimals="0" contextRef="Y1i_2007fin_apdo10" unitRef="euro">220</pgc07mn:ExistenciasCompromisosCompraVentaImporteCompromisosFirmesVentaExistenciasFinalEjercicio>
+  <pgc07mn:ExistenciasCompromisosCompraVentaImporteContratosFuturosContratosOpcionesExistenciasFinalEjercicio decimals="0" contextRef="Y1i_2007fin_apdo10" unitRef="euro">340</pgc07mn:ExistenciasCompromisosCompraVentaImporteContratosFuturosContratosOpcionesExistenciasFinalEjercicio>
+  <pgc07mn:ExistenciasImporteCorreccionesValorativasDeterioroExistenciasInicioEjercicio decimals="0" contextRef="Y1i_2008inicio_apdo10" unitRef="euro">3000</pgc07mn:ExistenciasImporteCorreccionesValorativasDeterioroExistenciasInicioEjercicio>
+  <pgc07mn:ExistenciasImporteCorreccionesValorativasDeterioroExistenciasFinalEjercicio decimals="0" contextRef="Y1i_2008fin_apdo10" unitRef="euro">5000</pgc07mn:ExistenciasImporteCorreccionesValorativasDeterioroExistenciasFinalEjercicio>
+  <pgc07mn:ExistenciasImporteCorreccionesValorativasDeterioroExistenciasInicioEjercicio decimals="0" contextRef="Y1i_2007inicio_apdo10" unitRef="euro">2500</pgc07mn:ExistenciasImporteCorreccionesValorativasDeterioroExistenciasInicioEjercicio>
+  <pgc07mn:ExistenciasImporteCorreccionesValorativasDeterioroExistenciasFinalEjercicio decimals="0" contextRef="Y1i_2007fin_apdo10" unitRef="euro">3000</pgc07mn:ExistenciasImporteCorreccionesValorativasDeterioroExistenciasFinalEjercicio>
+</xbrli:xbrl>

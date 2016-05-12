@@ -1,0 +1,20 @@
+ABREVIADO
+
+- Módulo gen-ex
+- Módulo rel
+- Módulo eco-bas
+- Módulo dat-inf
+
+LARGO
+
+- Módulo gen-ex
+- Módulo rel
+- Módulo eco-bas
+- Módulo dat-inf
+
+MIXTO
+
+- Módulo gen-ex
+- Módulo rel
+- Módulo eco-bas
+- Módulo dat-inf

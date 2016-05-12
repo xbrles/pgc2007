@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:pgc07a-etcpn="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/patrimonioNeto/B/EstadoTotalCambiosPatrimonioNeto/2009-01-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc07cbs-dpn="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/comunbase/EstadoTotalCambiosPatrimonioNeto/PatrimonioNeto/Dimension/2009-01-01" xmlns:pgc07a-d-pn="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/EstadoTotalCambiosPatrimonioNeto/PatrimonioNeto/Dimension/2009-01-01" xmlns:pgc-07-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/roles/2009-01-01" xmlns:pgc07cbs-dvs="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/comunbase/EstadoTotalCambiosPatrimonioNeto/VariacionSaldo/Dimension/2009-01-01" xmlns:pgc07a-d-vs="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/EstadoTotalCambiosPatrimonioNeto/VariacionSaldo/Dimension/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-abreviado-completo.xsd"/>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoPrimaEmision">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoPrimaEmision</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoResultadoEjerciciosAnteriores">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjerciciosAnteriores</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoOtrasAportacionesSocios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrasAportacionesSocios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoResultadoEjercicio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjercicio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoDividendoCuenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoDividendoCuenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoAjustesCambioValor">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAjustesCambioValor</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoTotalCambios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoTotalCambios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoCapitalEscriturado">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalEscriturado</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoCapitalNoExigido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalNoExigido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoPrimaEmision">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoPrimaEmision</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoResultadoEjerciciosAnteriores">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjerciciosAnteriores</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoOtrasAportacionesSocios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrasAportacionesSocios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoResultadoEjercicio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjercicio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoDividendoCuenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoDividendoCuenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoAjustesCambioValor">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAjustesCambioValor</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoTotalCambios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoTotalCambios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoCapitalEscriturado">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalEscriturado</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoCapitalNoExigido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalNoExigido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoPrimaEmision">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoPrimaEmision</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoResultadoEjerciciosAnteriores">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjerciciosAnteriores</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoOtrasAportacionesSocios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrasAportacionesSocios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoResultadoEjercicio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjercicio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoDividendoCuenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoDividendoCuenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoAjustesCambioValor">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAjustesCambioValor</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoTotalCambios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoTotalCambios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoCapitalEscriturado">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalEscriturado</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoCapitalNoExigido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalNoExigido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoPrimaEmision">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoPrimaEmision</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoResultadoEjerciciosAnteriores">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjerciciosAnteriores</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoOtrasAportacionesSocios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrasAportacionesSocios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoResultadoEjercicio">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoResultadoEjercicio</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoDividendoCuenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoDividendoCuenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoAjustesCambioValor">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoAjustesCambioValor</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoTotalCambios">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoTotalCambios</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoCapitalEscriturado">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalEscriturado</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoCapitalNoExigido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07cbs-dpn:CambiosPatrimonioNetoDimension">pgc07cbs-dpn:CambiosPatrimonioNetoCapitalNoExigido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">23000</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoCapitalNoExigido" unitRef="euro">10</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">25667</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoReservas" unitRef="euro">68167</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias" unitRef="euro">-30</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">-34</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">45</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">25000</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">-20</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">338</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">868</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">35</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoTotalCambios" unitRef="euro">143046</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesCambiosCriterio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoReservas" unitRef="euro">-21</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesCambiosCriterio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesCambiosCriterio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">-9</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesCambiosCriterio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesCambiosCriterio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">-30</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesCambiosCriterio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">19</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoCapitalNoExigido" unitRef="euro">2</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">-7</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoReservas" unitRef="euro">-5</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias" unitRef="euro">-4</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">-6</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">10</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">12</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">-10</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">12</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">14</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">16</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">53</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">23019</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoCapitalNoExigido" unitRef="euro">12</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">25660</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoReservas" unitRef="euro">68141</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias" unitRef="euro">-34</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">-49</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">55</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">25012</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">-30</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">350</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">882</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">51</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoTotalCambios" unitRef="euro">143069</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos decimals="3" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">30332</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">135</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">8</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos decimals="3" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">30475</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosReduccionesCapital decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">-30</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosReduccionesCapital>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosReduccionesCapital decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">-1</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosReduccionesCapital>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosReduccionesCapital decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">-31</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosReduccionesCapital>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosOtrasOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">20</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosOtrasOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosOtrasOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">20</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosOtrasOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoReservas" unitRef="euro">-44</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">-44</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">22959</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoCapitalNoExigido" unitRef="euro">12</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">25658</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoReservas" unitRef="euro">68097</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias" unitRef="euro">-34</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">-49</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">95</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">55344</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">-30</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">350</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">1017</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">59</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="3" contextRef="Y1_2012_etcpn_Instant_CambiosPatrimonioNetoTotalCambios" unitRef="euro">173478</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">22959</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoCapitalNoExigido" unitRef="euro">12</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">25658</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoReservas" unitRef="euro">68097</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias" unitRef="euro">-34</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">-49</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">95</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">55344</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">-30</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">350</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">1017</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">59</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoTotalCambios" unitRef="euro">173478</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesCambiosCriterio decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoReservas" unitRef="euro">-30129</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesCambiosCriterio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesCambiosCriterio decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">-30129</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesCambiosCriterio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">-73</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">-73</pgc07cbs-dvs:VariacionSaldoSaldoInicioEjercicioAjustesErroresEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">22959</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoCapitalNoExigido" unitRef="euro">12</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">25658</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoReservas" unitRef="euro">37968</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias" unitRef="euro">-34</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">-49</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">95</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">55344</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">-103</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">350</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">1017</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">59</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoTotalCambios" unitRef="euro">143276</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">26552</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">19</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">31</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">26602</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioTotalIngresosGastosReconocidos>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">417</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">5</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">798</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">1220</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosAumentosCapital decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">417</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosAumentosCapital>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosAumentosCapital decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">5</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosAumentosCapital>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosAumentosCapital decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">422</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosAumentosCapital>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosOtrasOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">798</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosOtrasOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosOtrasOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">798</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietariosOtrasOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoReservas" unitRef="euro">23717</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">23697</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">23793</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoCapitalNoExigido" unitRef="euro">12</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">25668</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoReservas" unitRef="euro">61685</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias" unitRef="euro">-34</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">-49</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">75</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">81896</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">-103</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">1946</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">1036</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">90</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio decimals="0" contextRef="Y1_2013_etcpn_Instant_CambiosPatrimonioNetoTotalCambios" unitRef="euro">196015</pgc07cbs-dvs:VariacionSaldoSaldoFinalEjercicio>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">-30</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoCapitalNoExigido" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">-1</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoReservas" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">20</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">-11</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoCapitalNoExigido" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoMovimientoReservaRevalorizacion decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoReservas" unitRef="euro">10</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoMovimientoReservaRevalorizacion>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoMovimientoReservaRevalorizacion decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">-10</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoMovimientoReservaRevalorizacion>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoOtrasVariaciones decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoReservas" unitRef="euro">-54</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoOtrasVariaciones>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoOtrasVariaciones decimals="0" contextRef="Y1_2012_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">-34</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoOtrasVariaciones>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoCapitalNoExigido" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoReservas" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoResultadoEjercicio" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOperacionesSociosOperacionesPropietarios>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoCapitalEscriturado" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoCapitalNoExigido" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoPrimaEmision" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoAccionesParticipacionesPatrimonioPropias" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoResultadoEjerciciosAnteriores" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">-20</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoDividendoCuenta" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoOtrosInstrumentosPatrimonioNeto" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoAjustesCambioValor" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoSubvencionesDonacionesLegadosRecibidos" unitRef="euro">0</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNeto>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoMovimientoReservaRevalorizacion decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoReservas" unitRef="euro">20</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoMovimientoReservaRevalorizacion>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoMovimientoReservaRevalorizacion decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">20</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoMovimientoReservaRevalorizacion>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoOtrasVariaciones decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoReservas" unitRef="euro">23697</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoOtrasVariaciones>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoOtrasVariaciones decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoOtrasAportacionesSocios" unitRef="euro">-20</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoOtrasVariaciones>
+  <pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoOtrasVariaciones decimals="0" contextRef="Y1_2013_etcpn_Duration_CambiosPatrimonioNetoTotalCambios" unitRef="euro">23677</pgc07cbs-dvs:VariacionSaldoSaldoAjustadoInicioEjercicioOtrasVariacionesPatrimonioNetoOtrasVariaciones>
+</xbrli:xbrl>

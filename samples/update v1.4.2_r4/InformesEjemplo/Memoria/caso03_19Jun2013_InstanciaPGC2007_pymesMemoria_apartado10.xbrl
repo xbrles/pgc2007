@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:pgc07mp-apdo10="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/pymes/apartado10/IngresosGastos/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc07mc-ap="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/abreviadoPymes/2009-01-01" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc07mp="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/pymes/2009-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-pymes-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mp:IngresosGastosAprovisionamientos decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">32200</pgc07mp:IngresosGastosAprovisionamientos>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasPresentacion decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">16000</pgc07mc-bs:IngresosGastosConsumoMercaderiasPresentacion>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesPresentacion decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">18000</pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesPresentacion>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesNacionales decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">12000</pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesNacionales>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesAdquisicionesIntracomunitarias decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">5000</pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesAdquisicionesIntracomunitarias>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesImporaciones decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">1000</pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesImporaciones>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasVariacionExistenciasMercaderias decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">-2000</pgc07mc-bs:IngresosGastosConsumoMercaderiasVariacionExistenciasMercaderias>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesPresentacion decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">16200</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesPresentacion>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesPresentacion decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">28200</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesPresentacion>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesNacionales decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">25000</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesNacionales>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesAdquisicionesIntracomunitarias decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">3000</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesAdquisicionesIntracomunitarias>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesImporaciones decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">200</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesImporaciones>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesVariacionExistenciasMateriasPrimasOtrasMateriasConsumibles decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">-12000</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesVariacionExistenciasMateriasPrimasOtrasMateriasConsumibles>
+  <pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPresentacion decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">6000</pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPresentacion>
+  <pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPerdidasDeterioroOperacionesComerciales decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">2000</pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPerdidasDeterioroOperacionesComerciales>
+  <pgc07mc-ap:IngresosGastosOtrosGastosExplotacionRestoGastosExplotacion decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">4000</pgc07mc-ap:IngresosGastosOtrosGastosExplotacionRestoGastosExplotacion>
+  <pgc07mc-bs:IngresosGastosImporteVentaBienesPrestacionServiciosProducidosPermutaBienesNoMonetariosServiciosPresentacion decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">5500</pgc07mc-bs:IngresosGastosImporteVentaBienesPrestacionServiciosProducidosPermutaBienesNoMonetariosServiciosPresentacion>
+  <pgc07mc-na:IngresosGastosResultadosOriginadosGueraActividadNormalIncluidosOtrosResultadosPresentacion decimals="0" contextRef="Y1_2013_apdo10" unitRef="euro">2100</pgc07mc-na:IngresosGastosResultadosOriginadosGueraActividadNormalIncluidosOtrosResultadosPresentacion>
+  <pgc07mp:IngresosGastosAprovisionamientos decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">34250</pgc07mp:IngresosGastosAprovisionamientos>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasPresentacion decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">4450</pgc07mc-bs:IngresosGastosConsumoMercaderiasPresentacion>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesPresentacion decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">4800</pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesPresentacion>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesNacionales decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">4000</pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesNacionales>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesAdquisicionesIntracomunitarias decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">500</pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesAdquisicionesIntracomunitarias>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesImporaciones decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">300</pgc07mc-bs:IngresosGastosConsumoMercaderiasComprasMercaderiasNetasDevolucionesCualquierDescuentoCualesImporaciones>
+  <pgc07mc-bs:IngresosGastosConsumoMercaderiasVariacionExistenciasMercaderias decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">-350</pgc07mc-bs:IngresosGastosConsumoMercaderiasVariacionExistenciasMercaderias>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesPresentacion decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">25000</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesPresentacion>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesPresentacion decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">27000</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesPresentacion>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesNacionales decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">22000</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesNacionales>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesAdquisicionesIntracomunitarias decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">4000</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesAdquisicionesIntracomunitarias>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesImporaciones decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">1000</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesComprasMateriasPrimasNetasDevolucionesCualquierDescuentoCualesImporaciones>
+  <pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesVariacionExistenciasMateriasPrimasOtrasMateriasConsumibles decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">-2000</pgc07mc-bs:IngresosGastosConsumoMateriasPrimasOtrasMateriasConsumiblesVariacionExistenciasMateriasPrimasOtrasMateriasConsumibles>
+  <pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPresentacion decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">10500</pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPresentacion>
+  <pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPerdidasDeterioroOperacionesComerciales decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">6000</pgc07mc-ap:IngresosGastosOtrosGastosExplotacionPerdidasDeterioroOperacionesComerciales>
+  <pgc07mc-ap:IngresosGastosOtrosGastosExplotacionRestoGastosExplotacion decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">4500</pgc07mc-ap:IngresosGastosOtrosGastosExplotacionRestoGastosExplotacion>
+  <pgc07mc-bs:IngresosGastosImporteVentaBienesPrestacionServiciosProducidosPermutaBienesNoMonetariosServiciosPresentacion decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">3500</pgc07mc-bs:IngresosGastosImporteVentaBienesPrestacionServiciosProducidosPermutaBienesNoMonetariosServiciosPresentacion>
+  <pgc07mc-na:IngresosGastosResultadosOriginadosGueraActividadNormalIncluidosOtrosResultadosPresentacion decimals="0" contextRef="Y1_2012_apdo10" unitRef="euro">2800</pgc07mc-na:IngresosGastosResultadosOriginadosGueraActividadNormalIncluidosOtrosResultadosPresentacion>
+</xbrli:xbrl>

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.inteco.es/xbrl/pgc07/interfazES"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.inteco.es/xbrl/pgc07/interfazES http://www.inteco.es/xbrl/pgc07/interfazES/pgc07-io-interface.xsd"
+    id="pgc07normal" date="2014-01-28T18:27:27.513+01:00">
+    <entity id="TESTING XBRL ESPAÑA, S.A." uri="http://www.icac.meh.es/xbrl/testing"/>
+    <module id="apartado5" reportingDateStart="2013-01-01"
+        reportingDateEnd="2013-12-31" baseUnit="euro" baseDecimals="0">
+        <item id="905335" sign="+" unit="euro" decimals="0">
+            <value>1000</value>
+        </item>
+        <item id="905354" sign="+" unit="euro" decimals="0">
+            <value>0</value>
+        </item>
+        <item id="905405" sign="+" unit="euro" decimals="0">
+            <value>80000</value>
+        </item>
+        <item id="905303" sign="+" unit="euro" decimals="0">
+            <value>6000</value>
+        </item>
+        <item id="905051" sign="+" unit="euro" decimals="0">
+            <value>230000</value>
+        </item>
+        <item id="905061" sign="+" unit="euro" decimals="0">
+            <value>120000</value>
+        </item>
+        <item id="905052" sign="+" unit="euro" decimals="0">
+            <value>90000</value>
+        </item>
+        <item id="905062" sign="+" unit="euro" decimals="0">
+            <value>60000</value>
+        </item>
+        <item id="905053" sign="+" unit="euro" decimals="0">
+            <value>12000</value>
+        </item>
+        <item id="905063" sign="+" unit="euro" decimals="0">
+            <value>8000</value>
+        </item>
+        <item id="905071" sign="+" unit="euro" decimals="0">
+            <value>80000</value>
+        </item>
+        <item id="905072" sign="+" unit="euro" decimals="0">
+            <value>34000</value>
+        </item>
+        <item id="905073" sign="+" unit="euro" decimals="0">
+            <value>7500</value>
+        </item>
+        <item id="905377" sign="+" unit="euro" decimals="0">
+            <value>7000</value>
+        </item>
+        <item id="905378" sign="+" unit="euro" decimals="0">
+            <value>2000</value>
+        </item>
+        <item id="905382" sign="+" unit="euro" decimals="0">
+            <value>22000</value>
+        </item>
+        <item id="905384" sign="+" unit="euro" decimals="0">
+            <value>53000</value>
+        </item>
+        <item id="905386" sign="+" unit="euro" decimals="0">
+            <value>6000</value>
+        </item>
+        <item id="905390" sign="+" unit="euro" decimals="0">
+            <value>20000</value>
+        </item>
+        <item id="905403" sign="+" unit="euro" decimals="0">
+            <value>60000</value>
+        </item>
+        <item id="905404" sign="+" unit="euro" decimals="0">
+            <value>50000</value>
+        </item>
+        <item id="905081" sign="+" unit="euro" decimals="0">
+            <value>44000</value>
+        </item>
+        <item id="905082" sign="+" unit="euro" decimals="0">
+            <value>10000</value>
+        </item>
+        <item id="905083" sign="+" unit="euro" decimals="0">
+            <value>5000</value>
+        </item>
+    </module>
+    <module id="apartado5b" reportingDateStart="2012-01-01"
+        reportingDateEnd="2012-12-31" baseUnit="euro" baseDecimals="0">
+        <table id="InmovilizadoMaterialDesgloseDimension">
+            <row id="2">
+                <item id="90521" sign="+" unit="euro" decimals="0">
+                    <value>1500</value>
+                </item>
+                <item id="90522" sign="+" unit="euro" decimals="0">
+                    <value>700</value>
+                </item>
+                <item id="90523" sign="+" unit="euro" decimals="0">
+                    <value>200</value>
+                </item>
+                <item id="90524" sign="+" unit="euro" decimals="0">
+                    <value>300</value>
+                </item>
+                <item id="90525" sign="-" unit="euro" decimals="0">
+                    <value>2500</value>
+                </item>
+                <item id="90527" sign="+" unit="euro" decimals="0">
+                    <value>500</value>
+                </item>
+                <item id="90526" sign="-" unit="euro" decimals="0">
+                    <value>250</value>
+                </item>
+                <item id="90511" sign="+" unit="euro" decimals="0">
+                    <value>1080</value>
+                </item>
+                <item id="90512" sign="+" unit="euro" decimals="0">
+                    <value>180</value>
+                </item>
+                <item id="90513" sign="-" unit="euro" decimals="0">
+                    <value>3170</value>
+                </item>
+                <item id="90501" sign="+" unit="euro" decimals="0">
+                    <value>225</value>
+                </item>
+                <item id="90502" sign="-" unit="euro" decimals="0">
+                    <value>72</value>
+                </item>
+                <item id="90503" sign="-" unit="euro" decimals="0">
+                    <value>28</value>
+                </item>
+                <item id="90531" sign="+" unit="euro" decimals="0">
+                    <value>1000</value>
+                </item>
+                <item id="90515" sign="+" unit="euro" decimals="0">
+                    <value>2000</value>
+                </item>
+                <item id="90520" sign="+" unit="euro" decimals="0">
+                    <value>40905</value>
+                </item>
+                <item id="90528" sign="+" unit="euro" decimals="0">
+                    <value>42355</value>
+                </item>
+                <item id="90510" sign="+" unit="euro" decimals="0">
+                    <value>10800</value>
+                </item>
+                <item id="90514" sign="+" unit="euro" decimals="0">
+                    <value>10890</value>
+                </item>
+                <item id="90500" sign="+" unit="euro" decimals="0">
+                    <value>2700</value>
+                </item>
+                <item id="90504" sign="+" unit="euro" decimals="0">
+                    <value>2825</value>
+                </item>
+            </row>
+            <row id="3">
+                <item id="90521" sign="+" unit="euro" decimals="0">
+                    <value>4000</value>
+                </item>
+                <item id="90522" sign="+" unit="euro" decimals="0">
+                    <value>900</value>
+                </item>
+                <item id="90523" sign="+" unit="euro" decimals="0">
+                    <value>2000</value>
+                </item>
+                <item id="90524" sign="+" unit="euro" decimals="0">
+                    <value>22000</value>
+                </item>
+                <item id="90525" sign="-" unit="euro" decimals="0">
+                    <value>17000</value>
+                </item>
+                <item id="90527" sign="-" unit="euro" decimals="0">
+                    <value>700</value>
+                </item>
+                <item id="90526" sign="-" unit="euro" decimals="0">
+                    <value>1000</value>
+                </item>
+                <item id="90511" sign="+" unit="euro" decimals="0">
+                    <value>103700</value>
+                </item>
+                <item id="90512" sign="+" unit="euro" decimals="0">
+                    <value>51000</value>
+                </item>
+                <item id="90513" sign="-" unit="euro" decimals="0">
+                    <value>36500</value>
+                </item>
+                <item id="90501" sign="+" unit="euro" decimals="0">
+                    <value>3825</value>
+                </item>
+                <item id="90502" sign="-" unit="euro" decimals="0">
+                    <value>300</value>
+                </item>
+                <item id="90503" sign="-" unit="euro" decimals="0">
+                    <value>510</value>
+                </item>
+                <item id="90531" sign="+" unit="euro" decimals="0">
+                    <value>1000</value>
+                </item>
+                <item id="90515" sign="+" unit="euro" decimals="0">
+                    <value>11000</value>
+                </item>
+                <item id="90520" sign="+" unit="euro" decimals="0">
+                    <value>518500</value>
+                </item>
+                <item id="90528" sign="+" unit="euro" decimals="0">
+                    <value>529700</value>
+                </item>
+                <item id="90510" sign="+" unit="euro" decimals="0">
+                    <value>110500</value>
+                </item>
+                <item id="90514" sign="+" unit="euro" decimals="0">
+                    <value>239700</value>
+                </item>
+                <item id="90500" sign="+" unit="euro" decimals="0">
+                    <value>59500</value>
+                </item>
+                <item id="90504" sign="+" unit="euro" decimals="0">
+                    <value>62515</value>
+                </item>
+            </row>
+            <row id="4">
+                <item id="90521" sign="+" unit="euro" decimals="0">
+                    <value>2000</value>
+                </item>
+                <item id="90522" sign="+" unit="euro" decimals="0">
+                    <value>12000</value>
+                </item>
+                <item id="90523" sign="+" unit="euro" decimals="0">
+                    <value>0</value>
+                </item>
+                <item id="90524" sign="+" unit="euro" decimals="0">
+                    <value>16000</value>
+                </item>
+                <item id="90525" sign="-" unit="euro" decimals="0">
+                    <value>10000</value>
+                </item>
+                <item id="90527" sign="-" unit="euro" decimals="0">
+                    <value>8000</value>
+                </item>
+                <item id="90526" sign="+" unit="euro" decimals="0">
+                    <value>3000</value>
+                </item>
+                <item id="90531" sign="+" unit="euro" decimals="0">
+                    <value>0</value>
+                </item>
+                <item id="90520" sign="+" unit="euro" decimals="0">
+                    <value>14000</value>
+                </item>
+                <item id="90528" sign="+" unit="euro" decimals="0">
+                    <value>29000</value>
+                </item>
+            </row>
+            <row id="5">
+                <item id="90521" sign="+" unit="euro" decimals="0">
+                    <value>7500</value>
+                </item>
+                <item id="90522" sign="+" unit="euro" decimals="0">
+                    <value>14300</value>
+                </item>
+                <item id="90523" sign="+" unit="euro" decimals="0">
+                    <value>2200</value>
+                </item>
+                <item id="90524" sign="+" unit="euro" decimals="0">
+                    <value>38600</value>
+                </item>
+                <item id="90525" sign="-" unit="euro" decimals="0">
+                    <value>29500</value>
+                </item>
+                <item id="90527" sign="-" unit="euro" decimals="0">
+                    <value>8200</value>
+                </item>
+                <item id="90526" sign="+" unit="euro" decimals="0">
+                    <value>1750</value>
+                </item>
+                <item id="90511" sign="+" unit="euro" decimals="0">
+                    <value>104780</value>
+                </item>
+                <item id="90512" sign="+" unit="euro" decimals="0">
+                    <value>51180</value>
+                </item>
+                <item id="90513" sign="-" unit="euro" decimals="0">
+                    <value>38670</value>
+                </item>
+                <item id="90501" sign="+" unit="euro" decimals="0">
+                    <value>4050</value>
+                </item>
+                <item id="90502" sign="-" unit="euro" decimals="0">
+                    <value>372</value>
+                </item>
+                <item id="90503" sign="-" unit="euro" decimals="0">
+                    <value>538</value>
+                </item>
+                <item id="90531" sign="+" unit="euro" decimals="0">
+                    <value>1000</value>
+                </item>
+                <item id="90515" sign="+" unit="euro" decimals="0">
+                    <value>12000</value>
+                </item>
+                <item id="90520" sign="+" unit="euro" decimals="0">
+                    <value>573405</value>
+                </item>
+                <item id="90528" sign="+" unit="euro" decimals="0">
+                    <value>601055</value>
+                </item>
+                <item id="90510" sign="+" unit="euro" decimals="0">
+                    <value>121300</value>
+                </item>
+                <item id="90514" sign="+" unit="euro" decimals="0">
+                    <value>250590</value>
+                </item>
+                <item id="90500" sign="+" unit="euro" decimals="0">
+                    <value>62200</value>
+                </item>
+                <item id="90504" sign="+" unit="euro" decimals="0">
+                    <value>65340</value>
+                </item>
+            </row>
+        </table>
+    </module>
+    <module id="apartado5b" reportingDateStart="2013-01-01"
+        reportingDateEnd="2013-12-31" baseUnit="euro" baseDecimals="0">
+        <table id="InmovilizadoMaterialDesgloseDimension">
+            <row id="2">
+                <item id="90511" sign="+" unit="euro" decimals="0">
+                    <value>7980</value>
+                </item>
+                <item id="90512" sign="+" unit="euro" decimals="0">
+                    <value>2310</value>
+                </item>
+                <item id="90513" sign="-" unit="euro" decimals="0">
+                    <value>2380</value>
+                </item>
+                <item id="90521" sign="+" unit="euro" decimals="0">
+                    <value>2000</value>
+                </item>
+                <item id="90522" sign="+" unit="euro" decimals="0">
+                    <value>700</value>
+                </item>
+                <item id="90523" sign="+" unit="euro" decimals="0">
+                    <value>200</value>
+                </item>
+                <item id="90524" sign="+" unit="euro" decimals="0">
+                    <value>21890</value>
+                </item>
+                <item id="90525" sign="-" unit="euro" decimals="0">
+                    <value>3700</value>
+                </item>
+                <item id="90527" sign="-" unit="euro" decimals="0">
+                    <value>450</value>
+                </item>
+                <item id="90526" sign="-" unit="euro" decimals="0">
+                    <value>12800</value>
+                </item>
+                <item id="90501" sign="+" unit="euro" decimals="0">
+                    <value>250</value>
+                </item>
+                <item id="90502" sign="-" unit="euro" decimals="0">
+                    <value>80</value>
+                </item>
+                <item id="90503" sign="-" unit="euro" decimals="0">
+                    <value>32</value>
+                </item>
+                <item id="90510" sign="+" unit="euro" decimals="0">
+                    <value>10890</value>
+                </item>
+                <item id="90514" sign="+" unit="euro" decimals="0">
+                    <value>18800</value>
+                </item>
+                <item id="90520" sign="+" unit="euro" decimals="0">
+                    <value>42355</value>
+                </item>
+                <item id="90528" sign="+" unit="euro" decimals="0">
+                    <value>50195</value>
+                </item>
+                <item id="90500" sign="+" unit="euro" decimals="0">
+                    <value>2825</value>
+                </item>
+                <item id="90504" sign="+" unit="euro" decimals="0">
+                    <value>2963</value>
+                </item>
+            </row>
+            <row id="3">
+                <item id="90521" sign="+" unit="euro" decimals="0">
+                    <value>0</value>
+                </item>
+                <item id="90522" sign="+" unit="euro" decimals="0">
+                    <value>1380</value>
+                </item>
+                <item id="90523" sign="+" unit="euro" decimals="0">
+                    <value>2130</value>
+                </item>
+                <item id="90524" sign="+" unit="euro" decimals="0">
+                    <value>33680</value>
+                </item>
+                <item id="90525" sign="-" unit="euro" decimals="0">
+                    <value>7000</value>
+                </item>
+                <item id="90527" sign="+" unit="euro" decimals="0">
+                    <value>590</value>
+                </item>
+                <item id="90526" sign="-" unit="euro" decimals="0">
+                    <value>1230</value>
+                </item>
+                <item id="90511" sign="+" unit="euro" decimals="0">
+                    <value>86000</value>
+                </item>
+                <item id="90512" sign="+" unit="euro" decimals="0">
+                    <value>3000</value>
+                </item>
+                <item id="90513" sign="-" unit="euro" decimals="0">
+                    <value>1000</value>
+                </item>
+                <item id="90503" sign="-" unit="euro" decimals="0">
+                    <value>600</value>
+                </item>
+                <item id="90501" sign="+" unit="euro" decimals="0">
+                    <value>4500</value>
+                </item>
+                <item id="90502" sign="-" unit="euro" decimals="0">
+                    <value>350</value>
+                </item>
+                <item id="90520" sign="+" unit="euro" decimals="0">
+                    <value>529700</value>
+                </item>
+                <item id="90528" sign="+" unit="euro" decimals="0">
+                    <value>559250</value>
+                </item>
+                <item id="90510" sign="+" unit="euro" decimals="0">
+                    <value>239700</value>
+                </item>
+                <item id="90514" sign="+" unit="euro" decimals="0">
+                    <value>327700</value>
+                </item>
+                <item id="90500" sign="+" unit="euro" decimals="0">
+                    <value>62515</value>
+                </item>
+                <item id="90504" sign="+" unit="euro" decimals="0">
+                    <value>66065</value>
+                </item>
+            </row>
+            <row id="4">
+                <item id="90521" sign="+" unit="euro" decimals="0">
+                    <value>2300</value>
+                </item>
+                <item id="90522" sign="+" unit="euro" decimals="0">
+                    <value>4689</value>
+                </item>
+                <item id="90523" sign="+" unit="euro" decimals="0">
+                    <value>569</value>
+                </item>
+                <item id="90524" sign="+" unit="euro" decimals="0">
+                    <value>3470</value>
+                </item>
+                <item id="90525" sign="-" unit="euro" decimals="0">
+                    <value>1200</value>
+                </item>
+                <item id="90527" sign="+" unit="euro" decimals="0">
+                    <value>900</value>
+                </item>
+                <item id="90526" sign="+" unit="euro" decimals="0">
+                    <value>1470</value>
+                </item>
+                <item id="90520" sign="+" unit="euro" decimals="0">
+                    <value>29000</value>
+                </item>
+                <item id="90528" sign="+" unit="euro" decimals="0">
+                    <value>41198</value>
+                </item>
+            </row>
+            <row id="5">
+                <item id="90521" sign="+" unit="euro" decimals="0">
+                    <value>4300</value>
+                </item>
+                <item id="90522" sign="+" unit="euro" decimals="0">
+                    <value>6769</value>
+                </item>
+                <item id="90523" sign="+" unit="euro" decimals="0">
+                    <value>2899</value>
+                </item>
+                <item id="90524" sign="+" unit="euro" decimals="0">
+                    <value>59040</value>
+                </item>
+                <item id="90525" sign="-" unit="euro" decimals="0">
+                    <value>11900</value>
+                </item>
+                <item id="90527" sign="+" unit="euro" decimals="0">
+                    <value>1040</value>
+                </item>
+                <item id="90526" sign="-" unit="euro" decimals="0">
+                    <value>12560</value>
+                </item>
+                <item id="90511" sign="+" unit="euro" decimals="0">
+                    <value>93980</value>
+                </item>
+                <item id="90512" sign="+" unit="euro" decimals="0">
+                    <value>5310</value>
+                </item>
+                <item id="90513" sign="-" unit="euro" decimals="0">
+                    <value>3380</value>
+                </item>
+                <item id="90501" sign="+" unit="euro" decimals="0">
+                    <value>4750</value>
+                </item>
+                <item id="90502" sign="-" unit="euro" decimals="0">
+                    <value>430</value>
+                </item>
+                <item id="90503" sign="-" unit="euro" decimals="0">
+                    <value>632</value>
+                </item>
+                <item id="90520" sign="+" unit="euro" decimals="0">
+                    <value>601055</value>
+                </item>
+                <item id="90528" sign="+" unit="euro" decimals="0">
+                    <value>650643</value>
+                </item>
+                <item id="90510" sign="+" unit="euro" decimals="0">
+                    <value>250590</value>
+                </item>
+                <item id="90514" sign="+" unit="euro" decimals="0">
+                    <value>346500</value>
+                </item>
+                <item id="90500" sign="+" unit="euro" decimals="0">
+                    <value>65340</value>
+                </item>
+                <item id="90504" sign="+" unit="euro" decimals="0">
+                    <value>69028</value>
+                </item>
+            </row>
+        </table>
+    </module>
+    <module id="apartado5" reportingDateStart="2012-01-01"
+        reportingDateEnd="2012-12-31" baseUnit="euro" baseDecimals="0">
+        <item id="905335" sign="+" unit="euro" decimals="0">
+            <value>2500</value>
+        </item>
+        <item id="905354" sign="+" unit="euro" decimals="0">
+            <value>750</value>
+        </item>
+        <item id="905405" sign="+" unit="euro" decimals="0">
+            <value>70000</value>
+        </item>
+        <item id="905303" sign="+" unit="euro" decimals="0">
+            <value>0</value>
+        </item>
+        <item id="905382" sign="+" unit="euro" decimals="0">
+            <value>40000</value>
+        </item>
+        <item id="905384" sign="+" unit="euro" decimals="0">
+            <value>12000</value>
+        </item>
+        <item id="905386" sign="+" unit="euro" decimals="0">
+            <value>8000</value>
+        </item>
+        <item id="905390" sign="+" unit="euro" decimals="0">
+            <value>15000</value>
+        </item>
+        <item id="905403" sign="+" unit="euro" decimals="0">
+            <value>100000</value>
+        </item>
+        <item id="905404" sign="+" unit="euro" decimals="0">
+            <value>60000</value>
+        </item>
+        <item id="905051" sign="+" unit="euro" decimals="0">
+            <value>25000</value>
+        </item>
+        <item id="905062" sign="+" unit="euro" decimals="0">
+            <value>20000</value>
+        </item>
+        <item id="905053" sign="+" unit="euro" decimals="0">
+            <value>15000</value>
+        </item>
+        <item id="905061" sign="+" unit="euro" decimals="0">
+            <value>85000</value>
+        </item>
+        <item id="905052" sign="+" unit="euro" decimals="0">
+            <value>70000</value>
+        </item>
+        <item id="905063" sign="+" unit="euro" decimals="0">
+            <value>8000</value>
+        </item>
+        <item id="905071" sign="+" unit="euro" decimals="0">
+            <value>40000</value>
+        </item>
+        <item id="905072" sign="+" unit="euro" decimals="0">
+            <value>15000</value>
+        </item>
+        <item id="905073" sign="+" unit="euro" decimals="0">
+            <value>2000</value>
+        </item>
+        <item id="905377" sign="+" unit="euro" decimals="0">
+            <value>14000</value>
+        </item>
+        <item id="905378" sign="+" unit="euro" decimals="0">
+            <value>5000</value>
+        </item>
+        <item id="905081" sign="+" unit="euro" decimals="0">
+            <value>3000</value>
+        </item>
+        <item id="905082" sign="+" unit="euro" decimals="0">
+            <value>10000</value>
+        </item>
+        <item id="905083" sign="+" unit="euro" decimals="0">
+            <value>0</value>
+        </item>
+    </module>
+</report>

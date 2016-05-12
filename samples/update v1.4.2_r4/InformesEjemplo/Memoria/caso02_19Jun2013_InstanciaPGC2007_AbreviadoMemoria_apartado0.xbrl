@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:pgc07mc-ap="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/abreviadoPymes/2009-01-01" xmlns:pgc07ma="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/2009-01-01" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:dgi-gen-bas="http://www.xbrl.org.es/es/2008/dgi/gp/gen-bas/2011-01-30" xmlns:dgi-lc-int="http://www.xbrl.org.es/es/2008/dgi/gp/lc-int/2011-01-30" xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2008/dgi/gp/lc-es/2011-01-30" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc07mc-apdo0="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/apartado0/IdentificacionGeneral/2009-01-01" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:dgi-eco-bas="http://www.xbrl.org.es/es/2008/dgi/gp/eco-bas/2011-01-30" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dgi-types="http://www.xbrl.org.es/es/2008/dgi/gp/types/2011-01-30" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dgi-cnae-09="http://www.xbrl.org.es/es/2008/dgi/gp/lc-cnae-2009/2011-01-30" xmlns:dgi-rel="http://www.xbrl.org.es/es/2008/dgi/gp/rel/2011-01-30" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2008/dgi/gp/est-gen/2011-01-30" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:pgc07ma-apdo0="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado0/IdentificacionGeneral/2009-01-01" xmlns:dgi-gen-ex="http://www.xbrl.org.es/es/2008/dgi/gp/gen-ex/2011-01-30" xmlns:dgi-dat-inf="http://www.xbrl.org.es/es/2008/dgi/gp/dat-inf/2011-01-30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-abreviado-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo0">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo0">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/testing">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>  
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mc-apdo0:IdentificacionEmpresaTupla>
+    <dgi-lc-es:Xcode_IDC.NIF contextRef="Y1_2013_apdo0">NIF</dgi-lc-es:Xcode_IDC.NIF>
+    <dgi-est-gen:IdentifierValue contextRef="Y1_2013_apdo0">A 1234567</dgi-est-gen:IdentifierValue>
+    <dgi-lc-es:Xcode_LFC.001 contextRef="Y1_2013_apdo0">001</dgi-lc-es:Xcode_LFC.001>
+    <dgi-lc-es:Xcode_NMT.DS contextRef="Y1_2013_apdo0">DS</dgi-lc-es:Xcode_NMT.DS>
+    <dgi-est-gen:LegalNameValue contextRef="Y1_2013_apdo0">PRUEBA XBRL S.A.</dgi-est-gen:LegalNameValue>
+    <dgi-lc-es:Xcode_ADL.01 contextRef="Y1_2013_apdo0">01</dgi-lc-es:Xcode_ADL.01>
+    <dgi-est-gen:AddressLine contextRef="Y1_2013_apdo0">Calle Somera </dgi-est-gen:AddressLine>
+    <dgi-est-gen:MunicipalityName contextRef="Y1_2013_apdo0">Valdegeña</dgi-est-gen:MunicipalityName>
+    <dgi-lc-es:Xcode_RCI.42 contextRef="Y1_2013_apdo0">42</dgi-lc-es:Xcode_RCI.42>
+    <dgi-est-gen:ZipPostalCode contextRef="Y1_2013_apdo0">42111</dgi-est-gen:ZipPostalCode>
+    <dgi-lc-int:Xcode_UN3155.EM contextRef="Y1_2013_apdo0">EM</dgi-lc-int:Xcode_UN3155.EM>
+    <pgc07mc-apdo0:CommunicationValueEMail contextRef="Y1_2013_apdo0">pruebaxbrl@prueba.xbrl.es</pgc07mc-apdo0:CommunicationValueEMail>
+ </pgc07mc-apdo0:IdentificacionEmpresaTupla>
+  <pgc07mc-apdo0:PertenenciaGrupoSociedadesTupla>
+    <pgc07mc-apdo0:SociedadesDominanteUltimaTupla>
+      <dgi-lc-es:Xcode_PET.04 contextRef="Y1_2013_apdo0">04</dgi-lc-es:Xcode_PET.04>
+      <pgc07mc-apdo0:IdentificacionSociedadTupla>
+        <dgi-lc-es:Xcode_NMT.DS contextRef="Y1_2013_apdo0">DS</dgi-lc-es:Xcode_NMT.DS>
+        <dgi-est-gen:LegalNameValue contextRef="Y1_2013_apdo0">TESTING XBRL LTD.</dgi-est-gen:LegalNameValue>
+      </pgc07mc-apdo0:IdentificacionSociedadTupla>
+    </pgc07mc-apdo0:SociedadesDominanteUltimaTupla>
+    <pgc07mc-apdo0:SociedadesDominanteDirectaTupla>
+      <dgi-lc-es:Xcode_PET.03 contextRef="Y1_2013_apdo0">03</dgi-lc-es:Xcode_PET.03>
+      <pgc07mc-apdo0:IdentificacionSociedadTupla>
+        <dgi-lc-es:Xcode_IDC.NIF contextRef="Y1_2013_apdo0">NIF</dgi-lc-es:Xcode_IDC.NIF>
+        <dgi-est-gen:IdentifierValue contextRef="Y1_2013_apdo0">A 22222222</dgi-est-gen:IdentifierValue>
+        <dgi-lc-es:Xcode_NMT.DS contextRef="Y1_2013_apdo0">DS</dgi-lc-es:Xcode_NMT.DS>
+        <dgi-est-gen:LegalNameValue contextRef="Y1_2013_apdo0">TESTING XBRL ESPAÑA, S.A.</dgi-est-gen:LegalNameValue>
+      </pgc07mc-apdo0:IdentificacionSociedadTupla>
+    </pgc07mc-apdo0:SociedadesDominanteDirectaTupla>
+  </pgc07mc-apdo0:PertenenciaGrupoSociedadesTupla>
+  <pgc07mc-apdo0:ActividadTupla>
+    <dgi-eco-bas:ActivityDescription contextRef="Y1_2013_apdo0">Servicios informáticos</dgi-eco-bas:ActivityDescription>
+  </pgc07mc-apdo0:ActividadTupla>
+
+
+    <pgc07mc-apdo0:PersonalAsalariadoTupla>
+    <pgc07mc-apdo0:NumeroMediopersonasEmpleadasCursoEjercicioTipoContratoEmpleoDiscapacidad>
+      <dgi-eco-bas:PermanentContractTotal decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">180</dgi-eco-bas:PermanentContractTotal>
+      <dgi-eco-bas:TemporaryContractTotal decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">25</dgi-eco-bas:TemporaryContractTotal>
+      <dgi-eco-bas:EmployeesDisabilityLevelHigher33Total decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">2</dgi-eco-bas:EmployeesDisabilityLevelHigher33Total>
+    </pgc07mc-apdo0:NumeroMediopersonasEmpleadasCursoEjercicioTipoContratoEmpleoDiscapacidad>
+    <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoSexo>
+      <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoFijo>
+          <dgi-eco-bas:Male decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">75</dgi-eco-bas:Male>
+          <dgi-eco-bas:Female decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">18</dgi-eco-bas:Female>
+      </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoFijo>
+      <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoNoFijo>
+          <dgi-eco-bas:Male decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">9</dgi-eco-bas:Male>
+          <dgi-eco-bas:Female decimals="0" contextRef="Y1_2012_apdo0" unitRef="pure">84</dgi-eco-bas:Female>
+      </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoNoFijo>
+    </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoSexo>
+  </pgc07mc-apdo0:PersonalAsalariadoTupla>
+
+  <pgc07mc-apdo0:PersonalAsalariadoTupla>
+    <pgc07mc-apdo0:NumeroMediopersonasEmpleadasCursoEjercicioTipoContratoEmpleoDiscapacidad>
+      <dgi-eco-bas:PermanentContractTotal decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">120</dgi-eco-bas:PermanentContractTotal>
+      <dgi-eco-bas:TemporaryContractTotal decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">20</dgi-eco-bas:TemporaryContractTotal>
+      <dgi-eco-bas:EmployeesDisabilityLevelHigher33Total decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">3</dgi-eco-bas:EmployeesDisabilityLevelHigher33Total>
+    </pgc07mc-apdo0:NumeroMediopersonasEmpleadasCursoEjercicioTipoContratoEmpleoDiscapacidad>
+    <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoSexo>
+      <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoFijo>
+          <dgi-eco-bas:Male decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">80</dgi-eco-bas:Male>
+          <dgi-eco-bas:Female decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">20</dgi-eco-bas:Female>
+      </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoFijo>
+      <pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoNoFijo>
+          <dgi-eco-bas:Male decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">10</dgi-eco-bas:Male>
+          <dgi-eco-bas:Female decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">15</dgi-eco-bas:Female>
+      </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoNoFijo>
+    </pgc07mc-apdo0:PersonalAsalariadoTerminoEjercicioTipoContratoSexo>
+  </pgc07mc-apdo0:PersonalAsalariadoTupla>
+
+
+
+
+  <pgc07mc-apdo0:PresentacionCuentasTupla>
+    <pgc07mc-apdo0:YearFechaInicioCuentas contextRef="Y1_2013_apdo0">2013</pgc07mc-apdo0:YearFechaInicioCuentas>
+    <pgc07mc-apdo0:MonthFechaInicioCuentas contextRef="Y1_2013_apdo0">01</pgc07mc-apdo0:MonthFechaInicioCuentas>
+    <pgc07mc-apdo0:DayFechaInicioCuentas contextRef="Y1_2013_apdo0">01</pgc07mc-apdo0:DayFechaInicioCuentas>
+    <pgc07mc-apdo0:YearFechaCierreCuentas contextRef="Y1_2013_apdo0">2013</pgc07mc-apdo0:YearFechaCierreCuentas>
+    <pgc07mc-apdo0:MonthFechaCierreCuentas contextRef="Y1_2013_apdo0">12</pgc07mc-apdo0:MonthFechaCierreCuentas>
+    <pgc07mc-apdo0:DayFechaCierreCuentas contextRef="Y1_2013_apdo0">31</pgc07mc-apdo0:DayFechaCierreCuentas>
+    <dgi-dat-inf:TotalPagesPresented decimals="0" contextRef="Y1_2013_apdo0" unitRef="pure">2</dgi-dat-inf:TotalPagesPresented>
+  </pgc07mc-apdo0:PresentacionCuentasTupla>
+  <pgc07mc-apdo0:UnidadesTupla>
+    <dgi-lc-es:Xcode_COT.02 contextRef="Y1_2013_apdo0">02</dgi-lc-es:Xcode_COT.02>
+  </pgc07mc-apdo0:UnidadesTupla>
+</xbrli:xbrl>

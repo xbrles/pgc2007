@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07mn-apdo23="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/apartado23/OperacionesPartesVinculadas/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc07mn-d-pv="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/PartesVinculadas/Dimension/2009-01-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:pgc07m-d-pv="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/PartesVinculadas/Dimension/2009-01-01" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pgc07mn="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/2009-01-01">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-normal-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Duration_OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasDimension">pgc07m-d-pv:OperacionesPartesVinculadasPartesVinculadasOtrasPartesVinculadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">14600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">7100</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">4650</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">8850</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">7390</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">6300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">4000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">2400</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">1500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">2500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">2000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">2150</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">2100</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">1600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1550</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1890</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1050</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">7000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">2000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">450</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">2100</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">1600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">15840</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">12630</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">10540</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">8390</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">11800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">12800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">15840</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">12630</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">10540</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">8390</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">11800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">12800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">5000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">3000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">3000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">6200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">5300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">3200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">2150</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">2100</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">2800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">3600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">2190</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">3400</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">2300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">2200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1050</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1340</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">1230</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">1040</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">4000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">5700</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1400</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">4500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">7600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">7000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">6000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">6000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">16700</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">12650</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">13100</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">16780</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">6900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1400</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">4500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">7600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">7000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">6000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">350</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">700</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1400</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">350</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1400</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">3000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2012_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">1300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">16740</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">6830</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">2750</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">7800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">10500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">12100</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoObligacionesOtrosValoresNegociables>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">5000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">3000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">3000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">2150</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoAcreedoresArrendamientoFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">7000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">2000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">450</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">2100</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">1600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudasLargoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1050</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">2340</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">1230</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">700</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">4000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">5700</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoNoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">350</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1400</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">3000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">1300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorriente>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">20740</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">11830</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">10940</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">7800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">10500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">12100</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoEntidadesCredito>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">5000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">3000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">3000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">6200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">5300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">3200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">2150</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudasCortoPlazoDerivados>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">7000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">2000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">4000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">2100</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">1600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteDeudaCaracteristicasEspeciales>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">2200</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1050</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">1300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">900</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteOtrosPasivosFinancieros>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1340</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">1230</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">1040</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">1500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">4000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">5700</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresLargoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1400</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">4500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">7600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">7000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">6000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresComercialesOtrasCuentasPagarProveedoresCortoPlazo>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">13600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">28500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">16800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">20000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">20880</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">10400</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAcreedoresVarios>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">1400</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">4500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">7600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">7000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">6000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">300</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrientePersonal>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEntidadDominante" unitRef="euro">8800</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtrasEmpresasGrupo" unitRef="euro">9000</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasNegociosConjuntosEmpresaParticipe" unitRef="euro">4500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasAsociadas" unitRef="euro">7600</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasEmpresasControlConjuntoInfluenciaSignificativaEmpresa" unitRef="euro">5500</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+  <pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes decimals="0" contextRef="Y1_2013_apdo23_Instant_OperacionesPartesVinculadasPartesVinculadasOtroPersonalAltaDireccionEmpresaEntidadDominante" unitRef="euro">3100</pgc07mc-bs:OperacionesPartesVinculadasIngresosGastosSaldosPendientesPartesVinculadasPasivoCorrienteAnticiposClientes>
+</xbrli:xbrl>

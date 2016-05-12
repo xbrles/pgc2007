@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.inteco.es/xbrl/pgc07/interfazES"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.inteco.es/xbrl/pgc07/interfazES http://www.inteco.es/xbrl/pgc07/interfazES/pgc07-io-interface.xsd"
+    id="pgc07abreviado" date="2013-08-28T10:54:40.664+02:00">
+    <entity id="TESTING XBRL ESPAÑA, S.A." uri="http://www.icac.meh.es/xbrl/test"/>
+    <module id="patnetA" reportingDateStart="2013-01-01"
+        reportingDateEnd="2013-12-31" baseUnit="euro" baseDecimals="0">
+        <item id="59100" sign="+" unit="euro" decimals="0">
+            <value>26593</value>
+        </item>
+        <item id="50010" sign="+" unit="euro" decimals="0">
+            <value>106</value>
+        </item>
+        <item id="50020" sign="+" unit="euro" decimals="0">
+            <value>436</value>
+        </item>
+        <item id="50030" sign="+" unit="euro" decimals="0">
+            <value>34</value>
+        </item>
+        <item id="50040" sign="+" unit="euro" decimals="0">
+            <value>23</value>
+        </item>
+        <item id="50050" sign="+" unit="euro" decimals="0">
+            <value>10</value>
+        </item>
+        <item id="50060" sign="+" unit="euro" decimals="0">
+            <value>63</value>
+        </item>
+        <item id="50070" sign="-" unit="euro" decimals="0">
+            <value>177</value>
+        </item>
+        <item id="59200" sign="+" unit="euro" decimals="0">
+            <value>495</value>
+        </item>
+        <item id="50080" sign="-" unit="euro" decimals="0">
+            <value>90</value>
+        </item>
+        <item id="50090" sign="-" unit="euro" decimals="0">
+            <value>500</value>
+        </item>
+        <item id="50100" sign="-" unit="euro" decimals="0">
+            <value>3</value>
+        </item>
+        <item id="50110" sign="-" unit="euro" decimals="0">
+            <value>6</value>
+        </item>
+        <item id="50120" sign="+" unit="euro" decimals="0">
+            <value>4</value>
+        </item>
+        <item id="50130" sign="+" unit="euro" decimals="0">
+            <value>150</value>
+        </item>
+        <item id="59300" sign="-" unit="euro" decimals="0">
+            <value>445</value>
+        </item>
+        <item id="59400" sign="+" unit="euro" decimals="0">
+            <value>26643</value>
+        </item>
+    </module>
+    <module id="patnetB" reportingDateStart="2012-01-01"
+        reportingDateEnd="2012-12-31" baseUnit="euro" baseDecimals="-3">
+        <table id="CambiosPatrimonioNetoDimension">
+            <row id="01">
+                <item id="513" sign="+" unit="euro" decimals="-3">
+                    <value>19000</value>
+                </item>
+                <item id="518" sign="-" unit="euro" decimals="-3">
+                    <value>30000</value>
+                </item>
+                <item id="516" sign="-" unit="euro" decimals="-3">
+                    <value>30000</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>23000000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>23019000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>22989000</value>
+                </item>
+            </row>
+            <row id="02">
+                <item id="513" sign="+" unit="euro" decimals="-3">
+                    <value>2000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>10000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>12000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>12000</value>
+                </item>
+            </row>
+            <row id="03">
+                <item id="513" sign="-" unit="euro" decimals="-3">
+                    <value>7000</value>
+                </item>
+                <item id="518" sign="-" unit="euro" decimals="-3">
+                    <value>1000</value>
+                </item>
+                <item id="516" sign="-" unit="euro" decimals="-3">
+                    <value>1000</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>25667000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>25660000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>25659000</value>
+                </item>
+            </row>
+            <row id="04">
+                <item id="512" sign="-" unit="euro" decimals="-3">
+                    <value>21000</value>
+                </item>
+                <item id="513" sign="-" unit="euro" decimals="-3">
+                    <value>5000</value>
+                </item>
+                <item id="524" sign="-" unit="euro" decimals="-3">
+                    <value>44000</value>
+                </item>
+                <item id="531" sign="+" unit="euro" decimals="-3">
+                    <value>10000</value>
+                </item>
+                <item id="532" sign="-" unit="euro" decimals="-3">
+                    <value>54000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>68167000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>68141000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>68097000</value>
+                </item>
+            </row>
+            <row id="05">
+                <item id="513" sign="-" unit="euro" decimals="-3">
+                    <value>4000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="-" unit="euro" decimals="-3">
+                    <value>30000</value>
+                </item>
+                <item id="514" sign="-" unit="euro" decimals="-3">
+                    <value>34000</value>
+                </item>
+                <item id="525" sign="-" unit="euro" decimals="-3">
+                    <value>34000</value>
+                </item>
+            </row>
+            <row id="06">
+                <item id="512" sign="-" unit="euro" decimals="-3">
+                    <value>9000</value>
+                </item>
+                <item id="513" sign="-" unit="euro" decimals="-3">
+                    <value>6000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="-" unit="euro" decimals="-3">
+                    <value>34000</value>
+                </item>
+                <item id="514" sign="-" unit="euro" decimals="-3">
+                    <value>49000</value>
+                </item>
+                <item id="525" sign="-" unit="euro" decimals="-3">
+                    <value>49000</value>
+                </item>
+            </row>
+            <row id="07">
+                <item id="513" sign="+" unit="euro" decimals="-3">
+                    <value>10000</value>
+                </item>
+                <item id="526" sign="+" unit="euro" decimals="-3">
+                    <value>20000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>20000</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>45000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>55000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>75000</value>
+                </item>
+            </row>
+            <row id="08">
+                <item id="513" sign="+" unit="euro" decimals="-3">
+                    <value>12000</value>
+                </item>
+                <item id="515" sign="+" unit="euro" decimals="-3">
+                    <value>30332000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>25000000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>25012000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>55344000</value>
+                </item>
+            </row>
+            <row id="09">
+                <item id="513" sign="-" unit="euro" decimals="-3">
+                    <value>10000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="-" unit="euro" decimals="-3">
+                    <value>20000</value>
+                </item>
+                <item id="514" sign="-" unit="euro" decimals="-3">
+                    <value>30000</value>
+                </item>
+                <item id="525" sign="-" unit="euro" decimals="-3">
+                    <value>30000</value>
+                </item>
+            </row>
+            <row id="10">
+                <item id="513" sign="+" unit="euro" decimals="-3">
+                    <value>12000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>338000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>350000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>350000</value>
+                </item>
+            </row>
+            <row id="11">
+                <item id="513" sign="+" unit="euro" decimals="-3">
+                    <value>14000</value>
+                </item>
+                <item id="515" sign="+" unit="euro" decimals="-3">
+                    <value>135000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>868000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>882000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>1017000</value>
+                </item>
+            </row>
+            <row id="12">
+                <item id="513" sign="+" unit="euro" decimals="-3">
+                    <value>16000</value>
+                </item>
+                <item id="515" sign="+" unit="euro" decimals="-3">
+                    <value>8000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>35000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>51000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>59000</value>
+                </item>
+            </row>
+            <row id="13">
+                <item id="512" sign="-" unit="euro" decimals="-3">
+                    <value>30000</value>
+                </item>
+                <item id="513" sign="+" unit="euro" decimals="-3">
+                    <value>53000</value>
+                </item>
+                <item id="515" sign="+" unit="euro" decimals="-3">
+                    <value>30475000</value>
+                </item>
+                <item id="518" sign="-" unit="euro" decimals="-3">
+                    <value>31000</value>
+                </item>
+                <item id="526" sign="+" unit="euro" decimals="-3">
+                    <value>20000</value>
+                </item>
+                <item id="524" sign="-" unit="euro" decimals="-3">
+                    <value>44000</value>
+                </item>
+                <item id="531" sign="-" unit="euro" decimals="-3">
+                    <value>10000</value>
+                </item>
+                <item id="532" sign="-" unit="euro" decimals="-3">
+                    <value>34000</value>
+                </item>
+                <item id="516" sign="-" unit="euro" decimals="-3">
+                    <value>11000</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>143046000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>143069000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>173489000</value>
+                </item>
+            </row>
+        </table>
+    </module>
+    <module id="pyg" reportingDateStart="2012-01-01"
+        reportingDateEnd="2012-12-31" baseUnit="euro" baseDecimals="0">
+        <item id="40100" sign="+" unit="euro" decimals="0">
+            <value>151840</value>
+        </item>
+        <item id="40200" sign="+" unit="euro" decimals="0">
+            <value>2118</value>
+        </item>
+        <item id="40300" sign="+" unit="euro" decimals="0">
+            <value>8</value>
+        </item>
+        <item id="40400" sign="-" unit="euro" decimals="0">
+            <value>85343</value>
+        </item>
+        <item id="40500" sign="+" unit="euro" decimals="0">
+            <value>1421</value>
+        </item>
+        <item id="40600" sign="-" unit="euro" decimals="0">
+            <value>11655</value>
+        </item>
+        <item id="40700" sign="-" unit="euro" decimals="0">
+            <value>9803</value>
+        </item>
+        <item id="40800" sign="-" unit="euro" decimals="0">
+            <value>13878</value>
+        </item>
+        <item id="40900" sign="+" unit="euro" decimals="0">
+            <value>22</value>
+        </item>
+        <item id="41000" sign="+" unit="euro" decimals="0">
+            <value>17</value>
+        </item>
+        <item id="41100" sign="+" unit="euro" decimals="0">
+            <value>22</value>
+        </item>
+        <item id="41200" sign="+" unit="euro" decimals="0">
+            <value>22</value>
+        </item>
+        <item id="41300" sign="-" unit="euro" decimals="0">
+            <value>14</value>
+        </item>
+        <item id="49100" sign="+" unit="euro" decimals="0">
+            <value>34777</value>
+        </item>
+        <item id="41400" sign="+" unit="euro" decimals="0">
+            <value>13507</value>
+        </item>
+        <item id="41500" sign="-" unit="euro" decimals="0">
+            <value>6046</value>
+        </item>
+        <item id="41600" sign="+" unit="euro" decimals="0">
+            <value>88</value>
+        </item>
+        <item id="41700" sign="-" unit="euro" decimals="0">
+            <value>117</value>
+        </item>
+        <item id="41800" sign="-" unit="euro" decimals="0">
+            <value>76</value>
+        </item>
+        <item id="49200" sign="+" unit="euro" decimals="0">
+            <value>7403</value>
+        </item>
+        <item id="49300" sign="+" unit="euro" decimals="0">
+            <value>42180</value>
+        </item>
+        <item id="41900" sign="-" unit="euro" decimals="0">
+            <value>11801</value>
+        </item>
+        <item id="49500" sign="+" unit="euro" decimals="0">
+            <value>30379</value>
+        </item>
+        <item id="41430" sign="+" unit="euro" decimals="0">
+            <value>10009</value>
+        </item>
+        <item id="41490" sign="+" unit="euro" decimals="0">
+            <value>3498</value>
+        </item>
+        <item id="42110" sign="+" unit="euro" decimals="0">
+            <value>17</value>
+        </item>
+        <item id="42120" sign="+" unit="euro" decimals="0">
+            <value>14</value>
+        </item>
+        <item id="42130" sign="+" unit="euro" decimals="0">
+            <value>16</value>
+        </item>
+        <item id="42100" sign="+" unit="euro" decimals="0">
+            <value>47</value>
+        </item>
+    </module>
+    <module id="patnetB" reportingDateStart="2013-01-01"
+        reportingDateEnd="2013-12-31" baseUnit="euro" baseDecimals="-3">
+        <table id="CambiosPatrimonioNetoDimension">
+            <row id="01">
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>417000</value>
+                </item>
+                <item id="517" sign="+" unit="euro" decimals="-3">
+                    <value>417000</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>22959000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>22959000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>23793000</value>
+                </item>
+            </row>
+            <row id="02">
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>12000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>12000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>12000</value>
+                </item>
+            </row>
+            <row id="03">
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>5000</value>
+                </item>
+                <item id="517" sign="+" unit="euro" decimals="-3">
+                    <value>5000</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>25658000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>25658000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>25668000</value>
+                </item>
+            </row>
+            <row id="04">
+                <item id="512" sign="-" unit="euro" decimals="-3">
+                    <value>30129000</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>23717000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="531" sign="+" unit="euro" decimals="-3">
+                    <value>20000</value>
+                </item>
+                <item id="532" sign="+" unit="euro" decimals="-3">
+                    <value>23697000</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>68097000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>37968000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>61685000</value>
+                </item>
+            </row>
+            <row id="05">
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="-" unit="euro" decimals="-3">
+                    <value>34000</value>
+                </item>
+                <item id="514" sign="-" unit="euro" decimals="-3">
+                    <value>34000</value>
+                </item>
+                <item id="525" sign="-" unit="euro" decimals="-3">
+                    <value>34000</value>
+                </item>
+            </row>
+            <row id="06">
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="-" unit="euro" decimals="-3">
+                    <value>49000</value>
+                </item>
+                <item id="514" sign="-" unit="euro" decimals="-3">
+                    <value>49000</value>
+                </item>
+                <item id="525" sign="-" unit="euro" decimals="-3">
+                    <value>49000</value>
+                </item>
+            </row>
+            <row id="07">
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="-" unit="euro" decimals="-3">
+                    <value>20000</value>
+                </item>
+                <item id="532" sign="-" unit="euro" decimals="-3">
+                    <value>20000</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>95000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>95000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>75000</value>
+                </item>
+            </row>
+            <row id="08">
+                <item id="515" sign="+" unit="euro" decimals="-3">
+                    <value>26552000</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="0">
+                    <value>0</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>55344000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>55344000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>81896000</value>
+                </item>
+            </row>
+            <row id="09">
+                <item id="513" sign="-" unit="euro" decimals="-3">
+                    <value>73000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="-" unit="euro" decimals="-3">
+                    <value>30000</value>
+                </item>
+                <item id="514" sign="-" unit="euro" decimals="-3">
+                    <value>103000</value>
+                </item>
+                <item id="525" sign="-" unit="euro" decimals="-3">
+                    <value>103000</value>
+                </item>
+            </row>
+            <row id="10">
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>798000</value>
+                </item>
+                <item id="526" sign="+" unit="euro" decimals="-3">
+                    <value>798000</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>350000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>350000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>1946000</value>
+                </item>
+            </row>
+            <row id="11">
+                <item id="515" sign="+" unit="euro" decimals="-3">
+                    <value>19000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>1017000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>1017000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>1036000</value>
+                </item>
+            </row>
+            <row id="12">
+                <item id="515" sign="+" unit="euro" decimals="-3">
+                    <value>31000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>0</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>59000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>59000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>90000</value>
+                </item>
+            </row>
+            <row id="13">
+                <item id="512" sign="-" unit="euro" decimals="-3">
+                    <value>30129000</value>
+                </item>
+                <item id="513" sign="-" unit="euro" decimals="-3">
+                    <value>73000</value>
+                </item>
+                <item id="515" sign="+" unit="euro" decimals="-3">
+                    <value>26602000</value>
+                </item>
+                <item id="516" sign="+" unit="euro" decimals="-3">
+                    <value>1220000</value>
+                </item>
+                <item id="517" sign="+" unit="euro" decimals="-3">
+                    <value>422000</value>
+                </item>
+                <item id="526" sign="+" unit="euro" decimals="-3">
+                    <value>798000</value>
+                </item>
+                <item id="524" sign="+" unit="euro" decimals="-3">
+                    <value>23697000</value>
+                </item>
+                <item id="531" sign="+" unit="euro" decimals="-3">
+                    <value>20000</value>
+                </item>
+                <item id="532" sign="+" unit="euro" decimals="-3">
+                    <value>23677000</value>
+                </item>
+                <item id="511" sign="+" unit="euro" decimals="-3">
+                    <value>173478000</value>
+                </item>
+                <item id="514" sign="+" unit="euro" decimals="-3">
+                    <value>143276000</value>
+                </item>
+                <item id="525" sign="+" unit="euro" decimals="-3">
+                    <value>196015000</value>
+                </item>
+            </row>
+        </table>
+    </module>
+    <module id="apartado14" reportingDateStart="2013-01-01"
+        reportingDateEnd="2013-12-31" baseUnit="euro" baseDecimals="0">
+        <item id="99002" sign="+" unit="euro" decimals="0">
+            <value>34</value>
+        </item>
+        <item id="99004" sign="+" unit="euro" decimals="0">
+            <value>720</value>
+        </item>
+        <item id="99006" sign="+" unit="euro" decimals="0">
+            <value>60</value>
+        </item>
+        <item id="99007" sign="-" unit="euro" decimals="0">
+            <value>66</value>
+        </item>
+        <item id="99008" sign="+" unit="euro" decimals="0">
+            <value>10</value>
+        </item>
+        <item id="99009" sign="+" unit="euro" decimals="0">
+            <value>34</value>
+        </item>
+        <item id="99010" sign="-" unit="euro" decimals="0">
+            <value>12</value>
+        </item>
+        <item id="99011" sign="-" unit="euro" decimals="0">
+            <value>12</value>
+        </item>
+        <item id="99014" sign="+" unit="euro" decimals="0">
+            <value>350</value>
+        </item>
+        <item id="99013" sign="+" unit="euro" decimals="0">
+            <value>50</value>
+        </item>
+        <item id="99000" sign="+" unit="euro" decimals="0">
+            <value>4800</value>
+        </item>
+        <item id="99001" sign="+" unit="euro" decimals="0">
+            <value>2360</value>
+        </item>
+        <item id="99003" sign="+" unit="euro" decimals="0">
+            <value>150</value>
+        </item>
+        <item id="99005" sign="+" unit="euro" decimals="0">
+            <value>536</value>
+        </item>
+        <item id="99012" sign="+" unit="euro" decimals="0">
+            <value>540</value>
+        </item>
+        <item id="99015" sign="+" unit="euro" decimals="0">
+            <value>50</value>
+        </item>
+    </module>
+    <module id="apartado14" reportingDateStart="2012-01-01"
+        reportingDateEnd="2012-12-31" baseUnit="euro" baseDecimals="0">
+        <item id="99002" sign="+" unit="euro" decimals="0">
+            <value>34</value>
+        </item>
+        <item id="99004" sign="+" unit="euro" decimals="0">
+            <value>670</value>
+        </item>
+        <item id="99006" sign="+" unit="euro" decimals="0">
+            <value>60</value>
+        </item>
+        <item id="99007" sign="-" unit="euro" decimals="0">
+            <value>51</value>
+        </item>
+        <item id="99008" sign="-" unit="euro" decimals="0">
+            <value>33</value>
+        </item>
+        <item id="99009" sign="-" unit="euro" decimals="0">
+            <value>54</value>
+        </item>
+        <item id="99010" sign="+" unit="euro" decimals="0">
+            <value>43</value>
+        </item>
+        <item id="99011" sign="-" unit="euro" decimals="0">
+            <value>22</value>
+        </item>
+        <item id="99013" sign="+" unit="euro" decimals="0">
+            <value>24</value>
+        </item>
+        <item id="99014" sign="+" unit="euro" decimals="0">
+            <value>300</value>
+        </item>
+        <item id="99000" sign="+" unit="euro" decimals="0">
+            <value>4500</value>
+        </item>
+        <item id="99001" sign="+" unit="euro" decimals="0">
+            <value>2300</value>
+        </item>
+        <item id="99003" sign="+" unit="euro" decimals="0">
+            <value>150</value>
+        </item>
+        <item id="99005" sign="+" unit="euro" decimals="0">
+            <value>560</value>
+        </item>
+        <item id="99012" sign="+" unit="euro" decimals="0">
+            <value>536</value>
+        </item>
+        <item id="99015" sign="+" unit="euro" decimals="0">
+            <value>24</value>
+        </item>
+    </module>
+    <module id="pyg" reportingDateStart="2013-01-01"
+        reportingDateEnd="2013-12-31" baseUnit="euro" baseDecimals="0">
+        <item id="40100" sign="+" unit="euro" decimals="0">
+            <value>140918</value>
+        </item>
+        <item id="40200" sign="-" unit="euro" decimals="0">
+            <value>7122</value>
+        </item>
+        <item id="40300" sign="+" unit="euro" decimals="0">
+            <value>4</value>
+        </item>
+        <item id="40400" sign="-" unit="euro" decimals="0">
+            <value>70351</value>
+        </item>
+        <item id="40500" sign="+" unit="euro" decimals="0">
+            <value>1328</value>
+        </item>
+        <item id="40600" sign="-" unit="euro" decimals="0">
+            <value>9803</value>
+        </item>
+        <item id="40700" sign="-" unit="euro" decimals="0">
+            <value>12334</value>
+        </item>
+        <item id="40800" sign="-" unit="euro" decimals="0">
+            <value>12412</value>
+        </item>
+        <item id="40900" sign="+" unit="euro" decimals="0">
+            <value>15</value>
+        </item>
+        <item id="41000" sign="+" unit="euro" decimals="0">
+            <value>23</value>
+        </item>
+        <item id="41100" sign="-" unit="euro" decimals="0">
+            <value>31</value>
+        </item>
+        <item id="41200" sign="+" unit="euro" decimals="0">
+            <value>11</value>
+        </item>
+        <item id="41300" sign="-" unit="euro" decimals="0">
+            <value>21</value>
+        </item>
+        <item id="49100" sign="+" unit="euro" decimals="0">
+            <value>30225</value>
+        </item>
+        <item id="41400" sign="+" unit="euro" decimals="0">
+            <value>12539</value>
+        </item>
+        <item id="41500" sign="-" unit="euro" decimals="0">
+            <value>5077</value>
+        </item>
+        <item id="41600" sign="+" unit="euro" decimals="0">
+            <value>106</value>
+        </item>
+        <item id="41700" sign="+" unit="euro" decimals="0">
+            <value>114</value>
+        </item>
+        <item id="41800" sign="-" unit="euro" decimals="0">
+            <value>49</value>
+        </item>
+        <item id="49200" sign="+" unit="euro" decimals="0">
+            <value>7664</value>
+        </item>
+        <item id="49300" sign="+" unit="euro" decimals="0">
+            <value>37889</value>
+        </item>
+        <item id="41900" sign="-" unit="euro" decimals="0">
+            <value>11306</value>
+        </item>
+        <item id="49500" sign="+" unit="euro" decimals="0">
+            <value>26583</value>
+        </item>
+        <item id="41430" sign="+" unit="euro" decimals="0">
+            <value>8342</value>
+            <note id="0" text="+ Rdo operaciones continuadas"/>
+        </item>
+        <item id="41490" sign="+" unit="euro" decimals="0">
+            <value>4197</value>
+        </item>
+        <item id="42110" sign="+" unit="euro" decimals="0">
+            <value>16</value>
+        </item>
+        <item id="42120" sign="+" unit="euro" decimals="0">
+            <value>24</value>
+        </item>
+        <item id="42130" sign="-" unit="euro" decimals="0">
+            <value>9</value>
+        </item>
+        <item id="42100" sign="+" unit="euro" decimals="0">
+            <value>31</value>
+        </item>
+    </module>
+    <module id="patnetA" reportingDateStart="2012-01-01"
+        reportingDateEnd="2012-12-31" baseUnit="euro" baseDecimals="0">
+        <item id="59100" sign="+" unit="euro" decimals="0">
+            <value>30323</value>
+        </item>
+        <item id="50010" sign="+" unit="euro" decimals="0">
+            <value>89</value>
+        </item>
+        <item id="50020" sign="+" unit="euro" decimals="0">
+            <value>316</value>
+        </item>
+        <item id="50030" sign="+" unit="euro" decimals="0">
+            <value>15</value>
+        </item>
+        <item id="50040" sign="+" unit="euro" decimals="0">
+            <value>43</value>
+        </item>
+        <item id="50050" sign="+" unit="euro" decimals="0">
+            <value>7</value>
+        </item>
+        <item id="50060" sign="+" unit="euro" decimals="0">
+            <value>121</value>
+        </item>
+        <item id="50070" sign="-" unit="euro" decimals="0">
+            <value>155</value>
+        </item>
+        <item id="59200" sign="+" unit="euro" decimals="0">
+            <value>436</value>
+        </item>
+        <item id="50080" sign="-" unit="euro" decimals="0">
+            <value>70</value>
+        </item>
+        <item id="50090" sign="-" unit="euro" decimals="0">
+            <value>244</value>
+        </item>
+        <item id="50100" sign="-" unit="euro" decimals="0">
+            <value>7</value>
+        </item>
+        <item id="50110" sign="-" unit="euro" decimals="0">
+            <value>27</value>
+        </item>
+        <item id="50120" sign="+" unit="euro" decimals="0">
+            <value>12</value>
+        </item>
+        <item id="50130" sign="+" unit="euro" decimals="0">
+            <value>43</value>
+        </item>
+        <item id="59300" sign="-" unit="euro" decimals="0">
+            <value>293</value>
+        </item>
+        <item id="59400" sign="+" unit="euro" decimals="0">
+            <value>30466</value>
+        </item>
+    </module>
+    <module id="bal" reportingDateStart="2013-12-31"
+        reportingDateEnd="2013-12-31" baseUnit="euro" baseDecimals="0">
+        <item id="00000" sign="+" unit="euro" decimals="0">
+            <value>0</value>
+        </item>
+        <item id="11000" sign="+" unit="euro" decimals="0">
+            <value>161204</value>
+        </item>
+        <item id="11100" sign="+" unit="euro" decimals="0">
+            <value>30022</value>
+        </item>
+        <item id="11200" sign="+" unit="euro" decimals="0">
+            <value>111240</value>
+        </item>
+        <item id="11300" sign="+" unit="euro" decimals="0">
+            <value>136</value>
+        </item>
+        <item id="11400" sign="+" unit="euro" decimals="0">
+            <value>8500</value>
+        </item>
+        <item id="11500" sign="+" unit="euro" decimals="0">
+            <value>11276</value>
+        </item>
+        <item id="11600" sign="+" unit="euro" decimals="0">
+            <value>25</value>
+        </item>
+        <item id="11700" sign="+" unit="euro" decimals="0">
+            <value>5</value>
+        </item>
+        <item id="12000" sign="+" unit="euro" decimals="0">
+            <value>101738</value>
+        </item>
+        <item id="12100" sign="+" unit="euro" decimals="0">
+            <value>22336</value>
+        </item>
+        <item id="12200" sign="+" unit="euro" decimals="0">
+            <value>31417</value>
+        </item>
+        <item id="12300" sign="+" unit="euro" decimals="0">
+            <value>18597</value>
+        </item>
+        <item id="12400" sign="+" unit="euro" decimals="0">
+            <value>143</value>
+        </item>
+        <item id="12500" sign="+" unit="euro" decimals="0">
+            <value>8969</value>
+        </item>
+        <item id="12600" sign="+" unit="euro" decimals="0">
+            <value>42</value>
+        </item>
+        <item id="12700" sign="+" unit="euro" decimals="0">
+            <value>20234</value>
+        </item>
+        <item id="10000" sign="+" unit="euro" decimals="0">
+            <value>262942</value>
+        </item>
+        <item id="12380" sign="+" unit="euro" decimals="0">
+            <value>17566</value>
+        </item>
+        <item id="12381" sign="+" unit="euro" decimals="0">
+            <value>10000</value>
+        </item>
+        <item id="12382" sign="+" unit="euro" decimals="0">
+            <value>7566</value>
+        </item>
+        <item id="12370" sign="+" unit="euro" decimals="0">
+            <value>10</value>
+        </item>
+        <item id="12390" sign="+" unit="euro" decimals="0">
+            <value>1021</value>
+        </item>
+        <item id="20000" sign="+" unit="euro" decimals="0">
+            <value>171109</value>
+        </item>
+        <item id="21000" sign="+" unit="euro" decimals="0">
+            <value>169934</value>
+        </item>
+        <item id="21100" sign="+" unit="euro" decimals="0">
+            <value>23398</value>
+        </item>
+        <item id="21110" sign="+" unit="euro" decimals="0">
+            <value>23422</value>
+        </item>
+        <item id="21120" sign="-" unit="euro" decimals="0">
+            <value>24</value>
+        </item>
+        <item id="21200" sign="+" unit="euro" decimals="0">
+            <value>25666</value>
+        </item>
+        <item id="21300" sign="+" unit="euro" decimals="0">
+            <value>109809</value>
+        </item>
+        <item id="21400" sign="-" unit="euro" decimals="0">
+            <value>16649</value>
+        </item>
+        <item id="21500" sign="+" unit="euro" decimals="0">
+            <value>5</value>
+        </item>
+        <item id="21600" sign="+" unit="euro" decimals="0">
+            <value>30</value>
+        </item>
+        <item id="21700" sign="+" unit="euro" decimals="0">
+            <value>26552</value>
+        </item>
+        <item id="21800" sign="-" unit="euro" decimals="0">
+            <value>13</value>
+        </item>
+        <item id="21900" sign="+" unit="euro" decimals="0">
+            <value>1136</value>
+        </item>
+        <item id="22000" sign="+" unit="euro" decimals="0">
+            <value>1144</value>
+        </item>
+        <item id="23000" sign="+" unit="euro" decimals="0">
+            <value>31</value>
+        </item>
+        <item id="31000" sign="+" unit="euro" decimals="0">
+            <value>40275</value>
+        </item>
+        <item id="31100" sign="+" unit="euro" decimals="0">
+            <value>2920</value>
+        </item>
+        <item id="31200" sign="+" unit="euro" decimals="0">
+            <value>17661</value>
+        </item>
+        <item id="31300" sign="+" unit="euro" decimals="0">
+            <value>12</value>
+        </item>
+        <item id="31400" sign="+" unit="euro" decimals="0">
+            <value>4587</value>
+        </item>
+        <item id="31500" sign="+" unit="euro" decimals="0">
+            <value>79</value>
+        </item>
+        <item id="31600" sign="+" unit="euro" decimals="0">
+            <value>16</value>
+        </item>
+        <item id="31700" sign="+" unit="euro" decimals="0">
+            <value>15000</value>
+        </item>
+        <item id="32000" sign="+" unit="euro" decimals="0">
+            <value>51558</value>
+        </item>
+        <item id="32100" sign="+" unit="euro" decimals="0">
+            <value>3684</value>
+        </item>
+        <item id="32300" sign="+" unit="euro" decimals="0">
+            <value>6022</value>
+        </item>
+        <item id="32320" sign="+" unit="euro" decimals="0">
+            <value>5819</value>
+        </item>
+        <item id="32400" sign="+" unit="euro" decimals="0">
+            <value>16618</value>
+        </item>
+        <item id="32500" sign="+" unit="euro" decimals="0">
+            <value>21577</value>
+        </item>
+        <item id="32580" sign="+" unit="euro" decimals="0">
+            <value>13276</value>
+        </item>
+        <item id="32581" sign="+" unit="euro" decimals="0">
+            <value>9000</value>
+        </item>
+        <item id="32582" sign="+" unit="euro" decimals="0">
+            <value>4276</value>
+        </item>
+        <item id="32600" sign="+" unit="euro" decimals="0">
+            <value>105</value>
+        </item>
+        <item id="32700" sign="+" unit="euro" decimals="0">
+            <value>106</value>
+        </item>
+        <item id="30000" sign="+" unit="euro" decimals="0">
+            <value>262942</value>
+        </item>
+        <item id="31220" sign="+" unit="euro" decimals="0">
+            <value>11557</value>
+        </item>
+        <item id="31230" sign="+" unit="euro" decimals="0">
+            <value>5</value>
+        </item>
+        <item id="31290" sign="+" unit="euro" decimals="0">
+            <value>6099</value>
+        </item>
+        <item id="32200" sign="+" unit="euro" decimals="0">
+            <value>3446</value>
+        </item>
+        <item id="32330" sign="+" unit="euro" decimals="0">
+            <value>9</value>
+        </item>
+        <item id="32390" sign="+" unit="euro" decimals="0">
+            <value>194</value>
+        </item>
+        <item id="32590" sign="+" unit="euro" decimals="0">
+            <value>8301</value>
+        </item>
+    </module>
+    <module id="bal" reportingDateStart="2012-12-31"
+        reportingDateEnd="2012-12-31" baseUnit="euro" baseDecimals="0">
+        <item id="00000" sign="+" unit="euro" decimals="0">
+            <value>0</value>
+        </item>
+        <item id="11000" sign="+" unit="euro" decimals="0">
+            <value>187751</value>
+        </item>
+        <item id="11100" sign="+" unit="euro" decimals="0">
+            <value>35400</value>
+        </item>
+        <item id="11200" sign="+" unit="euro" decimals="0">
+            <value>134464</value>
+        </item>
+        <item id="11300" sign="+" unit="euro" decimals="0">
+            <value>132</value>
+        </item>
+        <item id="11400" sign="+" unit="euro" decimals="0">
+            <value>7339</value>
+        </item>
+        <item id="11500" sign="+" unit="euro" decimals="0">
+            <value>10393</value>
+        </item>
+        <item id="11600" sign="+" unit="euro" decimals="0">
+            <value>20</value>
+        </item>
+        <item id="11700" sign="+" unit="euro" decimals="0">
+            <value>3</value>
+        </item>
+        <item id="12000" sign="+" unit="euro" decimals="0">
+            <value>73858</value>
+        </item>
+        <item id="12100" sign="+" unit="euro" decimals="0">
+            <value>4</value>
+        </item>
+        <item id="12200" sign="+" unit="euro" decimals="0">
+            <value>30293</value>
+        </item>
+        <item id="12300" sign="+" unit="euro" decimals="0">
+            <value>16384</value>
+        </item>
+        <item id="12400" sign="+" unit="euro" decimals="0">
+            <value>168</value>
+        </item>
+        <item id="12500" sign="+" unit="euro" decimals="0">
+            <value>7159</value>
+        </item>
+        <item id="12600" sign="+" unit="euro" decimals="0">
+            <value>27</value>
+        </item>
+        <item id="12700" sign="+" unit="euro" decimals="0">
+            <value>19823</value>
+        </item>
+        <item id="10000" sign="+" unit="euro" decimals="0">
+            <value>261609</value>
+        </item>
+        <item id="12380" sign="+" unit="euro" decimals="0">
+            <value>15478</value>
+        </item>
+        <item id="12381" sign="+" unit="euro" decimals="0">
+            <value>13000</value>
+        </item>
+        <item id="12382" sign="+" unit="euro" decimals="0">
+            <value>2478</value>
+        </item>
+        <item id="12370" sign="+" unit="euro" decimals="0">
+            <value>13</value>
+        </item>
+        <item id="12390" sign="+" unit="euro" decimals="0">
+            <value>893</value>
+        </item>
+        <item id="20000" sign="+" unit="euro" decimals="0">
+            <value>167063</value>
+        </item>
+        <item id="21000" sign="+" unit="euro" decimals="0">
+            <value>165972</value>
+        </item>
+        <item id="21100" sign="+" unit="euro" decimals="0">
+            <value>22993</value>
+        </item>
+        <item id="21110" sign="+" unit="euro" decimals="0">
+            <value>23005</value>
+        </item>
+        <item id="21120" sign="-" unit="euro" decimals="0">
+            <value>12</value>
+        </item>
+        <item id="21200" sign="+" unit="euro" decimals="0">
+            <value>25667</value>
+        </item>
+        <item id="21300" sign="+" unit="euro" decimals="0">
+            <value>86667</value>
+        </item>
+        <item id="21400" sign="-" unit="euro" decimals="0">
+            <value>35</value>
+        </item>
+        <item id="21500" sign="+" unit="euro" decimals="0">
+            <value>12</value>
+        </item>
+        <item id="21600" sign="+" unit="euro" decimals="0">
+            <value>25</value>
+        </item>
+        <item id="21700" sign="+" unit="euro" decimals="0">
+            <value>30332</value>
+        </item>
+        <item id="21800" sign="-" unit="euro" decimals="0">
+            <value>27</value>
+        </item>
+        <item id="21900" sign="+" unit="euro" decimals="0">
+            <value>338</value>
+        </item>
+        <item id="22000" sign="+" unit="euro" decimals="0">
+            <value>1074</value>
+        </item>
+        <item id="23000" sign="+" unit="euro" decimals="0">
+            <value>17</value>
+        </item>
+        <item id="31000" sign="+" unit="euro" decimals="0">
+            <value>38209</value>
+        </item>
+        <item id="31100" sign="+" unit="euro" decimals="0">
+            <value>2867</value>
+        </item>
+        <item id="31200" sign="+" unit="euro" decimals="0">
+            <value>12330</value>
+        </item>
+        <item id="31300" sign="+" unit="euro" decimals="0">
+            <value>19192</value>
+        </item>
+        <item id="31400" sign="+" unit="euro" decimals="0">
+            <value>3693</value>
+        </item>
+        <item id="31500" sign="+" unit="euro" decimals="0">
+            <value>95</value>
+        </item>
+        <item id="31600" sign="+" unit="euro" decimals="0">
+            <value>24</value>
+        </item>
+        <item id="31700" sign="+" unit="euro" decimals="0">
+            <value>8</value>
+        </item>
+        <item id="32000" sign="+" unit="euro" decimals="0">
+            <value>56337</value>
+        </item>
+        <item id="32100" sign="+" unit="euro" decimals="0">
+            <value>0</value>
+        </item>
+        <item id="32300" sign="+" unit="euro" decimals="0">
+            <value>7248</value>
+        </item>
+        <item id="32320" sign="+" unit="euro" decimals="0">
+            <value>7096</value>
+        </item>
+        <item id="32400" sign="+" unit="euro" decimals="0">
+            <value>18450</value>
+        </item>
+        <item id="32500" sign="+" unit="euro" decimals="0">
+            <value>27154</value>
+        </item>
+        <item id="32580" sign="+" unit="euro" decimals="0">
+            <value>19128</value>
+        </item>
+        <item id="32581" sign="+" unit="euro" decimals="0">
+            <value>14000</value>
+        </item>
+        <item id="32582" sign="+" unit="euro" decimals="0">
+            <value>5128</value>
+        </item>
+        <item id="32600" sign="+" unit="euro" decimals="0">
+            <value>52</value>
+        </item>
+        <item id="32700" sign="+" unit="euro" decimals="0">
+            <value>143</value>
+        </item>
+        <item id="30000" sign="+" unit="euro" decimals="0">
+            <value>261609</value>
+        </item>
+        <item id="31220" sign="+" unit="euro" decimals="0">
+            <value>12251</value>
+        </item>
+        <item id="31230" sign="+" unit="euro" decimals="0">
+            <value>35</value>
+        </item>
+        <item id="31290" sign="+" unit="euro" decimals="0">
+            <value>44</value>
+        </item>
+        <item id="32200" sign="+" unit="euro" decimals="0">
+            <value>3290</value>
+        </item>
+        <item id="32330" sign="+" unit="euro" decimals="0">
+            <value>54</value>
+        </item>
+        <item id="32390" sign="+" unit="euro" decimals="0">
+            <value>98</value>
+        </item>
+        <item id="32590" sign="+" unit="euro" decimals="0">
+            <value>8026</value>
+        </item>
+    </module>
+    <module id="apartado0" reportingDateStart="2013-01-01"
+        reportingDateEnd="2013-12-31" baseUnit="pure" baseDecimals="0">
+        <record id="0100000">
+            <item id="0101001">
+                <value>NIF</value>
+            </item>
+            <item id="01010">
+                <value>A 1234567</value>
+            </item>
+            <item id="01011">
+                <value>001</value>
+            </item>
+            <item id="0102000">
+                <value>DS</value>
+            </item>
+            <item id="01020">
+                <value>PRUEBA XBRL S.A.</value>
+            </item>
+            <item id="0102200">
+                <value>01</value>
+            </item>
+            <item id="01022">
+                <value>Calle Somera</value>
+            </item>
+            <item id="01023">
+                <value>Valdegeña</value>
+            </item>
+            <item id="0102542">
+                <value>42</value>
+            </item>
+            <item id="01024">
+                <value>42111</value>
+            </item>
+        </record>
+        <record id="0103000">
+            <record id="0103200">
+                <item id="0104000">
+                    <value>04</value>
+                </item>
+                <record id="0103300">
+                    <item id="0102000">
+                        <value>DS</value>
+                    </item>
+                    <item id="01020">
+                        <value>TESTING XBRL LTD.</value>
+                    </item>
+                </record>
+            </record>
+            <record id="0103100">
+                <item id="0106000">
+                    <value>03</value>
+                </item>
+                <record id="0103300">
+                    <item id="0101001">
+                        <value>NIF</value>
+                    </item>
+                    <item id="01010">
+                        <value>A 22222222</value>
+                    </item>
+                    <item id="0102000">
+                        <value>DS</value>
+                    </item>
+                    <item id="01020">
+                        <value>TESTING XBRL ESPAÑA, S.A.</value>
+                    </item>
+                </record>
+            </record>
+        </record>
+        <record id="0200000">
+            <item id="02009">
+                <value>Servicios informáticos</value>
+            </item>
+        </record>
+        <record id="0400000">
+            <record id="040000">
+                <item id="04001" sign="+" unit="pure" decimals="0">
+                    <value>120</value>
+                </item>
+                <item id="04002" sign="+" unit="pure" decimals="0">
+                    <value>20</value>
+                </item>
+                <item id="04010" sign="+" unit="pure" decimals="0">
+                    <value>3</value>
+                </item>
+            </record>
+            <record id="0412000">
+                <record id="0412001">
+                    <item id="04120" sign="+" unit="pure" decimals="0">
+                        <value>80</value>
+                    </item>
+                    <item id="04121" sign="+" unit="pure" decimals="0">
+                        <value>20</value>
+                    </item>
+                </record>
+                <record id="0412002">
+                    <item id="04122" sign="+" unit="pure" decimals="0">
+                        <value>10</value>
+                    </item>
+                    <item id="04123" sign="+" unit="pure" decimals="0">
+                        <value>15</value>
+                    </item>
+                </record>
+            </record>
+        </record>
+        <record id="0110000">
+            <item id="0110010">
+                <value>2013</value>
+            </item>
+            <item id="0110020">
+                <value>01</value>
+            </item>
+            <item id="0110030">
+                <value>01</value>
+            </item>
+            <item id="0110040">
+                <value>2013</value>
+            </item>
+            <item id="0110050">
+                <value>12</value>
+            </item>
+            <item id="0110060">
+                <value>31</value>
+            </item>
+            <item id="01901" sign="+" unit="pure" decimals="0">
+                <value>2</value>
+            </item>
+        </record>
+        <record id="0900000">
+            <item id="09002">
+                <value>02</value>
+            </item>
+        </record>
+    </module>
+    <module id="apartado0" reportingDateStart="2012-01-01"
+        reportingDateEnd="2012-12-31" baseUnit="pure" baseDecimals="0">
+        <record id="0400000">
+            <record id="040000">
+                <item id="04001" sign="+" unit="pure" decimals="0">
+                    <value>180</value>
+                </item>
+                <item id="04002" sign="+" unit="pure" decimals="0">
+                    <value>25</value>
+                </item>
+                <item id="04010" sign="+" unit="pure" decimals="0">
+                    <value>2</value>
+                </item>
+            </record>
+            <record id="0412000">
+                <record id="0412001">
+                    <item id="04120" sign="+" unit="pure" decimals="0">
+                        <value>75</value>
+                    </item>
+                    <item id="04121" sign="+" unit="pure" decimals="0">
+                        <value>18</value>
+                    </item>
+                </record>
+                <record id="0412002">
+                    <item id="04122" sign="+" unit="pure" decimals="0">
+                        <value>9</value>
+                    </item>
+                    <item id="04123" sign="+" unit="pure" decimals="0">
+                        <value>84</value>
+                    </item>
+                </record>
+            </record>
+        </record>
+    </module>
+</report>

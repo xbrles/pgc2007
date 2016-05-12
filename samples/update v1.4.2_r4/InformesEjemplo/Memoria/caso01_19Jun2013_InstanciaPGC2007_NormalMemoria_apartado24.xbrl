@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07mn-apdo24="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/apartado24/OtraInformacion/2009-01-01" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:pgc07mn="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/2009-01-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:dgi-types="http://www.xbrl.org.es/es/2008/dgi/gp/types/2011-01-30" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2008/dgi/gp/est-gen/2011-01-30" xmlns:pgc07mc-np="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalPymes/2009-01-01" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc07m-d-cp="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/CategoriasProfesionales/Dimension/2009-01-01" xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2008/dgi/gp/lc-es/2011-01-30" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:dgi-eco-bas="http://www.xbrl.org.es/es/2008/dgi/gp/eco-bas/2011-01-30" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-normal-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo24__Duration_Xcode_CAP.1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.1</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo24__Duration_Xcode_CAP.2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.2</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo24__Duration_Xcode_CAP.3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.3</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo24__Duration_Xcode_CAP.4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.4</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo24__Duration_Xcode_CAP.5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.5</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo24__Duration_Xcode_CAP.6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.6</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo24__Duration_Xcode_CAP.7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.7</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo24__Duration_Xcode_CAP.8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.8</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo24__Duration_EmployeesPeriodAverageNumberTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-eco-bas:EmployeesPeriodAverageNumberTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo24_Duration_Xcode_CAP.1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.1</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo24_Duration_Xcode_CAP.2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.2</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo24_Duration_Xcode_CAP.3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.3</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo24_Duration_Xcode_CAP.4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.4</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo24_Duration_Xcode_CAP.5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.5</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo24_Duration_Xcode_CAP.6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.6</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo24_Duration_Xcode_CAP.7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.7</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo24_Duration_Xcode_CAP.8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-lc-es:Xcode_CAP.8</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo24_Duration_EmployeesPeriodAverageNumberTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-eco-bas:EmployeesPeriodAverageNumberTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo24__EmployeesNumberTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-eco-bas:EmployeesNumberTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo24__EmployeesNumberTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07m-d-cp:OtraInformacionCategoriasProfesionalesDimension">dgi-eco-bas:EmployeesNumberTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="entero">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.2" unitRef="entero">8</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.3" unitRef="entero">4</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.4" unitRef="entero">90</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.5" unitRef="entero">26</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.6" unitRef="entero">80</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.7" unitRef="entero">170</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.8" unitRef="entero">42</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_EmployeesPeriodAverageNumberTotal" unitRef="entero">424</dgi-eco-bas:EmployeeCategoryTotal>
+
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.2" unitRef="entero">6</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.3" unitRef="entero">6</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.4" unitRef="entero">72</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.5" unitRef="entero">26</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.6" unitRef="entero">70</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.7" unitRef="entero">187</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.8" unitRef="entero">26</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeeCategoryTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_EmployeesPeriodAverageNumberTotal" unitRef="entero">397</dgi-eco-bas:EmployeeCategoryTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.1" unitRef="entero">4</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.2" unitRef="entero">8</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.3" unitRef="entero">4</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.4" unitRef="entero">91</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.5" unitRef="entero">35</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.6" unitRef="entero">59</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.7" unitRef="entero">201</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.8" unitRef="entero">27</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.1" unitRef="entero">4</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.2" unitRef="entero">6</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.3" unitRef="entero">6</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.4" unitRef="entero">72</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.5" unitRef="entero">35</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.6" unitRef="entero">70</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.7" unitRef="entero">170</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.8" unitRef="entero">26</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.1" unitRef="entero">4</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.1" unitRef="entero">0</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.2" unitRef="entero">5</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.2" unitRef="entero">1</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.3" unitRef="entero">3</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.3" unitRef="entero">3</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.4" unitRef="entero">51</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.4" unitRef="entero">21</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.5" unitRef="entero">32</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.5" unitRef="entero">3</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.6" unitRef="entero">51</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.6" unitRef="entero">19</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.7" unitRef="entero">98</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.7" unitRef="entero">72</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.8" unitRef="entero">7</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24_Duration_Xcode_CAP.8" unitRef="entero">19</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24__EmployeesNumberTotal" unitRef="entero">389</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24__EmployeesNumberTotal" unitRef="entero">222</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2012_apdo24__EmployeesNumberTotal" unitRef="entero">167</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.1" unitRef="entero">4</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.1" unitRef="entero">0</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.2" unitRef="entero">6</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.2" unitRef="entero">2</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.3" unitRef="entero">3</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.3" unitRef="entero">1</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.4" unitRef="entero">70</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.4" unitRef="entero">21</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.5" unitRef="entero">3</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.5" unitRef="entero">32</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.6" unitRef="entero">42</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.6" unitRef="entero">17</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.7" unitRef="entero">115</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.7" unitRef="entero">86</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.8" unitRef="entero">5</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__Duration_Xcode_CAP.8" unitRef="entero">22</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__EmployeesNumberTotal" unitRef="entero">429</dgi-eco-bas:EmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__EmployeesNumberTotal" unitRef="entero">248</dgi-eco-bas:MaleEmployeesNumberEndAccountingPeriodTotal>
+  <dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal decimals="0" contextRef="Y1_2013_apdo24__EmployeesNumberTotal" unitRef="entero">181</dgi-eco-bas:FemaleEmployeesNumberEndAccountingPeriodTotal>
+ </xbrli:xbrl>

@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07mn-apdo19="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/apartado19/CombinacionesNegocios/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pgc07mn="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/2009-01-01">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-normal-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDomain">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDomain</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosValorRazonableNoUtilizado">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosValorRazonableNoUtilizado</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDomain">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDomain</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosValorRazonableNoUtilizado">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosValorRazonableNoUtilizado</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19.2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnuales">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnuales</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorriente">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorriente</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoCorriente">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoCorriente</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalActivo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalActivo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoNoCorriente">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoNoCorriente</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoCorriente">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoCorriente</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalPasivo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalPasivo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoIntangible">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoIntangible</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoMaterial">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoMaterial</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesInmobiliarias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesInmobiliarias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivosImpuestoDiferido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivosImpuestoDiferido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasComerialesNoCorrientes">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudoresComerialesNoCorrientes</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorrientesMantenidosVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorrientesMantenidosVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesExistencias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesExistencias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudoresComercialesOtrasCuentasCobrar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudoresComercialesOtrasCuentasCobrar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadasCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadasCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificaciones">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificaciones</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesEfectivoOtrosActivosLiquidosEquivalentes">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesEfectivoOtrosActivosLiquidosEquivalentes</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosImpuestoDiferido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosImpuestoDiferido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesNoCorrientes">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesNoCorrientes</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosVinculadosActivosNoCorrientesMantenidosVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosVinculadosActivosNoCorrientesMantenidosVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesOtrasCuentaPagar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesOtrasCuentaPagar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Duration_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnuales">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnuales</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoPresentacion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoPresentacion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorriente">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorriente</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoCorriente">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoCorriente</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalActivo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalActivo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoNoCorriente">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoNoCorriente</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoCorriente">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoCorriente</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalPasivo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalPasivo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoIntangible">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoIntangible</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoMaterial">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoMaterial</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesInmobiliarias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesInmobiliarias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivosImpuestoDiferido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivosImpuestoDiferido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasComerialesNoCorrientes">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudoresComerialesNoCorrientes</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorrientesMantenidosVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorrientesMantenidosVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesExistencias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesExistencias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudoresComercialesOtrasCuentasCobrar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudoresComercialesOtrasCuentasCobrar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadasCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadasCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificaciones">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificaciones</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesEfectivoOtrosActivosLiquidosEquivalentes">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesEfectivoOtrosActivosLiquidosEquivalentes</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosImpuestoDiferido">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosImpuestoDiferido</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesNoCorrientes">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesNoCorrientes</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosVinculadosActivosNoCorrientesMantenidosVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosVinculadosActivosNoCorrientesMantenidosVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesOtrasCuentaPagar">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesOtrasCuentaPagar</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasLargoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasLargoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasCortoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosDimension">pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasCortoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo19">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorriente decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">51380</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorriente>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoIntangible decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">12000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoIntangible>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoMaterial decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">20000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoMaterial>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesInmobiliarias decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">4500</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesInmobiliarias>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadas decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">3300</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadas>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasLargoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">7880</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasLargoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivosImpuestoDiferido decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">300</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivosImpuestoDiferido>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudoresComerialesNoCorrientes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">3400</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudoresComerialesNoCorrientes>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoCorriente decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">53620</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoCorriente>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorrientesMantenidosVenta decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">2000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorrientesMantenidosVenta>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesExistencias decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">30000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesExistencias>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudoresComercialesOtrasCuentasCobrar decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">10000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudoresComercialesOtrasCuentasCobrar>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadasCortoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">3000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadasCortoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasCortoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">7000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasCortoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificaciones decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">700</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificaciones>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesEfectivoOtrosActivosLiquidosEquivalentes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">920</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesEfectivoOtrosActivosLiquidosEquivalentes>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalActivo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">105000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalActivo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoNoCorriente decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">36700</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoNoCorriente>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesLargoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">3000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesLargoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasLargoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">20000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasLargoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoLargoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">12000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoLargoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasLargoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">8000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasLargoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasLargoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">4500</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasLargoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosImpuestoDiferido decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">800</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosImpuestoDiferido>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesLargoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">500</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesLargoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesNoCorrientes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">6700</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesNoCorrientes>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesLargoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">1200</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesLargoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoCorriente decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">39800</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoCorriente>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosVinculadosActivosNoCorrientesMantenidosVenta decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">2000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosVinculadosActivosNoCorrientesMantenidosVenta>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesCortoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">3300</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesCortoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasCortoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">14000</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasCortoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoCortoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">12500</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoCortoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasCortoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">1500</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasCortoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasCortoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">5500</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasCortoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesOtrasCuentaPagar decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">13400</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesOtrasCuentaPagar>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesCortoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">350</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesCortoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesCortoPlazo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">1250</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesCortoPlazo>
+  <pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalPasivo decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes" unitRef="euro">76500</pgc07mn:CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalPasivo>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorriente" unitRef="euro">51380</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoIntangible" unitRef="euro">12000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInmovilizadoMaterial" unitRef="euro">20000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesInmobiliarias" unitRef="euro">4500</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadas" unitRef="euro">3300</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasLargoPlazo" unitRef="euro">7880</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivosImpuestoDiferido" unitRef="euro">300</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasComerialesNoCorrientes" unitRef="euro">3400</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoCorriente" unitRef="euro">53620</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesActivoNoCorrientesMantenidosVenta" unitRef="euro">2000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesExistencias" unitRef="euro">30000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudoresComercialesOtrasCuentasCobrar" unitRef="euro">10000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesEmpresasGrupoAsociadasCortoPlazo" unitRef="euro">3000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesInversionesFinancierasCortoPlazo" unitRef="euro">7000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificaciones" unitRef="euro">700</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesEfectivoOtrosActivosLiquidosEquivalentes" unitRef="euro">920</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalActivo" unitRef="euro">105000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoNoCorriente" unitRef="euro">36700</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesLargoPlazo" unitRef="euro">3000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasLargoPlazo" unitRef="euro">20000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoLargoPlazo" unitRef="euro">12000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasLargoPlazo" unitRef="euro">8000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasLargoPlazo" unitRef="euro">4500</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosImpuestoDiferido" unitRef="euro">800</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesLargoPlazo" unitRef="euro">500</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesNoCorrientes" unitRef="euro">6700</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesLargoPlazo" unitRef="euro">1200</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivoCorriente" unitRef="euro">39800</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosVinculadosActivosNoCorrientesMantenidosVenta" unitRef="euro">2000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesProvisionesCortoPlazo" unitRef="euro">3300</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasCortoPlazo" unitRef="euro">14000</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEntidadesCreditoCortoPlazo" unitRef="euro">12500</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesOtrasDeudasCortoPlazo" unitRef="euro">1500</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudasEmpresasGrupoAsociadasCortoPlazo" unitRef="euro">5500</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesAcreedoresComercialesOtrasCuentaPagar" unitRef="euro">13400</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPeriodificacionesCortoPlazo" unitRef="euro">350</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesDeudaCaracteristicasEspecialesCortoPlazo" unitRef="euro">1250</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes decimals="0" contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesTotalPasivo" unitRef="euro">76500</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosImportes>
+  <pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasImporteNetoCifraNegociosImputableEmpresaCombinadaDesdeFechaCombinacion decimals="0" contextRef="Y1_2013_apdo19" unitRef="euro">10000</pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasImporteNetoCifraNegociosImputableEmpresaCombinadaDesdeFechaCombinacion>
+  <pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasResultadoExplotacionImputableEmpresaCombinadaDesdeFechaCombinacion decimals="0" contextRef="Y1_2013_apdo19" unitRef="euro">4000</pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasResultadoExplotacionImputableEmpresaCombinadaDesdeFechaCombinacion>
+  <pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasIngresosFinancierosImputableEmpresaCombinadaDesdeFechaCombinacion decimals="0" contextRef="Y1_2013_apdo19" unitRef="euro">2000</pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasIngresosFinancierosImputableEmpresaCombinadaDesdeFechaCombinacion>
+  <pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasResultadoFinancieroImputableEmpresaCombinadaDesdeFechaCombinacion decimals="0" contextRef="Y1_2013_apdo19" unitRef="euro">500</pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasResultadoFinancieroImputableEmpresaCombinadaDesdeFechaCombinacion>
+  <pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasResultadoEjercicioImputableEmpresaCombinadaDesdeFechaAdquisicion decimals="0" contextRef="Y1_2013_apdo19" unitRef="euro">4500</pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasResultadoEjercicioImputableEmpresaCombinadaDesdeFechaAdquisicion>
+  <pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasImporteNetoCifraNegociosImputableEmpresaCombinadaSiCombinacionHubieseEfectuadoFechaInicioEjercicio decimals="0" contextRef="Y1_2013_apdo19" unitRef="euro">12000</pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasImporteNetoCifraNegociosImputableEmpresaCombinadaSiCombinacionHubieseEfectuadoFechaInicioEjercicio>
+  <pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasResultadoExplotacionImputableEmpresaCombinadaSiCombinacionhubieseEfectuadoFechaInicioEjercicio decimals="0" contextRef="Y1_2013_apdo19" unitRef="euro">5000</pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasResultadoExplotacionImputableEmpresaCombinadaSiCombinacionhubieseEfectuadoFechaInicioEjercicio>
+  <pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasIngresosFinancierosImputableEmpresaCombinadaSiCombinacionHubieseEfectuadoFechaInicioEjercicio decimals="0" contextRef="Y1_2013_apdo19" unitRef="euro">2000</pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasIngresosFinancierosImputableEmpresaCombinadaSiCombinacionHubieseEfectuadoFechaInicioEjercicio>
+  <pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasResultadoFinancieroImputableEmpresaCombinadaSiCombinacionHubieseEfectuadoFechaInicioEjercicio decimals="0" contextRef="Y1_2013_apdo19" unitRef="euro">500</pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasResultadoFinancieroImputableEmpresaCombinadaSiCombinacionHubieseEfectuadoFechaInicioEjercicio>
+  <pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasImporteNetoCifraNegociosImputableEmpresaCombinadaDesdeFechaAdquisicion decimals="0" contextRef="Y1_2013_apdo19" unitRef="euro">5500</pgc07mn:CombinacionesNegociosIngresosResultadosImputablesEmpresasCombinadasIngresosResultadosImputablesEmpresasCombinadasImporteNetoCifraNegociosImputableEmpresaCombinadaDesdeFechaAdquisicion>
+  <pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosValorRazonableNoUtilizado contextRef="Y1_2013_apdo19_Instant_CombinacionesNegocioDescripcionCombinacionesNegociosImportesReconocidosFechaAdquisicionClaseActivosPasivosCombinacionNegociosFormulacionCuentasAnualesPasivosImpuestoDiferido">X</pgc07mn-apdo19:CombinacionesNegocioDescripcionCombinacionesNegociosEfectuadasDuranteEjercicioImportesReconocidosValorRazonableNoUtilizado>
+</xbrli:xbrl>

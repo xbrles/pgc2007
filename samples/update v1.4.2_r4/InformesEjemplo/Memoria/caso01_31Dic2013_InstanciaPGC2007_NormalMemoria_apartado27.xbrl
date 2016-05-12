@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd" xmlns:pgc07mn-apdo27="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/apartado27/AplazamientosPago/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:dgi-eco-bas="http://www.xbrl.org.es/es/2008/dgi/gp/eco-bas/2011-01-30" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2008/dgi/gp/est-gen/2011-01-30" xmlns:pgc07d-aplaz="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/AplazamientosPagoPagosRealizadosPendientes/Dimension/2009-01-01" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:dgi-types="http://www.xbrl.org.es/es/2008/dgi/gp/types/2011-01-30" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-normal-completo.xsd"/>
+  <xbrli:context id="Context_Duration_AplazamientosPagoDentroPlazoMaximoLegal_2012">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+	  <xbrldi:explicitMember dimension="pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesDimension">pgc07mc-bs:AplazamientosPagoDentroPlazoMaximoLegal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_AplazamientosPagoRestoExcedido_2012">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+      <xbrli:scenario>
+        <xbrldi:explicitMember dimension="pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesDimension">pgc07mc-bs:AplazamientosPagoRestoExcedido</xbrldi:explicitMember>
+      </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_AplazamientosPagoTotal_2012">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+      <xbrli:scenario>
+        <xbrldi:explicitMember dimension="pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesDimension">pgc07mc-bs:AplazamientosPagoTotal</xbrldi:explicitMember>
+      </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_AplazamientosPagoPMPEDiasPagos_2012">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+      <xbrli:scenario>
+        <xbrldi:explicitMember dimension="pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesDimension">pgc07mn-apdo27:AplazamientosPagoPMPEDiasPagos</xbrldi:explicitMember>
+      </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_AplazamientosPagoAplazamientosFechaCierreSobrepasanPlazoMaximoLegal_2012">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+      <xbrli:scenario>
+        <xbrldi:explicitMember dimension="pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesDimension">pgc07mc-bs:AplazamientosPagoAplazamientosFechaCierreSobrepasanPlazoMaximoLegal</xbrldi:explicitMember>
+      </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_AplazamientosPagoDentroPlazoMaximoLegal_2013">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+      <xbrli:scenario>
+        <xbrldi:explicitMember dimension="pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesDimension">pgc07mc-bs:AplazamientosPagoDentroPlazoMaximoLegal</xbrldi:explicitMember>
+      </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_AplazamientosPagoRestoExcedido_2013">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+      <xbrli:scenario>
+        <xbrldi:explicitMember dimension="pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesDimension">pgc07mc-bs:AplazamientosPagoRestoExcedido</xbrldi:explicitMember>
+      </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_AplazamientosPagoTotal_2013">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+      <xbrli:scenario>
+        <xbrldi:explicitMember dimension="pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesDimension">pgc07mc-bs:AplazamientosPagoTotal</xbrldi:explicitMember>
+      </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_AplazamientosPagoPMPEDiasPagos_2013">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+      <xbrli:scenario>
+        <xbrldi:explicitMember dimension="pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesDimension">pgc07mn-apdo27:AplazamientosPagoPMPEDiasPagos</xbrldi:explicitMember>
+      </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_AplazamientosPagoAplazamientosFechaCierreSobrepasanPlazoMaximoLegal_2013">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+      <xbrli:scenario>
+        <xbrldi:explicitMember dimension="pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesDimension">pgc07mc-bs:AplazamientosPagoAplazamientosFechaCierreSobrepasanPlazoMaximoLegal</xbrldi:explicitMember>
+      </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="porcentaje">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="entero">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte decimals="0" contextRef="Context_Duration_AplazamientosPagoDentroPlazoMaximoLegal_2012" unitRef="euro">12000</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesPorcentaje decimals="2" contextRef="Context_Duration_AplazamientosPagoDentroPlazoMaximoLegal_2012" unitRef="entero">92.31</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesPorcentaje>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte decimals="0" contextRef="Context_Duration_AplazamientosPagoRestoExcedido_2012" unitRef="euro">1000</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesPorcentaje decimals="2" contextRef="Context_Duration_AplazamientosPagoRestoExcedido_2012" unitRef="entero">7.69</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesPorcentaje>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte decimals="0" contextRef="Context_Duration_AplazamientosPagoTotal_2012" unitRef="euro">13000</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte>
+  <pgc07mn-apdo27:AplazamientosPagoPagosRealizadosPendientesDias decimals="0" contextRef="Context_Instant_AplazamientosPagoPMPEDiasPagos_2012" unitRef="entero">22</pgc07mn-apdo27:AplazamientosPagoPagosRealizadosPendientesDias>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte decimals="0" contextRef="Context_Duration_AplazamientosPagoAplazamientosFechaCierreSobrepasanPlazoMaximoLegal_2012" unitRef="euro">400</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte decimals="0" contextRef="Context_Duration_AplazamientosPagoDentroPlazoMaximoLegal_2013" unitRef="euro">20000</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesPorcentaje decimals="2" contextRef="Context_Duration_AplazamientosPagoDentroPlazoMaximoLegal_2013" unitRef="porcentaje">91.74</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesPorcentaje>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte decimals="0" contextRef="Context_Duration_AplazamientosPagoRestoExcedido_2013" unitRef="euro">1800</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesPorcentaje decimals="2" contextRef="Context_Duration_AplazamientosPagoRestoExcedido_2013" unitRef="porcentaje">8.26</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesPorcentaje>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte decimals="0" contextRef="Context_Duration_AplazamientosPagoTotal_2013" unitRef="euro">21800</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte>
+  <pgc07mn-apdo27:AplazamientosPagoPagosRealizadosPendientesDias decimals="0" contextRef="Context_Instant_AplazamientosPagoPMPEDiasPagos_2013" unitRef="entero">5</pgc07mn-apdo27:AplazamientosPagoPagosRealizadosPendientesDias>
+  <pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte decimals="0" contextRef="Context_Duration_AplazamientosPagoAplazamientosFechaCierreSobrepasanPlazoMaximoLegal_2013" unitRef="euro">250</pgc07d-aplaz:AplazamientosPagoPagosRealizadosPendientesImporte>
+</xbrli:xbrl>

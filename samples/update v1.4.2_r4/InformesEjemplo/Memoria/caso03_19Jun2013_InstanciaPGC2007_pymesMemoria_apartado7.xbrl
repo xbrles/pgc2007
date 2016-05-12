@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:pgc07mp-apdo7="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/pymes/apartado7/PasivosFinancieros/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc07mc-ap="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/abreviadoPymes/2009-01-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pgc07d-plzven="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/PlazoVencimientoInstrumentosFinancieros/Dimension/2009-01-01" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc07mp="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/pymes/2009-01-01" xmlns:pgc07d-clase="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/ClasesInstrumentosFinancieros/Dimension/2009-01-01" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-pymes-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InstrumentosFinancierosLargoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosLargoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Duration_InstrumentosFinancierosCortoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-clase:InstrumentosFinancierosClasesDimension">pgc07d-clase:InstrumentosFinancierosCortoPlazoClasesPasivoTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoPrimerPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoPrimerPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoSegundoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoSegundoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoTercerPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoTercerPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoCuartoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoCuartoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoQuintoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoQuintoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoUltimoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoUltimoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Duration_InstrumentosFinancierosPlazoVencimientoTotalPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoTotalPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoPrimerPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoPrimerPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoSegundoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoSegundoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTercerPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoTercerPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoCuartoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoCuartoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoQuintoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoQuintoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoUltimoPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoUltimoPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTotalPlazo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoDimension">pgc07d-plzven:InstrumentosFinancierosPlazoVencimientoTotalPlazo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">4000</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">8</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">4008</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">2800</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">3</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">2803</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros" unitRef="euro">23</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros" unitRef="euro">23</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoTotal" unitRef="euro">34</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoTotal" unitRef="euro">6834</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">4500</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">10</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">4510</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">3000</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">8</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">3008</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros" unitRef="euro">56</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoDerivadosOtros" unitRef="euro">56</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoTotal" unitRef="euro">74</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoTotal" unitRef="euro">7574</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosLargoPlazoClasesPasivoTotal" unitRef="euro">7500</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">300</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">18</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">318</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">200</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">30</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">230</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros" unitRef="euro">3</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros" unitRef="euro">3</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoTotal" unitRef="euro">500</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoTotal" unitRef="euro">51</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2012_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoTotal" unitRef="euro">551</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">400</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">15</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDeudasEntidadesCredito" unitRef="euro">415</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">400</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">29</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoObligacionesOtrosValoresNegociables" unitRef="euro">429</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros" unitRef="euro">12</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoDerivadosOtros" unitRef="euro">12</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoTotal" unitRef="euro">800</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosCosteAmortizado>
+  <pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoTotal" unitRef="euro">56</pgc07mp:InstrumentosFinancierosSituacionFinancieraResultadosEmpresaInformacionRelacionadaBalanceCategoriasPasivosFinancierosPasivosFinancierosMantenidosNegociacion>
+  <pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7_Instant_InstrumentosFinancierosCortoPlazoClasesPasivoTotal" unitRef="euro">856</pgc07mc-bs:InstrumentosFinancierosPasivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoPrimerPlazo" unitRef="euro">200</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoSegundoPlazo" unitRef="euro">140</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTercerPlazo" unitRef="euro">18</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoCuartoPlazo" unitRef="euro">3</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoQuintoPlazo" unitRef="euro">500</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoUltimoPlazo" unitRef="euro">90</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTotalPlazo" unitRef="euro">951</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasDeudasEntidadesCredito>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoPrimerPlazo" unitRef="euro">300</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoSegundoPlazo" unitRef="euro">180</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTercerPlazo" unitRef="euro">60</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoCuartoPlazo" unitRef="euro">0</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoQuintoPlazo" unitRef="euro">100</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoUltimoPlazo" unitRef="euro">30</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTotalPlazo" unitRef="euro">670</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresArrendamientoFinanciero>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoPrimerPlazo" unitRef="euro">500</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoSegundoPlazo" unitRef="euro">160</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTercerPlazo" unitRef="euro">70</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoCuartoPlazo" unitRef="euro">6</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoQuintoPlazo" unitRef="euro">50</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoUltimoPlazo" unitRef="euro">45</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTotalPlazo" unitRef="euro">831</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasOtrasDeudas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoPrimerPlazo" unitRef="euro">100</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoSegundoPlazo" unitRef="euro">170</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTercerPlazo" unitRef="euro">40</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoCuartoPlazo" unitRef="euro">90</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoQuintoPlazo" unitRef="euro">40</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoUltimoPlazo" unitRef="euro">65</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTotalPlazo" unitRef="euro">505</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasEmpresaGrupoEmpresasAsociadas>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoPrimerPlazo" unitRef="euro">140</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoSegundoPlazo" unitRef="euro">130</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTercerPlazo" unitRef="euro">36</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoCuartoPlazo" unitRef="euro">200</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoQuintoPlazo" unitRef="euro">37</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoUltimoPlazo" unitRef="euro">165</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTotalPlazo" unitRef="euro">708</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarPresentacion>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoPrimerPlazo" unitRef="euro">80</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoSegundoPlazo" unitRef="euro">60</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTercerPlazo" unitRef="euro">32</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoCuartoPlazo" unitRef="euro">200</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoQuintoPlazo" unitRef="euro">25</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoUltimoPlazo" unitRef="euro">80</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTotalPlazo" unitRef="euro">477</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarProveedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoPrimerPlazo" unitRef="euro">60</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoSegundoPlazo" unitRef="euro">70</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTercerPlazo" unitRef="euro">4</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoCuartoPlazo" unitRef="euro">0</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoQuintoPlazo" unitRef="euro">12</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoUltimoPlazo" unitRef="euro">85</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTotalPlazo" unitRef="euro">231</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasAcreedoresComercialesOtrasCuentasPagarOtrosAcreedores>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoPrimerPlazo" unitRef="euro">70</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoSegundoPlazo" unitRef="euro">30</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTercerPlazo" unitRef="euro">12</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoCuartoPlazo" unitRef="euro">6</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoQuintoPlazo" unitRef="euro">3</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoUltimoPlazo" unitRef="euro">2</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTotalPlazo" unitRef="euro">123</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosDeudasCaracteristicasEspeciales>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoPrimerPlazo" unitRef="euro">1310</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoSegundoPlazo" unitRef="euro">810</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTercerPlazo" unitRef="euro">236</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoCuartoPlazo" unitRef="euro">305</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoQuintoPlazo" unitRef="euro">730</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoUltimoPlazo" unitRef="euro">397</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal>
+  <pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal decimals="0" contextRef="Y1_2013_apdo7c_Instant_InstrumentosFinancierosPlazoVencimientoTotalPlazo" unitRef="euro">3788</pgc07mc-bs:InstrumentosFinancierosVencimientosPasivosFinancierosTotal>
+</xbrli:xbrl>

@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07mn-apdo12="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/apartado12/Impuestos/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc-07-types="http://www.icac.meh.es/es/fr/gaap/pgc07/types/2009-01-01" xmlns:pgc07mc-na="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/normalAbreviado/2009-01-01" xmlns:pgc07mn="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pgc07mn-d-sf="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/normal/EstadoMovimientos/SituacionFiscal/Dimension/2009-01-01">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-normal-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ResultadoAumentos">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoIngresosGastosDimension">pgc07mn-d-sf:ResultadoAumentos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ResultadoDisminuciones">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoIngresosGastosDimension">pgc07mn-d-sf:ResultadoDisminuciones</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ResultadoEfectoNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoIngresosGastosDimension">pgc07mn-d-sf:ResultadoEfectoNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ResultadoAumentos">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoIngresosGastosDimension">pgc07mn-d-sf:ResultadoAumentos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ResultadoDisminuciones">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoIngresosGastosDimension">pgc07mn-d-sf:ResultadoDisminuciones</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ResultadoEfectoNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoIngresosGastosDimension">pgc07mn-d-sf:ResultadoEfectoNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGananciasOperacionesContinuadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGananciasOperacionesInterrumpidas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoValoracionInstrumentosFinancieros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoCoberturasFlujoEfectivo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoSubvencionesDonancionesLegados</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoGananciaPerdidaActuariales</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Instant_ImputacionPerdidasGananciasOperacionesContinuadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGananciasOperacionesContinuadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Instant_ImputacionPerdidasGananciasOperacionesInterrumpidas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGananciasOperacionesInterrumpidas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Instant_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoValoracionInstrumentosFinancieros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Instant_ImputacionPatrimonioNetoCoberturasFlujoEfectivo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoCoberturasFlujoEfectivo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Instant_ImputacionPatrimonioNetoSubvencionesDonancionesLegados">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoSubvencionesDonancionesLegados</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Instant_ImputacionPatrimonioNetoGananciaPerdidaActuariales">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoGananciaPerdidaActuariales</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Instant_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12_Instant_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGananciasOperacionesContinuadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGananciasOperacionesInterrumpidas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoValoracionInstrumentosFinancieros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoCoberturasFlujoEfectivo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoSubvencionesDonancionesLegados</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoGananciaPerdidaActuariales</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ImputacionPerdidasGananciasOperacionesContinuadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGananciasOperacionesContinuadas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ImputacionPerdidasGananciasOperacionesInterrumpidas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGananciasOperacionesInterrumpidas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoValoracionInstrumentosFinancieros</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ImputacionPatrimonioNetoCoberturasFlujoEfectivo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoCoberturasFlujoEfectivo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ImputacionPatrimonioNetoSubvencionesDonancionesLegados">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoSubvencionesDonancionesLegados</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ImputacionPatrimonioNetoGananciaPerdidaActuariales">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNetoGananciaPerdidaActuariales</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ResultadoAumentos_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoCuentaPerdidasGananciasDimension">pgc07mn-d-sf:ResultadoAumentos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ResultadoDisminuciones_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoCuentaPerdidasGananciasDimension">pgc07mn-d-sf:ResultadoDisminuciones</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Duration_ResultadoEfectoNeto_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoCuentaPerdidasGananciasDimension">pgc07mn-d-sf:ResultadoEfectoNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ResultadoAumentos_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoCuentaPerdidasGananciasDimension">pgc07mn-d-sf:ResultadoAumentos</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ResultadoDisminuciones_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoCuentaPerdidasGananciasDimension">pgc07mn-d-sf:ResultadoDisminuciones</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12_Instant_ResultadoEfectoNeto_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:EstadoCuentaPerdidasGananciasDimension">pgc07mn-d-sf:ResultadoEfectoNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12b_Duration_ImputacionPerdidasGanancias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGanancias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12b_Duration_ImputacionPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12b_Instant_ImputacionPerdidasGanancias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGanancias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12b_Instant_ImputacionPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2013_apdo12b_Instant_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12b_Duration_ImputacionPerdidasGanancias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGanancias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12b_Duration_ImputacionPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12b_Instant_ImputacionPerdidasGanancias">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPerdidasGanancias</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12b_Instant_ImputacionPatrimonioNeto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionPatrimonioNeto</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Y1_2012_apdo12b_Instant_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="pgc07mn-d-sf:GastoIngresoDimension">pgc07mn-d-sf:ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosImpuestoSociedades decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos" unitRef="euro">9000</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosImpuestoSociedades>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosImpuestoSociedades decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto" unitRef="euro">9000</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosImpuestoSociedades>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos" unitRef="euro">303</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoDisminuciones" unitRef="euro">-890</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto" unitRef="euro">-587</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos" unitRef="euro">303</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoDisminuciones" unitRef="euro">-890</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto" unitRef="euro">-587</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos" unitRef="euro">490</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoDisminuciones" unitRef="euro">-130</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto" unitRef="euro">360</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">1000</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">330</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">550</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">660</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">670</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">550</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">120</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">280</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">190</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">130</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">140</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">230</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">700</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">200</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">290</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">240</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">890</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">100</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">680</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">480</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">680</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">300</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">120</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">210</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">325</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">550</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">700</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">300</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">150</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">500</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">340</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">210</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">1230</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">190</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">890</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">325</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">230</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">100</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">100</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">550</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">350</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">140</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">680</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">700</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">160</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">230</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">480</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">300</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">370</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">700</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">480</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">150</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">450</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">200</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">300</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">500</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">100</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">200</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">120</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">340</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">230</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">240</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">210</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">210</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosImpuestoSociedades decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos_2" unitRef="euro">10000</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosImpuestoSociedades>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosImpuestoSociedades decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto_2" unitRef="euro">10000</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosImpuestoSociedades>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos_2" unitRef="euro">300</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoDisminuciones_2" unitRef="euro">-120</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto_2" unitRef="euro">180</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasPermanentes>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos_2" unitRef="euro">890</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoDisminuciones_2" unitRef="euro">-190</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto_2" unitRef="euro">700</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjercicio>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos_2" unitRef="euro">130</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoDisminuciones_2" unitRef="euro">-30</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto_2" unitRef="euro">100</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasOrigenEjerciciosAnteriores>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDetalleActivosImpuestoDiferidoNaturalezaEvidenciasUtilizadasReconocimientoActivosImpuestoDiferido contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos"/>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosCreditosImpuestoDiferidoNoReconocidosBasesImponiblesNegativas decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos" unitRef="euro">500</pgc07mn:SituacionFiscalImpuestosBeneficiosCreditosImpuestoDiferidoNoReconocidosBasesImponiblesNegativas>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosSaldoIngresosGastosEjercicio decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto_2" unitRef="euro">30000</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosSaldoIngresosGastosEjercicio>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos_2" unitRef="euro">1020</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoDisminuciones_2" unitRef="euro">-220</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto_2" unitRef="euro">800</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosCompensacionBasesImponiblesNegativasEjerciciosAnteriores decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto_2" unitRef="euro">-500</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosCompensacionBasesImponiblesNegativasEjerciciosAnteriores>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosBaseImponibleResultadoFiscal decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto_2" unitRef="euro">40480</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosBaseImponibleResultadoFiscal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosSaldoIngresosGastosEjercicio decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto" unitRef="euro">10000</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosSaldoIngresosGastosEjercicio>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoAumentos" unitRef="euro">793</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoDisminuciones" unitRef="euro">-1020</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ResultadoEfectoNeto" unitRef="euro">-227</pgc07mn:SituacionFiscalImpuestosBeneficiosConciliacionImporteNetoIngresosGastosEjercicioBaseImponibleImpuestoBeneficiosDiferenciasTemporariasTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">1330</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">320</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">990</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">875</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">1000</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">4515</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">770</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">3175</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">230</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">1340</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">3040</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">1930</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">2700</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">2420</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">2910</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">13000</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">450</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">2520</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">260</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">1930</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">490</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">2690</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">230</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">1780</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">210</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">130</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">230</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">220</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">140</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2013_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">930</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">780</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">1650</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">560</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2013_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">1500</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">1460</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">290</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">990</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">875</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">400</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPerdidasGanancias" unitRef="euro">4015</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">170</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesContinuadas" unitRef="euro">2805</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">230</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPerdidasGananciasOperacionesInterrumpidas" unitRef="euro">1210</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">1770</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">1840</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">2520</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">2420</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">3010</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionPatrimonioNeto" unitRef="euro">11560</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">450</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoValoracionInstrumentosFinancieros" unitRef="euro">2320</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">260</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoCoberturasFlujoEfectivo" unitRef="euro">1430</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">490</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoSubvencionesDonancionesLegados" unitRef="euro">2190</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">230</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionPatrimonioNetoGananciaPerdidaActuariales" unitRef="euro">1680</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">110</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioImpuestoCorriente>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">130</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">250</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoCreditoImpositivo>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">220</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoOtrosCreditos>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">140</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2012_apdo12b_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVenta" unitRef="euro">850</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">780</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaDiferenciasConversion" unitRef="euro">1540</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">660</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVariacionesImpuestoDiferidoPasivoDiferenciasTemporarias>
+  <pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal decimals="0" contextRef="Y1_2012_apdo12_Duration_ImputacionActivosNoCorrientesPasivosVinculadosMantenidosVentaReservas" unitRef="euro">1550</pgc07mn:SituacionFiscalImpuestosBeneficiosDesgloseGastoIngresoImpuestoBeneficiosEjercicioVairacionesImpuestoDiferidoTotal>
+</xbrli:xbrl>

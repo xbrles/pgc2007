@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<xbrli:xbrl xmlns:pgc07mp-apdo3="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/pymes/apartado3/AplicacionResultados/2009-01-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pgc07mc-ap="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/abreviadoPymes/2009-01-01" xmlns:pgc07m-roles="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/roles/2009-01-01" xmlns:pgc07mp="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/pymes/2009-01-01" xmlns:pgc-07-ref="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:pgc07mc-bs="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/base/2009-01-01" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.icac.meh.es/taxonomia/pgc-2010-01-01/pgc07-pymes-completo.xsd"/>
+  <xbrli:context id="Y1_2013_apdo3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2013_apdo3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1d_2012_apdo3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Y1i_2012_apdo3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.icac.meh.es/xbrl/test">TESTING XBRL ESPAÑA, S.A.</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="euro">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoSaldoCuentaPerdidasGanancias decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">500</pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoSaldoCuentaPerdidasGanancias>
+  <pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoRemanente decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">25</pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoRemanente>
+  <pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoReservasVoluntarias decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">0</pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoReservasVoluntarias>
+  <pgc07mc-bs:AplicacionResultadosRepartoOtrasReservasLibreDisposicion decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">0</pgc07mc-bs:AplicacionResultadosRepartoOtrasReservasLibreDisposicion>
+  <pgc07mc-bs:AplicacionResultadosBaseTotalBaseRepartoResultadoTotalAplicacion decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">525</pgc07mc-bs:AplicacionResultadosBaseTotalBaseRepartoResultadoTotalAplicacion>
+  <pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoSaldoCuentaPerdidasGanancias decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">-300</pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoSaldoCuentaPerdidasGanancias>
+  <pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoRemanente decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">20</pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoRemanente>
+  <pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoReservasVoluntarias decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">400</pgc07mc-bs:AplicacionResultadosBaseRepartoResultadoReservasVoluntarias>
+  <pgc07mc-bs:AplicacionResultadosRepartoOtrasReservasLibreDisposicion decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">10</pgc07mc-bs:AplicacionResultadosRepartoOtrasReservasLibreDisposicion>
+  <pgc07mc-bs:AplicacionResultadosBaseTotalBaseRepartoResultadoTotalAplicacion decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">130</pgc07mc-bs:AplicacionResultadosBaseTotalBaseRepartoResultadoTotalAplicacion>
+  <pgc07mc-bs:AplicacionResultadosPropuestaResultadoAplicacionAReservaLegal decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">50</pgc07mc-bs:AplicacionResultadosPropuestaResultadoAplicacionAReservaLegal>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionAReservasEspeciales decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">5</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionAReservasEspeciales>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionAReservasVoluntarias decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">300</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionAReservasVoluntarias>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionADividendos decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">120</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionADividendos>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionARemanenteYOtros decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">18</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionARemanenteYOtros>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionACompensacionPerdidasEjerciciosAnteriores decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">32</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionACompensacionPerdidasEjerciciosAnteriores>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionATotalAplicacionTotalBaseReparto decimals="0" contextRef="Y1_2013_apdo3" unitRef="euro">525</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionATotalAplicacionTotalBaseReparto>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionAReservasEspeciales decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">8</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionAReservasEspeciales>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionAReservasVoluntarias decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">0</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionAReservasVoluntarias>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionADividendos decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">78</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionADividendos>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionARemanenteYOtros decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">0</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionARemanenteYOtros>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionACompensacionPerdidasEjerciciosAnteriores decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">32</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionACompensacionPerdidasEjerciciosAnteriores>
+  <pgc07mc-bs:AplicacionResultadosPropuestaAplicacionATotalAplicacionTotalBaseReparto decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">130</pgc07mc-bs:AplicacionResultadosPropuestaAplicacionATotalAplicacionTotalBaseReparto>
+  <pgc07mc-bs:AplicacionResultadosPropuestaResultadoAplicacionAReservaLegal decimals="0" contextRef="Y1d_2012_apdo3" unitRef="euro">12</pgc07mc-bs:AplicacionResultadosPropuestaResultadoAplicacionAReservaLegal>
+</xbrli:xbrl>
