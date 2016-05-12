@@ -1,0 +1,64 @@
+Guía básica de configuración de API XBRL PGC2007  - Version 1.4.2_r4 13 marzo 2014
+
+
+El API se presenta actualmente empaquetada en formato ZIP 
+En esta versión empaquetada la estructura de directorios de este fichero es la siguiente:
+
++---config
+¦   +---schemas
++---lib
+¦   +---ubm
++---properties
++---tmp
+¦   +---log
+¦   +---transformation
++---taxonomy
+¦   +---auxiliares
+    ¦   +---dgi-code
+    ¦   +---dgiv2.3.2
+¦   +---EstadosCuentasAnuales
+    ¦   +---abreviado
+      ¦   +---EstadoTotalCambiosPatrimonioNeto
+    ¦   +---comun
+      ¦   +---EstadoTotalCambiosPatrimonioNeto
+    ¦   +---normal
+      ¦   +---EstadoTotalCambiosPatrimonioNeto
+    ¦   +---pymes
+      ¦   +---EstadoTotalCambiosPatrimonioNeto
+¦   +---log
+	¦   +---transformation
++---resources
+    +---PGCMaps
+    +---System
+    ¦   +---xbrlOrg
+    +---XSLTransformer
++---jre1.6.0_02
+    +---...
+    
+
+Conteniendo en el directorio raíz los siguientes ficheros, para el uso de la API directamente desde línea de comandos.
+
+PGCCommandSelector.bat
+
+HOW-TO
+
+* Fichero "..\config\pgc.properties"
+		· taxonomyRoot: indica el directorio de nuestro sistema que contiene la taxonomía xbrl.
+		· basePath: debe contener la cadena según el entorno en que se utilice la librería:
+			· Línea de comandos: /../
+			. Aplicación Web: ../..
+			· IDE desarrrollo: /./
+		· tempDirectory: directorio temporal utilizado durante la transformación.
+		
+* Fichero "..\config\log4j.properties"
+		· log4j.appender.R.File: directorio donde se guardará el log emitido por la API.
+		
+* Fichero "..\resources\XSLTransformer\log4j.properties"
+		* log4j.appender.R.File. directorio donde se guardará el log emitido durante la transformación XSLT.
+		
+
+		
+* Para la visualización, copiar main.css que se encuentra en el directorio resources\XSLTransformer al mismo directorio en el cual se
+  guarden los html generados.
+  
+  		
