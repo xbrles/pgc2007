@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ultima actualización 16/04/2009 13:01h -->
+<global xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.inteco.es/xbrl/pgc07/identificadores schemas/pgc07-global.xsd" 
+xmlns="http://www.inteco.es/xbrl/pgc07/identificadores" xml:base="taxonomy/">
+
+	
+	<configReport id="pgc-07-ma">
+		<!-- add nsItems -->
+		<nsItem prefix="pgc-07-rol" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/2009-01-01/roles"/>
+		<nsItem prefix="pgc-07-a-bal" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/balance/2009-01-01"/>
+		<nsItem prefix="pgc-07-ref" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/referenceParts/2009-01-01"/>
+		<nsItem prefix="pgc07cbs-dvs" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/comunbase/EstadoTotalCambiosPatrimonioNeto/VariacionSaldo/Dimension/2009-01-01"/>
+		<nsItem prefix="pgc-07-c-ap" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/comun-abreviadopymes/2009-01-01"/>
+		<nsItem prefix="pgc-07-a" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/abreviado/2009-01-01"/>
+		<nsItem prefix="pgc07cbs-dpn" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/comunbase/EstadoTotalCambiosPatrimonioNeto/PatrimonioNeto/Dimension/2009-01-01"/>
+		<nsItem prefix="pgc-07-c-na" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/comun-normalabreviado/2009-01-01"/>
+		<nsItem prefix="pgc07a-d-vs" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/EstadoTotalCambiosPatrimonioNeto/VariacionSaldo/Dimension/2009-01-01"/>
+		<nsItem prefix="pgc07a-d-pn" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/EstadoTotalCambiosPatrimonioNeto/PatrimonioNeto/Dimension/2009-01-01"/>
+		<nsItem prefix="pgc-07-a-pyg" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/cuentas/abreviado/PerdidasGanancias/2009-01-01"/>
+		<nsItem prefix="iso4217" uri="http://www.xbrl.org/2003/iso4217"/>
+		<nsItem prefix="pgc-07-c-bs" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/comun-base/2009-01-01"/>
+		<nsItem prefix="xbrldi" uri="http://xbrl.org/2006/xbrldi"/>
+		<nsItem prefix="pgc07m-d-pv" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/PartesVinculadas/Dimension/2009-01-01"/>
+		<nsItem prefix="pgc07ma-d-inm" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/InmovilizadoMaterialIntangibleInversionesInmobiliarias/Dimension/2009-01-01"/>
+		<nsItem prefix="pgc07d-clase" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/ClasesInstrumentosFinancieros/Dimension/2009-01-01"/>
+		<nsItem prefix="pgc07ma-apdo6" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviada/apartado6/ActivosFinancieros/2009-01-01"/>
+		<nsItem prefix="pgc07d-reclsf" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/ReclasificacionInstrumentosFinancieros/Dimension/2009-01-01"/>
+		<nsItem prefix="pgc07d-plzven" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/PlazoVencimientoInstrumentosFinancieros/Dimension/2009-01-01"/>
+		<nsItem prefix="pgc07m-d-cp" uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/CategoriasProfesionales/Dimension/2009-01-01"/>
+		<nsItem prefix="dgi-lc-es" uri="http://www.xbrl.org.es/es/2009/dgi/gp/lc-es/2009-01-30"/>
+		
+		<unit key="euro" code="EUR" prefix="iso4217"/>
+		<unit key="pure" code="pure" prefix="xbrli"/>
+		<unit key="shares" code="shares" prefix="xbrli"/>
+		<unit key="string" code="string" prefix="xbrli"/>
+		<schemaRef uri="pgc07-abreviado-memoria.xsd" baseUrl="http://www.icac.meh.es/taxonomia/pgc-2009-01-01" main="true" type="schema" targetNamespace="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/2009-01-01"/>
+		<configModule fileMap="pgc-07-ma-apartado0-tuple.xml" id="apartado0" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado0/2008-01-01/role/IdentificacionGeneral" tuple="true">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+				<role uri="http://www.xbrl.org/2003/role/positiveTerseLabel"/>
+				<role uri="http://www.xbrl.org/2003/role/negativeTerseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Identificacion/pgc07ma-apdo0-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Identificacion/pgc07ma-apdo0-2008-01-01.xsd"/>
+			<file type="schema" uri="auxiliares/dgiv2.3.2/dgi-lc-es-2008-01-30.xsd"/>
+			<file type="schema" uri="auxiliares/dgiv2.3.2/dgi-est-gen-2008-01-30.xsd"/>
+			<file type="schema" uri="auxiliares/dgiv2.3.2/dgi-dat-inf-2008-01-30.xsd"/>
+			<file type="schema" uri="auxiliares/dgiv2.3.2/dgi-types-2008-01-30.xsd"/>
+			<file type="schema" uri="auxiliares/dgiv2.3.2/dgi-eco-bas-2008-01-30.xsd"/>
+			<file type="schema" uri="auxiliares/dgiv2.3.2/dgi-cnae-09-2008-01-30.xsd"/>
+			<file type="schema" uri="auxiliares/dgiv2.3.2/dgi-lc-int-2008-01-30.xsd"/>
+			<file type="code" uri="auxiliares/dgi-code/dgi-lc-es-2008-01-30-label-es-code.xml"/>
+			<file type="code" uri="auxiliares/dgi-code/dgi-est-gen-2008-01-30-label-es-code.xml"/>
+			<file type="code" uri="auxiliares/dgi-code/dgi-dat-inf-2008-01-30-label-es-code.xml"/>
+			<file type="code" uri="auxiliares/dgi-code/dgi-eco-bas-2008-01-30-label-es-code.xml"/>
+			<file type="code" uri="auxiliares/dgi-code/dgi-cnae-09-2008-01-30-label-es-code.xml"/>
+			<file type="code" uri="auxiliares/dgi-code/dgi-lc-int-2008-01-30-label-es-code.xml"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado2-tuple.xml" id="apartado2" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/2008-01-01/role/BasesPresentacionCuentasAnuales" tuple="true">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/apartado2/pgc07ma-apdo2-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/apartado2/pgc07ma-apdo2-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado3.xml" id="apartado3" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado3/2008-01-01/role/AplicacionResultados">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/apartado3/pgc07ma-apdo3-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/apartado3/pgc07ma-apdo3-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado4.xml" id="apartado4" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/Apartado4/2008-01-01/role/NormasRegistroValoracion">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/apartado4/pgc07ma-apdo4-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/apartado4/pgc07ma-apdo4-2008-01-01.xsd"/>
+		</configModule>
+		<!-- update 14 -->
+		
+		
+		<configModule fileMap="pgc-07-ma-apartado5a.xml" id="apartado5a" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado5/2008-01-01/role/ResumenInmovilizadoMaterialIntangibleInversionesInmobiliariasAbreviado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/apartado5/pgc07ma-apdo5-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/apartado5/pgc07ma-apdo5-2008-01-01.xsd"/>
+		</configModule>
+		
+		<!-- update 14 -->
+		<configModule fileMap="pgc-07-ma-apartado5d.xml" id="apartado5d" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="">
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/InmovilizadoInversiones/2008-01-01/role/seccionMovimientosSaldosBrutos"/>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/InmovilizadoInversiones/2008-01-01/role/seccionMovimientosAmortizacionesAcumuladas"/>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/InmovilizadoInversiones/2008-01-01/role/seccionMovimientosCorreccionesValorativasDeterioro"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<!-- Dimensional -->
+			<file type="hypercube" uri="Memoria/abreviado/apartado5/pgc07ma-apdo5-2008-01-01-definition.xml"/>
+			<file type="dimension" uri="Memoria/abreviado/apartado5/pgc07ma-apdo5-2008-01-01-definition.xml"/>
+		</configModule>
+		<!-- update 15 -->
+		<configModule fileMap="pgc-07-ma-apartado6.xml" id="apartado6" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel">
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/InstrumentosFinancieros/2008-01-01/role/seccionReclasificacionActivosFinancieros"/>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/InstrumentosFinancieros/2008-01-01/role/seccionValoracionVariacionInversionesFinancierasValorRazonable"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<!-- dimensional-->
+			<file type="hypercube" uri="Memoria/abreviado/apartado6/pgc07ma-apdo6-2008-01-01-definition.xml"/>
+			<file type="dimension" uri="Memoria/abreviado/apartado6/pgc07ma-apdo6-2008-01-01-definition.xml"/>
+		</configModule>
+		<!-- update 15 -->
+		<configModule fileMap="pgc-07-ma-apartado6a.xml" id="apartado6a" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/categorias/activos/financieros/largo/plazo/abreviado/role/CodeLabel">
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/InstrumentosFinancieros/2008-01-01/role/seccionActivosFinancierosLargoPlazo"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<!-- dimensional-->
+			<file type="hypercube" uri="Memoria/abreviado/apartado6/pgc07ma-apdo6-2008-01-01-definition.xml"/>
+			<file type="dimension" uri="Memoria/abreviado/apartado6/pgc07ma-apdo6-2008-01-01-definition.xml"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado6b.xml" id="apartado6b" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/categorias/activos/financieros/corto/plazo/abreviado/role/CodeLabel">
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/InstrumentosFinancieros/2008-01-01/role/seccionActivosFinancierosCortoPlazo"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<!-- dimensional-->
+			<file type="hypercube" uri="Memoria/abreviado/apartado6/pgc07ma-apdo6-2008-01-01-definition.xml"/>
+			<file type="dimension" uri="Memoria/abreviado/apartado6/pgc07ma-apdo6-2008-01-01-definition.xml"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado6d.xml" id="apartado6d" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/clases/activos/financieros/correcciones/deterioro/valor/riesgo/credito/role/CodeLabel">
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/InstrumentosFinancieros/2008-01-01/role/seccionCorreccionesDeterioroValorRiesgoCredito"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<!-- dimensional-->
+			<file type="hypercube" uri="Memoria/abreviado/apartado6/pgc07ma-apdo6-2008-01-01-definition.xml"/>
+			<file type="dimension" uri="Memoria/abreviado/apartado6/pgc07ma-apdo6-2008-01-01-definition.xml"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado6f.xml" id="apartado6f" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/correcciones/deterioro/valor/participaciones/role/CodeLabel">
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/abreviadoPymes/InstrumentosFinancieros/2008-01-01/role/seccionCorreccionesDeterioroValorParticipaciones"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<!-- dimensional-->
+			<file type="hypercube" uri="Memoria/abreviado/apartado6/pgc07ma-apdo6-2008-01-01-definition.xml"/>
+			<file type="dimension" uri="Memoria/abreviado/apartado6/pgc07ma-apdo6-2008-01-01-definition.xml"/>
+		</configModule>
+		<!-- end update 15 -->
+		
+		
+		<!-- 20090625 - solucion del bug, se incorpora un apartado, info no dimensional -->
+		
+		<configModule fileMap="pgc-07-ma-apartado7.xml" id="apartado7" 
+		labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" 
+		presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/InstrumentosFinancieros/2008-01-01/role/LineasDescuentoPolizasCredito">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/apartado7/pgc07ma-apdo7-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/apartado7/pgc07ma-apdo7-2008-01-01.xsd"/>			
+		</configModule>			
+		
+		
+		
+		
+		<!-- update 20 -->
+		<configModule fileMap="pgc-07-ma-apartado7b.xml" id="apartado7b" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel">
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/InstrumentosFinancieros/2008-01-01/role/seccionVencimientoDeudas"/>
+			</definitionRoles>
+			<!-- dimensional-->
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="hypercube" uri="Memoria/abreviado/apartado7/pgc07ma-apdo7-2008-01-01-definition.xml"/>
+			<file type="dimension" uri="Memoria/abreviado/apartado7/pgc07ma-apdo7-2008-01-01-definition.xml"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado7c.xml" id="apartado7c" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/categorias/pasivos/financieros/largo/plazo/abreviado/role/CodeLabel">
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/InstrumentosFinancieros/2008-01-01/role/seccionPasivosFinancierosLargoPlazo"/>
+			</definitionRoles>
+			<!-- dimensional-->
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="hypercube" uri="Memoria/abreviado/apartado7/pgc07ma-apdo7-2008-01-01-definition.xml"/>
+			<file type="dimension" uri="Memoria/abreviado/apartado7/pgc07ma-apdo7-2008-01-01-definition.xml"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado7d.xml" id="apartado7d" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/categorias/pasivos/financieros/corto/plazo/abreviado/role/CodeLabel">
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/InstrumentosFinancieros/2008-01-01/role/seccionPasivosFinancierosCortoPlazo"/>
+			</definitionRoles>
+			<!-- dimensional-->
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="hypercube" uri="Memoria/abreviado/apartado7/pgc07ma-apdo7-2008-01-01-definition.xml"/>
+			<file type="dimension" uri="Memoria/abreviado/apartado7/pgc07ma-apdo7-2008-01-01-definition.xml"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado8-tuple.xml" id="apartado8" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/Apartado8/2008-01-01/role/InstrumentosFinancierosFondosPropios" tuple="true">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/apartado8/pgc07ma-apdo8-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/apartado8/pgc07ma-apdo8-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado9-tuple.xml" id="apartado9" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado9/2008-01-01/role/SituacionFiscal" tuple="true">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/apartado9/pgc07ma-apdo9-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/apartado9/pgc07ma-apdo9-2008-01-01.xsd"/>
+		</configModule>
+		<!-- update 19 -->
+		<configModule fileMap="pgc-07-ma-apartado9b.xml" id="apartado9b" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel">
+			<!-- dimensional -->
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/SituacionFiscal/2008-01-01/role/seccionDiferenciasTemporarias"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="dimension" uri="Memoria/abreviado/apartado9/pgc07ma-apdo9-2008-01-01-definition.xml"/>
+			<file type="hypercube" uri="Memoria/abreviado/apartado9/pgc07ma-apdo9-2008-01-01-definition.xml"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado10.xml" id="apartado10" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado10/2008-01-01/role/IngresosGastos">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/apartado10/pgc07ma-apdo10-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/apartado10/pgc07ma-apdo10-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado11a.xml" id="apartado11a" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/2008-01-01/role/ResumenSubvencionesDonacionesLegados">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/apartado11/pgc07ma-apdo11-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/apartado11/pgc07ma-apdo11-2008-01-01.xsd"/>
+		</configModule>
+		
+		<configModule fileMap="pgc-07-ma-apartado12.xml" id="apartado12" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/comun/2008-01-01/role/ResumenOperacionesPartesVinculadas">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/apartado12/pgc07ma-apdo12-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/apartado12/pgc07ma-apdo12-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado12b.xml" id="apartado12b" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel">
+			<!-- update 19 -->
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/OperacionesPartesVinculadas/2008-01-01/role/seccionIngresosGastos"/>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/OperacionesPartesVinculadas/2008-01-01/role/seccionSaldosPendientes"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="dimension" uri="Memoria/abreviado/apartado12/pgc07ma-apdo12-2008-01-01-definition.xml"/>
+			<file type="hypercube" uri="Memoria/abreviado/apartado12/pgc07ma-apdo12-2008-01-01-definition.xml"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado13.xml" id="apartado13" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/Apartado13/2008-01-01/role/OtraInformacion">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="code" uri="auxiliares/dgi-code/dgi-eco-bas-2008-01-30-label-es-code.xml"/>
+			<file type="presentation" uri="Memoria/abreviado/apartado13/pgc07ma-apdo13-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/apartado13/pgc07ma-apdo13-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-apartado13b.xml" id="apartado13b" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel">
+			<!-- update 19 -->
+			<definitionRoles>
+				<role uri="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/abreviado/OtraInformacion/2008-01-01/role/seccionEmpleadosMediaPeriodoCategoriaProfesional"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="dimension" uri="Memoria/abreviado/apartado13/pgc07ma-apdo13-2008-01-01-definition.xml"/>
+			<file type="hypercube" uri="Memoria/abreviado/apartado13/pgc07ma-apdo13-2008-01-01-definition.xml"/>
+			<file type="code" uri="auxiliares/dgi-code/dgi-eco-bas-2008-01-30-label-es-code.xml"/>
+		</configModule>
+		<!-- Nota medio ambiente -->
+		<configModule fileMap="pgc-07-ma-apartado14.xml" id="apartado14" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado14/2008-01-01/role/InformacionMedioAmbiente">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/terseLabel"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="NotaMedioAmbiente/abreviado/pgc07ma-apdo14-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="NotaMedioAmbiente/abreviado/pgc07ma-apdo14-2008-01-01.xsd"/>
+		</configModule>
+		<!-- NO NORMALIZADOS abreviado -->
+		<configModule fileMap="pgc-07-ma-NoNormalizado0.xml" id="noNormalizado0" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado0/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado1.xml" id="noNormalizado1" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado1/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado2.xml" id="noNormalizado2" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado2/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado3.xml" id="noNormalizado3" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado3/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado4.xml" id="noNormalizado4" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado4/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado5.xml" id="noNormalizado5" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado5/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado6.xml" id="noNormalizado6" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado6/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado7.xml" id="noNormalizado7" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado7/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado8.xml" id="noNormalizado8" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado8/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado9.xml" id="noNormalizado9" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado9/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado10.xml" id="noNormalizado10" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado10/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado11.xml" id="noNormalizado11" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado11/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado12.xml" id="noNormalizado12" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado12/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado13.xml" id="noNormalizado13" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado13/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado14.xml" id="noNormalizado14" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado14/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<configModule fileMap="pgc-07-ma-NoNormalizado15.xml" id="noNormalizado15" title="" labelRole="http://www.icac.meh.es/es/fr/gaap/pgc07/2008-01-01/role/CodeLabel" presentationRole="http://www.icac.meh.es/es/fr/gaap/pgc07/memoria/ModeloAbreviado/Apartado15/2008-01-01/role/ResumenNoNormalizado">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file type="presentation" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01-presentation.xml"/>
+			<file type="schema-root" uri="Memoria/abreviado/pgc07ma-rsm-2008-01-01.xsd"/>
+		</configModule>
+		<!-- FIN NO NORMALIZADOS -->
+	</configReport>
+	
+	
+
+</global>

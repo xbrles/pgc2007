@@ -1,0 +1,8 @@
+
+
+#taxonomyRoot=./taxonomy/
+taxonomyRoot=/var/tmp/apixbrlpgc07_shell_v141/taxonomy/
+basePath=/../
+tempDirectory=log/transformation/
+schemaLocationIOInterface=http://www.inteco.es/xbrl/pgc07/interfazES http://www.inteco.es/xbrl/pgc07/interfazES/pgc07-io-interface.xsd
+xslTransformLauncher=runXSLTransformer.sh
